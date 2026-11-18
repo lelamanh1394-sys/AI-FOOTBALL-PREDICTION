@@ -3,15 +3,21 @@ name: AI Football Data Engine
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "0 2 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: football-data-engine
+  cancel-in-progress: false
+
 jobs:
   football-analysis:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -22,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect football data
+      - name: Collect worldwide football data
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python collector.py
@@ -33,7 +39,7 @@ jobs:
       - name: Rank leagues and build history queue
         run: python priority.py
 
-      - name: Download historical fixtures
+      - name: Download historical fixtures V2.4
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python history_collector.py
@@ -44,7 +50,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "Update football database V2.3"
+            git commit -m "Update football database V2.4"
             git push
           else
             echo "No database changes"
