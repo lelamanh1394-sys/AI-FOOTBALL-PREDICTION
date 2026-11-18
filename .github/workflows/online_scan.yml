@@ -1,64 +1,58 @@
-
 name: AI Football Prediction V3.3
 
 on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 2,8,14,20 * * *"
+    # 09:00 and 21:00 Vietnam time
+    - cron: "0 2,14 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: football-v3-online-scan
+  group: football-v33-public-odds
   cancel-in-progress: false
 
 jobs:
-  online-scan:
+  football-research:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
-      # 1. Download repository
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
-      # 2. Setup Python
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: "3.11"
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      # 4. Run V3.2 online data scanner
-      - name: Run V3.2 online scanner
+      - name: Collect public football odds
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
         run: |
-          python online_scanner.py
+          python odds_collector.py
 
-      # 5. Run V3.3 analysis engine
       - name: Run V3.3 analysis engine
         run: |
           python v33_engine.py
 
-      # 6. Save collected data and analysis reports
-      - name: Save V3.3 results
+      - name: Save V3.3 data and report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/online/ data/analysis/
+          git add data/public_odds/ data/analysis/
 
           if git diff --cached --quiet; then
             echo "No new data to commit."
           else
-            git commit -m "V3.3: update football research and analysis"
+            git commit -m "V3.3: collect public odds and analyse matches"
             git push
           fi
