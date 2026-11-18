@@ -7,7 +7,7 @@ from collections import defaultdict, Counter, deque
 SOURCE = Path("data/catalog/league_catalog.json")
 OUTPUT = Path("data/catalog")
 
-# Gioi han mua du lieu theo thong bao API Free
+# Gioi han mua du lieu theo gioi han API Free da kiem tra
 MIN_SEASON = 2022
 MAX_SEASON = 2024
 
@@ -24,6 +24,9 @@ WEIGHTS = {
 
 
 def safe_year(value):
+    if isinstance(value, dict):
+        value = value.get("year", value.get("season"))
+
     try:
         return int(value)
     except (TypeError, ValueError):
@@ -33,15 +36,18 @@ def safe_year(value):
 def safe_id(value):
     if value is None:
         return None
+
     try:
         return int(value)
     except (TypeError, ValueError):
-        return str(value).strip() or None
+        value = str(value).strip()
+        return value or None
 
 
 def clean_text(value, fallback):
     if value is None:
         return fallback
+
     value = str(value).strip()
     return value if value else fallback
 
@@ -60,11 +66,13 @@ def calculate_score(item):
             supported = coverage.get(key) is True
 
         details[key] = supported
+
         if supported:
             score += weight
 
     seasons = item.get("seasons") or []
     season_bonus = min(len(seasons), 10)
+
     score += season_bonus
 
     details["season_count"] = len(seasons)
@@ -83,9 +91,11 @@ def calculate_score(item):
 def build_country_queue(country_tasks):
     """
     Can bang trong mot quoc gia:
-    1. Luân phien cac loai giai.
-    2. Trong moi loai giai, luan phien cac giai dau.
-    3. Trong moi giai, tai mua gan nhat truoc.
+
+    1. Luân phiên các loại giải.
+    2. Trong mỗi loại giải, luân phiên các giải đấu.
+    3. Trong mỗi giải, ưu tiên mùa mới trước.
+    4. Diem uu tien chi dung de sap xep phu.
     """
 
     type_queues = {}
@@ -96,31 +106,31 @@ def build_country_queue(country_tasks):
         for task in league_tasks:
             by_league[task["league_id"]].append(task)
 
-        # Moi giai dau thanh mot hang doi rieng.
         league_queues = []
 
         for league_id, tasks in by_league.items():
-            tasks.sort(key=lambda x: x["season"], reverse=True)
-
-            # Diem chi la tieu chi phu trong cung quoc gia/loai giai.
+            # Mua moi hon duoc dua len truoc.
             tasks.sort(
-                key=lambda x: x["priority_score"],
+                key=lambda x: x["season"],
                 reverse=True
             )
 
             league_queues.append({
                 "league_id": league_id,
-                "score": max(x["priority_score"] for x in tasks),
+                "score": max(
+                    x["priority_score"] for x in tasks
+                ),
                 "name": tasks[0]["league_name"],
                 "tasks": deque(tasks),
             })
 
+        # Diem cao hon duoc uu tien trong cung loai giai.
         league_queues.sort(
             key=lambda x: (x["score"], x["name"]),
             reverse=True
         )
 
-        # Luân phiên từng giải trong cùng loại giải.
+        # Moi giai dau dong gop toi da mot mua moi moi vong.
         type_stream = []
 
         while any(q["tasks"] for q in league_queues):
@@ -130,23 +140,27 @@ def build_country_queue(country_tasks):
 
         type_queues[league_type] = deque(type_stream)
 
-    # Luân phiên League, Cup va cac loai khac.
+    # Luân phiên giữa League, Cup và mọi loại giải khác.
     result = []
-
     ordered_types = sorted(type_queues.keys())
 
     while any(type_queues[t] for t in ordered_types):
         for league_type in ordered_types:
             if type_queues[league_type]:
-                result.append(type_queues[league_type].popleft())
+                result.append(
+                    type_queues[league_type].popleft()
+                )
 
     return result
 
 
 def build_global_fair_queue(tasks):
     """
-    Luân phiên giữa các quốc gia:
-    mỗi vòng, mỗi quốc gia đóng góp tối đa một nhiệm vụ.
+    Luân phiên công bằng giữa các quốc gia.
+
+    Mỗi vòng:
+    - Mỗi quốc gia đóng góp tối đa một nhiệm vụ.
+    - Không để một quốc gia có nhiều giải đấu chiếm hết hàng đợi.
     """
 
     by_country = defaultdict(lambda: defaultdict(list))
@@ -154,6 +168,7 @@ def build_global_fair_queue(tasks):
     for task in tasks:
         country = task["country"]
         league_type = task["league_type"]
+
         by_country[country][league_type].append(task)
 
     country_queues = {}
@@ -182,9 +197,78 @@ def build_global_fair_queue(tasks):
     return result
 
 
+def build_summary(ranked, queue):
+    countries = set()
+    leagues = set()
+    country_task_counts = Counter()
+    type_task_counts = Counter()
+    season_task_counts = Counter()
+
+    country_leagues = defaultdict(set)
+    type_leagues = defaultdict(set)
+
+    for task in queue:
+        countries.add(task["country"])
+        leagues.add(str(task["league_id"]))
+
+        country_task_counts[task["country"]] += 1
+        type_task_counts[task["league_type"]] += 1
+        season_task_counts[str(task["season"])] += 1
+
+        country_leagues[task["country"]].add(
+            str(task["league_id"])
+        )
+
+        type_leagues[task["league_type"]].add(
+            str(task["league_id"])
+        )
+
+    return {
+        "version": "V2.5",
+        "scheduling": "GLOBAL FAIR ROTATION",
+        "allowed_seasons": {
+            "min": MIN_SEASON,
+            "max": MAX_SEASON,
+        },
+        "total_catalogue_leagues": len(ranked),
+        "total_catalogue_countries": len(
+            set(x["country"] for x in ranked)
+        ),
+        "countries_in_queue": len(countries),
+        "unique_leagues_in_queue": len(leagues),
+        "historical_tasks": len(queue),
+        "tasks_by_country": dict(
+            sorted(country_task_counts.items())
+        ),
+        "unique_leagues_by_country": {
+            country: len(values)
+            for country, values in sorted(
+                country_leagues.items()
+            )
+        },
+        "tasks_by_competition_type": dict(
+            sorted(type_task_counts.items())
+        ),
+        "unique_leagues_by_competition_type": {
+            league_type: len(values)
+            for league_type, values in sorted(
+                type_leagues.items()
+            )
+        },
+        "tasks_by_season": dict(
+            sorted(season_task_counts.items())
+        ),
+        "priority_tiers": dict(
+            Counter(x["priority_tier"] for x in ranked)
+        ),
+    }
+
+
 def main():
     if not SOURCE.exists():
-        raise FileNotFoundError("Missing league_catalog.json")
+        raise FileNotFoundError(
+            "Missing data/catalog/league_catalog.json"
+        )
 
     with SOURCE.open("r", encoding="utf-8") as f:
         leagues = json.load(f)
@@ -195,14 +279,17 @@ def main():
 
     for item in leagues:
         league_id = safe_id(item.get("league_id"))
+
         league_name = clean_text(
             item.get("league_name"),
             "Unknown league"
         )
+
         country = clean_text(
             item.get("country"),
             "Unknown country"
         )
+
         league_type = clean_text(
             item.get("league_type"),
             "Other"
@@ -227,12 +314,12 @@ def main():
             continue
 
         for season in seasons:
-            year = safe_year(season.get("year"))
+            year = safe_year(season)
 
             if not (MIN_SEASON <= year <= MAX_SEASON):
                 continue
 
-            # Chong lap duoc loai bo theo cap league_id + season.
+            # Moi cap league_id + season chi xuat hien mot lan.
             task_key = (str(league_id), year)
 
             if task_key in seen_tasks:
@@ -259,21 +346,34 @@ def main():
         reverse=True
     )
 
-    # Tao hang doi can bang tren toan bo quoc gia.
+    # Xay dung hang doi luan phien toan cau.
     queue = build_global_fair_queue(tasks)
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
 
+    # Danh muc giai dau da cham diem.
     with (OUTPUT / "priority_leagues.json").open(
         "w", encoding="utf-8"
     ) as f:
-        json.dump(ranked, f, ensure_ascii=False, indent=2)
+        json.dump(
+            ranked,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
+    # Hang doi tai du lieu lich su.
     with (OUTPUT / "history_queue.json").open(
         "w", encoding="utf-8"
     ) as f:
-        json.dump(queue, f, ensure_ascii=False, indent=2)
+        json.dump(
+            queue,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
+    # Bao cao danh muc CSV.
     with (OUTPUT / "priority_leagues.csv").open(
         "w", encoding="utf-8-sig", newline=""
     ) as f:
@@ -288,44 +388,78 @@ def main():
             "season_count",
         ]
 
-        writer = csv.DictWriter(f, fieldnames=fields)
+        writer = csv.DictWriter(
+            f,
+            fieldnames=fields
+        )
+
         writer.writeheader()
 
         for item in ranked:
             writer.writerow({
-                key: item.get(key) for key in fields
+                key: item.get(key)
+                for key in fields
             })
 
-    tier_counts = Counter(
-        x["priority_tier"] for x in ranked
-    )
+    # Bao cao phan bo hang doi.
+    summary = build_summary(ranked, queue)
 
-    country_counts = Counter(
-        x["country"] for x in queue
-    )
-
-    type_counts = Counter(
-        x["league_type"] for x in queue
-    )
-
-    season_counts = Counter(
-        x["season"] for x in queue
-    )
+    with (OUTPUT / "history_queue_summary.json").open(
+        "w", encoding="utf-8"
+    ) as f:
+        json.dump(
+            summary,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
     print("===== AI FOOTBALL PRIORITY V2.5 =====")
     print("Scheduling: GLOBAL FAIR ROTATION")
-    print("Total leagues:", len(ranked))
-    print("Countries in catalogue:", len(set(
-        x["country"] for x in ranked
-    )))
-    print("Countries in history queue:", len(country_counts))
-    print("Historical tasks:", len(queue))
-    print("Allowed seasons:", MIN_SEASON, "-", MAX_SEASON)
-    print("Priority groups:", dict(tier_counts))
-    print("Tasks by competition type:", dict(type_counts))
-    print("Tasks by season:", dict(sorted(season_counts.items())))
+    print(
+        "Total catalogue leagues:",
+        summary["total_catalogue_leagues"]
+    )
+    print(
+        "Total catalogue countries:",
+        summary["total_catalogue_countries"]
+    )
+    print(
+        "Countries in history queue:",
+        summary["countries_in_queue"]
+    )
+    print(
+        "Unique leagues in history queue:",
+        summary["unique_leagues_in_queue"]
+    )
+    print(
+        "Historical tasks:",
+        summary["historical_tasks"]
+    )
+    print(
+        "Allowed seasons:",
+        MIN_SEASON,
+        "-",
+        MAX_SEASON
+    )
+
+    print(
+        "Priority groups:",
+        summary["priority_tiers"]
+    )
+
+    print(
+        "Tasks by competition type:",
+        summary["tasks_by_competition_type"]
+    )
+
+    print(
+        "Tasks by season:",
+        summary["tasks_by_season"]
+    )
 
     print("\nTOP 10 PRIORITY LEAGUES")
+
     for item in ranked[:10]:
         print(
             item["priority_tier"],
@@ -335,18 +469,22 @@ def main():
             item["league_name"]
         )
 
-    print("\nFIRST 20 GLOBAL QUEUE TASKS")
-    for task in queue[:20]:
+    print("\nFIRST 30 GLOBAL QUEUE TASKS")
+
+    for task in queue[:30]:
         print(
             task["queue_order"],
             task["country"],
             "-",
             task["league_name"],
             "-",
+            task["league_type"],
+            "-",
             task["season"]
         )
 
     print("\nGLOBAL FAIR QUEUE READY")
+    print("SUMMARY SAVED")
 
 
 if __name__ == "__main__":
