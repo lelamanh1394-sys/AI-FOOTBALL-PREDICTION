@@ -30,13 +30,16 @@ jobs:
       - name: Build league catalogue
         run: python catalog.py
 
+      - name: Rank leagues and build history queue
+        run: python priority.py
+
       - name: Save database to GitHub
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "Update football database V2.1"
+            git commit -m "Update football database V2.2"
             git push
           else
             echo "No database changes"
