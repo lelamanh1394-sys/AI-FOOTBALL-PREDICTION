@@ -6540,7 +6540,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 25,
+          "elapsed": 31,
           "extra": null
         }
       },
@@ -6570,12 +6570,12 @@
       },
       "goals": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "score": {
         "halftime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "fulltime": {
           "home": null,
@@ -6680,7 +6680,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 25,
+          "elapsed": 31,
           "extra": null
         }
       },
@@ -6750,7 +6750,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 25,
+          "elapsed": 31,
           "extra": null
         }
       },
@@ -6820,7 +6820,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 22,
+          "elapsed": 29,
           "extra": null
         }
       },
