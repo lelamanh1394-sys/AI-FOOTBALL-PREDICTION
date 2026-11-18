@@ -6540,7 +6540,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 31,
+          "elapsed": 39,
           "extra": null
         }
       },
@@ -6680,7 +6680,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 31,
+          "elapsed": 39,
           "extra": null
         }
       },
@@ -6699,23 +6699,23 @@
           "id": 28716,
           "name": "Persinab Nabire",
           "logo": "https://media.api-sports.io/football/teams/28716.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 28713,
           "name": "Perseden Denpasar",
           "logo": "https://media.api-sports.io/football/teams/28713.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -6750,7 +6750,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 31,
+          "elapsed": 39,
           "extra": null
         }
       },
@@ -6769,22 +6769,22 @@
           "id": 15810,
           "name": "Persibangga Purbalingga",
           "logo": "https://media.api-sports.io/football/teams/15810.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 15814,
           "name": "Persibo",
           "logo": "https://media.api-sports.io/football/teams/15814.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
         "halftime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "fulltime": {
@@ -6820,7 +6820,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 29,
+          "elapsed": 37,
           "extra": null
         }
       },

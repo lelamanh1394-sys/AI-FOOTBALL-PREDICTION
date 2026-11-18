@@ -48,5 +48,20 @@
     "status": "completed",
     "results": 1,
     "updated_at": "2026-11-18T09:01:37.938746+00:00"
+  },
+  "397_2024": {
+    "status": "completed",
+    "results": 240,
+    "updated_at": "2026-11-18T09:09:19.594965+00:00"
+  },
+  "1048_2024": {
+    "status": "completed",
+    "results": 133,
+    "updated_at": "2026-11-18T09:09:19.756521+00:00"
+  },
+  "130_2024": {
+    "status": "completed",
+    "results": 63,
+    "updated_at": "2026-11-18T09:09:19.892918+00:00"
   }
 }
