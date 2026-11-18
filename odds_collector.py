@@ -9,8 +9,9 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 
 # ============================================================
-# AI FOOTBALL PREDICTION V3.4.4
-# FIXTURE + ODDS MATCHING ENGINE
+# AI FOOTBALL PREDICTION V3.4.4.1
+# FIXTURE + ODDS MATCHING
+# STATUS FORMAT COMPATIBILITY FIX
 # ============================================================
 
 API_BASE = "https://v3.football.api-sports.io"
@@ -48,11 +49,13 @@ def api_get(endpoint, params):
     if request_count >= MAX_TOTAL_REQUESTS:
         raise RuntimeError("Request limit reached.")
 
-    if api_remaining is not None:
-        if api_remaining <= MIN_REMAINING_QUOTA:
-            raise RuntimeError(
-                f"API safety reserve reached: {api_remaining}"
-            )
+    if (
+        api_remaining is not None
+        and api_remaining <= MIN_REMAINING_QUOTA
+    ):
+        raise RuntimeError(
+            f"API safety reserve reached: {api_remaining}"
+        )
 
     url = f"{API_BASE}/{endpoint}"
 
@@ -78,6 +81,7 @@ def api_get(endpoint, params):
         api_limit = int(limit)
 
     response.raise_for_status()
+
     payload = response.json()
 
     errors = payload.get("errors")
@@ -88,6 +92,7 @@ def api_get(endpoint, params):
         )
 
     time.sleep(REQUEST_DELAY)
+
     return payload
 
 
@@ -121,14 +126,16 @@ def collect_fixtures():
 
         home = teams.get("home") or {}
         away = teams.get("away") or {}
+        status_data = fixture.get("status") or {}
 
         fixture_map[str(fixture_id)] = {
             "fixture_id": fixture_id,
             "date": fixture.get("date"),
             "timestamp": fixture.get("timestamp"),
-            "status": (
-                fixture.get("status") or {}
-            ).get("short", "NS"),
+
+            # Store status as a string internally.
+            "status_short": status_data.get("short", "NS"),
+
             "home": home.get("name"),
             "away": away.get("name"),
             "league": league.get("name"),
@@ -218,7 +225,6 @@ def build_linked_data(fixture_map, raw_odds):
             continue
 
         key = str(fixture_id)
-
         fixture_info = fixture_map.get(key)
 
         if not fixture_info:
@@ -232,12 +238,13 @@ def build_linked_data(fixture_map, raw_odds):
                     item.get("bookmakers") or []
                 )
             })
+
             continue
 
-        if (
-            not fixture_info.get("home")
-            or not fixture_info.get("away")
-        ):
+        home = fixture_info.get("home")
+        away = fixture_info.get("away")
+
+        if not home or not away:
             missing_team_names += 1
             continue
 
@@ -246,29 +253,43 @@ def build_linked_data(fixture_map, raw_odds):
         if key not in linked:
             linked[key] = {
                 "fixture_id": fixture_id,
+
                 "fixture_info": {
                     "fixture_id": fixture_id,
                     "date": fixture_info.get("date"),
                     "timestamp": fixture_info.get("timestamp"),
-                    "status": fixture_info.get("status"),
-                    "home": fixture_info.get("home"),
-                    "away": fixture_info.get("away"),
+
+                    # IMPORTANT:
+                    # V3.3.1 expects status to be a dictionary.
+                    "status": {
+                        "short": fixture_info.get(
+                            "status_short", "NS"
+                        )
+                    },
+
+                    "home": home,
+                    "away": away,
                     "league": fixture_info.get("league"),
                     "country": fixture_info.get("country"),
                     "league_id": fixture_info.get("league_id"),
                     "season": fixture_info.get("season")
                 },
+
                 "bookmakers": []
             }
 
         existing_names = {
-            str(b.get("id") or b.get("name"))
-            for b in linked[key]["bookmakers"]
+            str(
+                bookmaker.get("id")
+                or bookmaker.get("name")
+            )
+            for bookmaker in linked[key]["bookmakers"]
         }
 
         for bookmaker in bookmakers:
             bookmaker_key = str(
-                bookmaker.get("id") or bookmaker.get("name")
+                bookmaker.get("id")
+                or bookmaker.get("name")
             )
 
             if bookmaker_key not in existing_names:
@@ -279,8 +300,8 @@ def build_linked_data(fixture_map, raw_odds):
         audit.append({
             "fixture_id": fixture_id,
             "matched": True,
-            "home": fixture_info.get("home"),
-            "away": fixture_info.get("away"),
+            "home": home,
+            "away": away,
             "bookmakers": len(bookmakers)
         })
 
@@ -309,11 +330,12 @@ def save_output(
 ):
 
     output = {
-        "engine": "AI FOOTBALL PREDICTION V3.4.4",
+        "engine": "AI FOOTBALL PREDICTION V3.4.4.1",
         "source": "API-FOOTBALL",
         "query_method": "FIXTURES_AND_ODDS_BY_DATE_FIXTURE_ID",
         "date": TARGET_DATE,
         "timezone": TIMEZONE,
+
         "started_at": RUN_TIME.isoformat(),
         "finished_at": datetime.now(VN_TZ).isoformat(),
 
@@ -360,7 +382,7 @@ def save_output(
     temporary_file.replace(LATEST_FILE)
 
     archive_name = (
-        "v344_"
+        "v3441_"
         + datetime.now(VN_TZ).strftime("%Y%m%d_%H%M%S")
         + ".json"
     )
@@ -388,7 +410,7 @@ def save_output(
 
 def main():
     print("=" * 65)
-    print("AI FOOTBALL PREDICTION V3.4.4")
+    print("AI FOOTBALL PREDICTION V3.4.4.1")
     print("FIXTURE + ODDS MATCHING")
     print("=" * 65)
 
@@ -402,6 +424,7 @@ def main():
 
     try:
         fixture_map = collect_fixtures()
+
     except Exception as error:
         message = f"Fixtures: {error}"
         print("FIXTURES ERROR:", message)
@@ -410,6 +433,7 @@ def main():
     if fixture_map:
         try:
             raw_odds = collect_odds()
+
         except Exception as error:
             message = f"Odds: {error}"
             print("ODDS ERROR:", message)
@@ -440,12 +464,12 @@ def main():
         bookmaker_records
     )
 
-    print("\n===== V3.4.4 SUMMARY =====")
+    print("\n===== V3.4.4.1 SUMMARY =====")
 
     for key, value in output["summary"].items():
         print(f"{key}: {value}")
 
-    print("\nV3.4.4 COMPLETED")
+    print("\nV3.4.4.1 COMPLETED")
 
 
 if __name__ == "__main__":
