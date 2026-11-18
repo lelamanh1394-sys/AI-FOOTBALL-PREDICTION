@@ -8,250 +8,261 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 # ==========================================================
-# AI FOOTBALL PREDICTION V3.3
-# PUBLIC ODDS COLLECTOR
-# Source: The Odds API official API
-# Market: 1X2 / h2h
+# AI FOOTBALL PREDICTION V3.3B
+# API-FOOTBALL PRE-MATCH ODDS COLLECTOR
+#
+# IMPORTANT:
+# - Odds query uses date, NOT season.
+# - No historical odds are attached to current fixtures.
+# - No odds are invented when the API returns no data.
 # ==========================================================
 
-API_KEY = os.getenv("THE_ODDS_API_KEY")
-BASE_URL = "https://api.the-odds-api.com/v4"
+API_KEY = os.getenv("API_FOOTBALL_KEY")
+BASE_URL = "https://v3.football.api-sports.io"
 
-TZ = ZoneInfo("Asia/Ho_Chi_Minh")
+TIMEZONE = "Asia/Ho_Chi_Minh"
+TZ = ZoneInfo(TIMEZONE)
+
 OUTPUT_DIR = Path("data/public_odds")
 
-# Giới hạn danh sách để bảo vệ quota miễn phí.
-PREFERRED_SPORTS = {
-    "soccer_epl",
-    "soccer_uefa_champs_league",
-    "soccer_spain_la_liga",
-    "soccer_germany_bundesliga",
-    "soccer_italy_serie_a",
-    "soccer_france_ligue_one",
-}
-
-REGIONS = "eu"
-MARKETS = "h2h"
-ODDS_FORMAT = "decimal"
-TIMEOUT = 25
+MAX_ODDS_PAGES = 5
+REQUEST_DELAY = 1.5
+TIMEOUT = 30
 
 session = requests.Session()
+session.headers.update({
+    "x-apisports-key": API_KEY or ""
+})
 
 
 def now_local():
     return datetime.now(TZ)
 
 
-def request_api(endpoint, params):
+def api_get(endpoint, params):
+    url = f"{BASE_URL}/{endpoint}"
+
     response = session.get(
-        f"{BASE_URL}/{endpoint}",
+        url,
         params=params,
         timeout=TIMEOUT
     )
 
     print(
         f"HTTP {response.status_code} | "
-        f"{endpoint}"
+        f"{endpoint} | params={params}"
     )
 
     remaining = response.headers.get(
-        "x-requests-remaining"
+        "x-ratelimit-requests-remaining"
     )
-    used = response.headers.get(
-        "x-requests-used"
+    limit = response.headers.get(
+        "x-ratelimit-requests-limit"
     )
 
     if remaining is not None:
         print(
-            f"Odds API quota: used={used}, "
-            f"remaining={remaining}"
+            f"API quota remaining: {remaining}/{limit}"
+        )
+
+    if response.status_code in (401, 403):
+        raise RuntimeError(
+            f"API authorization failed: HTTP "
+            f"{response.status_code}. Check API key "
+            "and plan permissions."
         )
 
     response.raise_for_status()
-    return response.json()
 
+    payload = response.json()
 
-def get_available_sports():
-    print("\n[1] CHECKING AVAILABLE SOCCER LEAGUES")
+    errors = payload.get("errors")
 
-    sports = request_api(
-        "sports/",
-        {"apiKey": API_KEY}
-    )
-
-    available = []
-
-    for sport in sports:
-        key = sport.get("key")
-
-        if (
-            key in PREFERRED_SPORTS
-            and sport.get("active", False)
-        ):
-            available.append(sport)
-
-    print(
-        "Selected active leagues:",
-        len(available)
-    )
-
-    for sport in available:
-        print(
-            "-",
-            sport.get("title"),
-            "|",
-            sport.get("key")
+    if errors:
+        raise RuntimeError(
+            f"API returned errors: {errors}"
         )
 
-    return available
+    return payload
 
 
-def parse_kickoff(value):
-    if not value:
-        return None
+def collect_fixtures(date_string):
+    print("\n[1] COLLECTING FIXTURES")
 
-    try:
-        dt = datetime.fromisoformat(
-            value.replace("Z", "+00:00")
-        )
-        return int(dt.timestamp())
-    except (ValueError, TypeError):
-        return None
+    payload = api_get(
+        "fixtures",
+        {
+            "date": date_string,
+            "timezone": TIMEZONE
+        }
+    )
+
+    fixtures = payload.get("response", [])
+
+    print("Fixtures received:", len(fixtures))
+
+    return fixtures
 
 
-def normalize_event(event, sport):
-    kickoff = event.get("commence_time")
-    timestamp = parse_kickoff(kickoff)
+def build_fixture_index(fixtures):
+    index = {}
 
-    if timestamp is None:
-        return None
+    for item in fixtures:
+        fixture = item.get("fixture", {})
+        teams = item.get("teams", {})
+        league = item.get("league", {})
 
-    home = event.get("home_team")
-    away = event.get("away_team")
+        fixture_id = fixture.get("id")
 
-    if not home or not away:
-        return None
+        if fixture_id is None:
+            continue
 
-    normalized_bookmakers = []
-
-    for bookmaker in event.get("bookmakers", []):
-        bets = []
-
-        for market in bookmaker.get("markets", []):
-            if market.get("key") != "h2h":
-                continue
-
-            values = []
-
-            for outcome in market.get("outcomes", []):
-                name = outcome.get("name")
-                price = outcome.get("price")
-
-                if name in (home, away, "Draw"):
-                    values.append({
-                        "value": (
-                            "Home" if name == home
-                            else "Away" if name == away
-                            else "Draw"
-                        ),
-                        "odd": price
-                    })
-
-            labels = {
-                item["value"] for item in values
-            }
-
-            if {"Home", "Draw", "Away"}.issubset(labels):
-                bets.append({
-                    "name": "Match Winner",
-                    "values": values
-                })
-
-        if bets:
-            normalized_bookmakers.append({
-                "id": bookmaker.get("key"),
-                "name": bookmaker.get("title", "Unknown"),
-                "last_update": bookmaker.get("last_update"),
-                "bets": bets
-            })
-
-    if not normalized_bookmakers:
-        return None
-
-    return {
-        "fixture_id": event.get("id"),
-        "fixture_info": {
-            "fixture_id": event.get("id"),
-            "date": kickoff,
-            "timestamp": timestamp,
-            "status": {"short": "NS"},
+        index[str(fixture_id)] = {
+            "fixture_id": fixture_id,
+            "date": fixture.get("date"),
+            "timestamp": fixture.get("timestamp"),
+            "status": fixture.get("status", {}),
             "league": {
-                "id": sport.get("key"),
-                "name": sport.get("title"),
-                "country": None
+                "id": league.get("id"),
+                "name": league.get("name"),
+                "country": league.get("country"),
+                "season": league.get("season"),
+                "round": league.get("round")
             },
-            "home": {"name": home},
-            "away": {"name": away}
-        },
-        "bookmakers": normalized_bookmakers
-    }
+            "home": teams.get("home", {}),
+            "away": teams.get("away", {})
+        }
+
+    return index
 
 
-def collect_odds(sports):
-    print("\n[2] COLLECTING PUBLIC 1X2 ODDS")
+def collect_odds_by_date(date_string):
+    print("\n[2] COLLECTING ODDS BY DATE")
+    print("IMPORTANT: season parameter is NOT used.")
 
-    all_events = []
-    errors = []
+    all_rows = []
+    total_pages = 1
 
-    for index, sport in enumerate(sports, start=1):
-        key = sport["key"]
+    for page in range(1, MAX_ODDS_PAGES + 1):
+        print(f"\nOdds page {page}/{MAX_ODDS_PAGES}")
 
-        print(
-            f"\nLeague {index}/{len(sports)}: "
-            f"{sport.get('title')}"
+        payload = api_get(
+            "odds",
+            {
+                "date": date_string,
+                "timezone": TIMEZONE,
+                "page": page
+            }
         )
+
+        rows = payload.get("response", [])
+        paging = payload.get("paging", {})
+
+        all_rows.extend(rows)
 
         try:
-            events = request_api(
-                f"sports/{key}/odds/",
-                {
-                    "apiKey": API_KEY,
-                    "regions": REGIONS,
-                    "markets": MARKETS,
-                    "oddsFormat": ODDS_FORMAT,
-                    "dateFormat": "iso"
-                }
+            total_pages = int(paging.get("total", 1))
+        except (TypeError, ValueError):
+            total_pages = 1
+
+        print("Records on page:", len(rows))
+        print("Provider total pages:", total_pages)
+
+        if page >= total_pages:
+            break
+
+        if page >= MAX_ODDS_PAGES:
+            print(
+                "PAGE LIMIT REACHED. "
+                "Some additional odds pages may remain."
+            )
+            break
+
+        time.sleep(REQUEST_DELAY)
+
+    return all_rows, total_pages
+
+
+def merge_odds_rows(rows, fixture_index, current_time):
+    merged = {}
+    unmatched = 0
+    invalid_or_started = 0
+
+    for row in rows:
+        fixture = row.get("fixture", {})
+        fixture_id = fixture.get("id")
+
+        if fixture_id is None:
+            unmatched += 1
+            continue
+
+        key = str(fixture_id)
+        fixture_info = fixture_index.get(key)
+
+        # Never attach odds to an unknown fixture.
+        if fixture_info is None:
+            unmatched += 1
+            continue
+
+        status = (
+            fixture_info.get("status") or {}
+        ).get("short")
+
+        if status not in ("NS", "TBD"):
+            invalid_or_started += 1
+            continue
+
+        timestamp = fixture_info.get("timestamp")
+
+        try:
+            kickoff = datetime.fromtimestamp(
+                int(timestamp),
+                timezone.utc
+            )
+        except (TypeError, ValueError, OverflowError):
+            invalid_or_started += 1
+            continue
+
+        if kickoff <= current_time.astimezone(timezone.utc):
+            invalid_or_started += 1
+            continue
+
+        if key not in merged:
+            merged[key] = {
+                "fixture_id": fixture_id,
+                "fixture_info": fixture_info,
+                "bookmakers": []
+            }
+
+        existing = {
+            str(
+                book.get(
+                    "id",
+                    book.get("name", "")
+                )
+            )
+            for book in merged[key]["bookmakers"]
+        }
+
+        for bookmaker in row.get("bookmakers", []):
+            bookmaker_key = str(
+                bookmaker.get(
+                    "id",
+                    bookmaker.get("name", "")
+                )
             )
 
-            accepted = 0
+            if bookmaker_key not in existing:
+                merged[key]["bookmakers"].append(
+                    bookmaker
+                )
+                existing.add(bookmaker_key)
 
-            for event in events:
-                item = normalize_event(event, sport)
-
-                if item:
-                    all_events.append(item)
-                    accepted += 1
-
-            print("Events received:", len(events))
-            print("Events with valid 1X2:", accepted)
-
-        except requests.RequestException as exc:
-            errors.append({
-                "sport": key,
-                "error": str(exc)
-            })
-            print("League error:", exc)
-
-        # Tránh gửi yêu cầu liên tục.
-        time.sleep(1)
-
-    # Loại bỏ sự kiện trùng ID.
-    unique = {}
-
-    for item in all_events:
-        unique[str(item["fixture_id"])] = item
-
-    return list(unique.values()), errors
+    return (
+        list(merged.values()),
+        unmatched,
+        invalid_or_started
+    )
 
 
 def save_json(path, data):
@@ -276,45 +287,66 @@ def save_json(path, data):
 def main():
     if not API_KEY:
         raise SystemExit(
-            "Missing THE_ODDS_API_KEY GitHub secret."
+            "ERROR: Missing API_FOOTBALL_KEY secret."
         )
 
     started = now_local()
+    date_string = started.strftime("%Y-%m-%d")
 
     print("=" * 65)
-    print("AI FOOTBALL PREDICTION V3.3")
-    print("PUBLIC ODDS COLLECTION")
+    print("AI FOOTBALL PREDICTION V3.3B")
+    print("API-FOOTBALL DATE-BASED ODDS")
     print("Vietnam time:", started.isoformat())
     print("=" * 65)
 
-    sports = get_available_sports()
+    try:
+        fixtures = collect_fixtures(date_string)
 
-    events, errors = collect_odds(sports)
+        fixture_index = build_fixture_index(fixtures)
+
+        raw_odds, total_pages = collect_odds_by_date(
+            date_string
+        )
+
+        linked, unmatched, invalid = merge_odds_rows(
+            raw_odds,
+            fixture_index,
+            now_local()
+        )
+
+    except (
+        requests.RequestException,
+        RuntimeError,
+        ValueError
+    ) as exc:
+        print("\nCOLLECTION FAILED:", exc)
+        raise SystemExit(1)
 
     finished = now_local()
 
     report = {
-        "engine": "AI Football Prediction V3.3",
-        "source": "The Odds API",
-        "market": MARKETS,
-        "regions": REGIONS,
-        "date": started.strftime("%Y-%m-%d"),
+        "engine": "AI Football Prediction V3.3B",
+        "source": "API-Football",
+        "query_method": "date_without_season",
+        "date": date_string,
+        "timezone": TIMEZONE,
         "started_at": started.isoformat(),
         "finished_at": finished.isoformat(),
-        "sports_scanned": [
-            item.get("key") for item in sports
-        ],
-        "summary": {
-            "active_sports": len(sports),
-            "events_with_valid_odds": len(events),
-            "errors": len(errors)
+        "configuration": {
+            "maximum_odds_pages": MAX_ODDS_PAGES,
+            "provider_total_pages": total_pages
         },
-        "errors": errors,
-        "odds": events
+        "summary": {
+            "fixtures_received": len(fixtures),
+            "raw_odds_records": len(raw_odds),
+            "upcoming_fixtures_with_odds": len(linked),
+            "unmatched_fixture_records": unmatched,
+            "started_or_invalid_records": invalid
+        },
+        "odds": linked
     }
 
-    day = started.strftime("%Y-%m-%d")
-    folder = OUTPUT_DIR / day
+    folder = OUTPUT_DIR / date_string
 
     save_json(
         folder / "latest.json",
@@ -330,12 +362,14 @@ def main():
         report
     )
 
-    print("\n===== ODDS COLLECTION SUMMARY =====")
-    print("Sports scanned:", len(sports))
-    print("Valid events:", len(events))
-    print("Errors:", len(errors))
+    print("\n===== V3.3B COLLECTION SUMMARY =====")
+    print("Fixtures:", len(fixtures))
+    print("Raw odds records:", len(raw_odds))
+    print("Upcoming matches with odds:", len(linked))
+    print("Unmatched records:", unmatched)
+    print("Started/invalid records:", invalid)
     print("Saved:", folder / "latest.json")
-    print("\nODDS COLLECTION COMPLETED")
+    print("\nV3.3B COLLECTION COMPLETED")
 
 
 if __name__ == "__main__":
