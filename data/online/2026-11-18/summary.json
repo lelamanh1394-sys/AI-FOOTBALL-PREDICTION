@@ -1,9 +1,9 @@
 {
   "engine": "AI Football Prediction V3.2",
   "date": "2026-11-18",
-  "finished_at": "2026-11-18T17:23:46.375849+07:00",
-  "fixtures_found": 189,
-  "available_leagues": 60,
+  "finished_at": "2026-11-18T18:29:49.932090+07:00",
+  "fixtures_found": 190,
+  "available_leagues": 61,
   "selected_leagues": 8,
   "successfully_scanned_leagues": 0,
   "failed_leagues": 8,
@@ -14,15 +14,15 @@
   "odds_without_fixture_match": 0,
   "odds_coverage_percent": 0.0,
   "rotation": {
-    "rotation_slot": 2,
-    "available_leagues": 60,
+    "rotation_slot": 3,
+    "available_leagues": 61,
     "selected_leagues": 8
   },
   "quota": {
     "requests_this_run": 9,
-    "daily_remaining_after_last_request": 53,
+    "daily_remaining_after_last_request": 52,
     "minimum_daily_reserve": 20
   },
   "prediction_status": "NOT_ENABLED: independent probability model and walk-forward validation are required.",
-  "snapshot": "data/online/2026-11-18/scan_20261118_172231.json"
+  "snapshot": "data/online/2026-11-18/scan_20261118_182835.json"
 }

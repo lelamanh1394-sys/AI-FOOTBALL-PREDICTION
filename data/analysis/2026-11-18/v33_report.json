@@ -1,0 +1,19 @@
+{
+  "engine": "AI Football Prediction V3.3",
+  "created_at": "2026-11-18T18:29:50.030501+07:00",
+  "source_file": "data/online/2026-11-18/latest.json",
+  "source_engine": "AI Football Prediction V3.2",
+  "purpose": "odds_quality_and_match_research",
+  "limits": {
+    "maximum_matches": 20,
+    "minimum_bookmakers": 2
+  },
+  "summary": {
+    "upcoming_matches_with_odds": 0,
+    "selected_for_research": 0,
+    "independent_model_ready": false,
+    "betting_recommendations": 0
+  },
+  "important_notice": "Market consensus is derived from bookmaker odds. It is not an independent prediction and must not be used alone to claim positive expected value.",
+  "matches": []
+}
