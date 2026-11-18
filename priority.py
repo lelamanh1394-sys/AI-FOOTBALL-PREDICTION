@@ -6,6 +6,10 @@ from pathlib import Path
 SOURCE = Path("data/catalog/league_catalog.json")
 OUTPUT = Path("data/catalog")
 
+# Gioi han mua du lieu theo thong bao API Free
+MIN_SEASON = 2022
+MAX_SEASON = 2024
+
 WEIGHTS = {
     "events": 15,
     "lineups": 15,
@@ -31,12 +35,17 @@ def calculate_score(item):
     details = {}
 
     for key, weight in WEIGHTS.items():
-        if key in ("events", "lineups", "statistics_fixtures"):
+        if key in (
+            "events",
+            "lineups",
+            "statistics_fixtures"
+        ):
             supported = fixtures.get(key) is True
         else:
             supported = coverage.get(key) is True
 
         details[key] = supported
+
         if supported:
             score += weight
 
@@ -59,8 +68,7 @@ def calculate_score(item):
 def main():
     if not SOURCE.exists():
         raise FileNotFoundError(
-            "Chua co league_catalog.json. "
-            "Hay chay catalog.py truoc."
+            "Missing league_catalog.json"
         )
 
     with SOURCE.open("r", encoding="utf-8") as f:
@@ -73,24 +81,8 @@ def main():
         score, tier, details = calculate_score(item)
 
         seasons = item.get("seasons") or []
-        sorted_seasons = sorted(
-            seasons,
-            key=lambda s: safe_year(s.get("year")),
-            reverse=True
-        )
 
-        current_seasons = [
-            s for s in sorted_seasons
-            if s.get("current") is True
-        ]
-        other_seasons = [
-            s for s in sorted_seasons
-            if s.get("current") is not True
-        ]
-
-        ordered_seasons = current_seasons + other_seasons
-
-        ranked_item = {
+        ranked.append({
             "league_id": item.get("league_id"),
             "league_name": item.get("league_name"),
             "country": item.get("country"),
@@ -100,25 +92,22 @@ def main():
             "latest_season": item.get("latest_season"),
             "season_count": len(seasons),
             "coverage_details": details,
-        }
+        })
 
-        ranked.append(ranked_item)
-
-        for season in ordered_seasons:
+        # Chi dua mua 2022-2024 vao hang doi
+        for season in seasons:
             year = safe_year(season.get("year"))
-            if not year:
-                continue
 
-            queue.append({
-                "league_id": item.get("league_id"),
-                "league_name": item.get("league_name"),
-                "country": item.get("country"),
-                "season": year,
-                "is_current": season.get("current") is True,
-                "priority_score": score,
-                "priority_tier": tier,
-                "status": "pending",
-            })
+            if MIN_SEASON <= year <= MAX_SEASON:
+                queue.append({
+                    "league_id": item.get("league_id"),
+                    "league_name": item.get("league_name"),
+                    "country": item.get("country"),
+                    "season": year,
+                    "priority_score": score,
+                    "priority_tier": tier,
+                    "status": "pending",
+                })
 
     ranked.sort(
         key=lambda x: (
@@ -128,10 +117,10 @@ def main():
         reverse=True
     )
 
+    # Uu tien diem cao, sau do mua gan nhat trong pham vi Free
     queue.sort(
         key=lambda x: (
             x["priority_score"],
-            x["is_current"],
             x["season"]
         ),
         reverse=True
@@ -153,30 +142,41 @@ def main():
         "w", encoding="utf-8-sig", newline=""
     ) as f:
         fields = [
-            "league_id", "league_name", "country",
-            "league_type", "priority_score",
-            "priority_tier", "latest_season",
+            "league_id",
+            "league_name",
+            "country",
+            "league_type",
+            "priority_score",
+            "priority_tier",
+            "latest_season",
             "season_count"
         ]
-        writer = csv.DictWriter(f, fieldnames=fields)
+
+        writer = csv.DictWriter(
+            f, fieldnames=fields
+        )
         writer.writeheader()
+
         for item in ranked:
             writer.writerow({
                 key: item.get(key) for key in fields
             })
 
     tier_counts = {
-        tier: sum(1 for x in ranked
-                  if x["priority_tier"] == tier)
+        tier: sum(
+            1 for x in ranked
+            if x["priority_tier"] == tier
+        )
         for tier in ("A", "B", "C")
     }
 
-    print("===== AI FOOTBALL PRIORITY V2.2 =====")
-    print("Leagues ranked:", len(ranked))
-    print("Historical season tasks:", len(queue))
+    print("===== AI FOOTBALL PRIORITY V2.2.1 =====")
+    print("Total leagues:", len(ranked))
+    print("Historical tasks:", len(queue))
+    print("Allowed seasons:", MIN_SEASON, "-", MAX_SEASON)
     print("Priority groups:", tier_counts)
-
     print("\nTOP 10 PRIORITY LEAGUES")
+
     for item in ranked[:10]:
         print(
             item["priority_tier"],
@@ -186,7 +186,7 @@ def main():
             item["league_name"]
         )
 
-    print("\nPRIORITY ENGINE COMPLETED")
+    print("\nPRIORITY QUEUE READY")
 
 if __name__ == "__main__":
     main()
