@@ -1,46 +1,49 @@
 {
-  "engine": "AI Football Prediction V3",
+  "engine": "AI Football Prediction V3.1",
   "mode": "online_data_collection",
-  "prediction_status": "NOT_ENABLED: independent calibrated probabilities are required before EV selections can be made.",
+  "prediction_status": "NOT_ENABLED: calibrated independent probabilities are required before EV selections.",
   "date": "2026-11-18",
   "timezone": "Asia/Ho_Chi_Minh",
-  "started_at": "2026-11-18T16:45:14.226625+07:00",
-  "finished_at": "2026-11-18T16:45:56.880085+07:00",
+  "started_at": "2026-11-18T17:12:39.855044+07:00",
+  "finished_at": "2026-11-18T17:13:33.813448+07:00",
   "summary": {
     "fixtures_found": 189,
-    "odds_records_found": 30,
-    "odds_records_linked": 30,
-    "odds_records_without_fixture_match": 0,
-    "max_odds_pages": 3
+    "odds_raw_records": 30,
+    "odds_unique_fixtures": 30,
+    "odds_linked_to_fixtures": 30,
+    "odds_without_fixture_match": 0,
+    "odds_coverage_percent": 15.87
+  },
+  "quota": {
+    "daily_remaining_after_last_request": 55,
+    "minimum_daily_reserve": 20
   },
   "fixture_paging": {
     "current": 1,
     "total": 1
   },
+  "odds_pagination": {
+    "pages_fetched": 3,
+    "total_pages_reported": 14,
+    "pages_not_fetched": 11,
+    "max_pages_per_run": 20,
+    "stop_reason": "API returned errors: {'plan': 'Free plans are limited to a maximum value of 3 for the Page parameter'}"
+  },
   "odds_pages": [
     {
       "page": 1,
-      "returned": 10,
-      "paging": {
-        "current": 1,
-        "total": 14
-      }
+      "records": 10,
+      "total_pages_reported": 14
     },
     {
       "page": 2,
-      "returned": 10,
-      "paging": {
-        "current": 2,
-        "total": 14
-      }
+      "records": 10,
+      "total_pages_reported": 14
     },
     {
       "page": 3,
-      "returned": 10,
-      "paging": {
-        "current": 3,
-        "total": 14
-      }
+      "records": 10,
+      "total_pages_reported": 14
     }
   ],
   "fixtures": [
@@ -6492,8 +6495,8 @@
         "date": "2026-11-18T15:00:00+07:00",
         "timestamp": 1794988800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1794988800,
+          "second": 1794992400
         },
         "venue": {
           "id": null,
@@ -6501,9 +6504,9 @@
           "city": null
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
           "extra": null
         }
       },
@@ -6522,27 +6525,27 @@
           "id": 28720,
           "name": "Pesinga Ngawi",
           "logo": "https://media.api-sports.io/football/teams/28720.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 28721,
           "name": "Putra Sang Fajar",
           "logo": "https://media.api-sports.io/football/teams/28721.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -6573,7 +6576,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 55,
+          "elapsed": 82,
           "extra": null
         }
       },
@@ -6602,7 +6605,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 2,
         "away": 3
       },
       "score": {
@@ -6713,7 +6716,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 55,
+          "elapsed": 82,
           "extra": null
         }
       },
@@ -6783,7 +6786,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 56,
+          "elapsed": 84,
           "extra": null
         }
       },
@@ -6853,7 +6856,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 56,
+          "elapsed": 84,
           "extra": null
         }
       },
@@ -6872,18 +6875,18 @@
           "id": 28711,
           "name": "Pasuruan United",
           "logo": "https://media.api-sports.io/football/teams/28711.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 15803,
           "name": "Persekabpas Pasuruan",
           "logo": "https://media.api-sports.io/football/teams/15803.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -6923,7 +6926,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 13,
+          "elapsed": 40,
           "extra": null
         }
       },
@@ -6942,22 +6945,22 @@
           "id": 22492,
           "name": "Cerezo Osaka W",
           "logo": "https://media.api-sports.io/football/teams/22492.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 16952,
           "name": "Urawa Reds W",
           "logo": "https://media.api-sports.io/football/teams/16952.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "score": {
         "halftime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "fulltime": {
@@ -6977,7 +6980,7 @@
     {
       "fixture": {
         "id": 1560984,
-        "referee": null,
+        "referee": "Azusa Sugino",
         "timezone": "Asia/Ho_Chi_Minh",
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
@@ -6991,9 +6994,9 @@
           "city": "Hiroshima"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 10,
           "extra": null
         }
       },
@@ -7022,13 +7025,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7052,7 +7055,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7061,9 +7064,9 @@
           "city": "Adana"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 14,
           "extra": null
         }
       },
@@ -7092,13 +7095,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -7122,7 +7125,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7131,9 +7134,9 @@
           "city": null
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 11,
           "extra": null
         }
       },
@@ -7162,13 +7165,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7192,7 +7195,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7201,9 +7204,9 @@
           "city": "Elazi"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 12,
           "extra": null
         }
       },
@@ -7232,13 +7235,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7262,7 +7265,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7271,9 +7274,9 @@
           "city": "Izmit"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 11,
           "extra": null
         }
       },
@@ -7292,23 +7295,23 @@
           "id": 6511,
           "name": "Güzide Gebzespor",
           "logo": "https://media.api-sports.io/football/teams/6511.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 780,
           "name": "Ankaraspor",
           "logo": "https://media.api-sports.io/football/teams/780.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7332,7 +7335,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7341,9 +7344,9 @@
           "city": "Mersin"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 13,
           "extra": null
         }
       },
@@ -7362,23 +7365,23 @@
           "id": 3575,
           "name": "Hatayspor",
           "logo": "https://media.api-sports.io/football/teams/3575.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 21996,
           "name": "İnegöl Kafkas Gençlik",
           "logo": "https://media.api-sports.io/football/teams/21996.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -7402,7 +7405,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7411,9 +7414,9 @@
           "city": "Isparta"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 11,
           "extra": null
         }
       },
@@ -7442,13 +7445,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7472,7 +7475,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7481,9 +7484,9 @@
           "city": "Bingle"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 11,
           "extra": null
         }
       },
@@ -7512,13 +7515,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7542,7 +7545,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7551,9 +7554,9 @@
           "city": "Ankara"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 12,
           "extra": null
         }
       },
@@ -7582,13 +7585,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7612,7 +7615,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7621,9 +7624,9 @@
           "city": "Serik"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 12,
           "extra": null
         }
       },
@@ -7652,13 +7655,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7682,7 +7685,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7691,9 +7694,9 @@
           "city": "Trabzon"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 10,
           "extra": null
         }
       },
@@ -7722,13 +7725,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7752,7 +7755,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7761,9 +7764,9 @@
           "city": null
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 3,
           "extra": null
         }
       },
@@ -7792,13 +7795,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -7822,7 +7825,7 @@
         "date": "2026-11-18T17:00:00+07:00",
         "timestamp": 1794996000,
         "periods": {
-          "first": null,
+          "first": 1794996000,
           "second": null
         },
         "venue": {
@@ -7831,9 +7834,9 @@
           "city": "Uzhhorod"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 5,
           "extra": null
         }
       },
@@ -7852,23 +7855,23 @@
           "id": 23082,
           "name": "Veres Rivne U19",
           "logo": "https://media.api-sports.io/football/teams/23082.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 24177,
           "name": "Karpaty Lviv U19",
           "logo": "https://media.api-sports.io/football/teams/24177.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -7901,8 +7904,8 @@
           "city": "Zaporizhzhia"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
+          "long": "Match Postponed",
+          "short": "PST",
           "elapsed": null,
           "extra": null
         }
@@ -7971,9 +7974,9 @@
           "city": "Suwon"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 13,
           "extra": null
         }
       },
@@ -8002,13 +8005,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,

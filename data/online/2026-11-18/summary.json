@@ -1,10 +1,20 @@
 {
-  "engine": "AI Football Prediction V3",
+  "engine": "AI Football Prediction V3.1",
   "date": "2026-11-18",
-  "finished_at": "2026-11-18T16:45:56.880085+07:00",
+  "finished_at": "2026-11-18T17:13:33.813448+07:00",
   "fixtures_found": 189,
-  "odds_records_found": 30,
-  "odds_records_linked": 30,
-  "prediction_status": "NOT_ENABLED: independent calibrated probabilities are required before EV selections can be made.",
-  "snapshot": "data/online/2026-11-18/scan_20261118_164514.json"
+  "odds_raw_records": 30,
+  "odds_unique_fixtures": 30,
+  "odds_linked_to_fixtures": 30,
+  "odds_without_fixture_match": 0,
+  "odds_coverage_percent": 15.87,
+  "odds_pagination": {
+    "pages_fetched": 3,
+    "total_pages_reported": 14,
+    "pages_not_fetched": 11,
+    "max_pages_per_run": 20,
+    "stop_reason": "API returned errors: {'plan': 'Free plans are limited to a maximum value of 3 for the Page parameter'}"
+  },
+  "prediction_status": "NOT_ENABLED: calibrated independent probabilities are required before EV selections.",
+  "snapshot": "data/online/2026-11-18/scan_20261118_171239.json"
 }
