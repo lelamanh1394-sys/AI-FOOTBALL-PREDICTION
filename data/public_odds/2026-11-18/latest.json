@@ -4,8 +4,8 @@
   "query_method": "DATE_BASED",
   "date": "2026-11-18",
   "timezone": "Asia/Ho_Chi_Minh",
-  "started_at": "2026-11-18T18:53:05.569181+07:00",
-  "finished_at": "2026-11-18T18:53:05.569199+07:00",
+  "started_at": "2026-11-18T19:13:20.168770+07:00",
+  "finished_at": "2026-11-18T19:13:20.168787+07:00",
   "configuration": {
     "max_odds_pages": 3,
     "provider_total_pages": 14,
