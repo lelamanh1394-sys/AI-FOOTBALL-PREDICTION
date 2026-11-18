@@ -6540,7 +6540,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 3,
+          "elapsed": 9,
           "extra": null
         }
       },
@@ -6680,7 +6680,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 3,
+          "elapsed": 9,
           "extra": null
         }
       },
@@ -6699,22 +6699,22 @@
           "id": 28716,
           "name": "Persinab Nabire",
           "logo": "https://media.api-sports.io/football/teams/28716.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 28713,
           "name": "Perseden Denpasar",
           "logo": "https://media.api-sports.io/football/teams/28713.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
         "halftime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "fulltime": {
@@ -6750,7 +6750,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 3,
+          "elapsed": 9,
           "extra": null
         }
       },
@@ -6809,7 +6809,7 @@
         "date": "2026-11-18T15:30:00+07:00",
         "timestamp": 1794990600,
         "periods": {
-          "first": null,
+          "first": 1794990600,
           "second": null
         },
         "venue": {
@@ -6818,9 +6818,9 @@
           "city": null
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 6,
           "extra": null
         }
       },
@@ -6849,13 +6849,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
