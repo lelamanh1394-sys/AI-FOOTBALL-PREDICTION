@@ -4,24 +4,21 @@ name: AI Football Engine
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "0 2 * * *"
-
-permissions:
-  contents: read
-
 jobs:
   football-analysis:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+
     steps:
-      - name: Download project
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Run AI Football V1
+      - name: Run Football Engine
         run: python main.py
