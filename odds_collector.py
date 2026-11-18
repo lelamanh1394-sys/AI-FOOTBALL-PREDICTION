@@ -5,12 +5,12 @@ import time
 import requests
 
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 # ==========================================================
-# AI FOOTBALL PREDICTION V3.4.1
-# FIXTURE MAPPING + DIRECT ODDS SCANNER
+# AI FOOTBALL PREDICTION V3.4.2
+# 14-DAY FIXTURES + ROTATING MAPPING + DATE-BASED ODDS
 # ==========================================================
 
 API_KEY = os.getenv("API_FOOTBALL_KEY")
@@ -20,12 +20,15 @@ TIMEZONE = "Asia/Ho_Chi_Minh"
 TZ = ZoneInfo(TIMEZONE)
 
 OUTPUT_DIR = Path("data/public_odds")
+STATE_FILE = OUTPUT_DIR / "mapping_state.json"
 
-# SAFETY LIMITS
-MAX_MAPPING_PAGES = 3
-MAX_ODDS_FIXTURES_PER_RUN = 6
+# Strict API budget per run
+MAX_TOTAL_REQUESTS = 5
+MAX_MAPPING_REQUESTS = 1
+MAX_ODDS_DATE_REQUESTS = 3
 MIN_DAILY_REMAINING = 20
 
+FIXTURE_LOOKAHEAD_DAYS = 14
 REQUEST_DELAY = 1.2
 TIMEOUT = 30
 
@@ -38,12 +41,38 @@ LAST_REMAINING = None
 REQUESTS_USED = 0
 
 
+# ==========================================================
+# TIME AND FILE HELPERS
+# ==========================================================
+
 def now_local():
     return datetime.now(TZ)
 
 
+def save_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    temp = path.with_suffix(path.suffix + ".tmp")
+
+    with temp.open("w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
+
+    temp.replace(path)
+
+
+def load_json(path, default):
+    if not path.exists():
+        return default
+
+    try:
+        with path.open("r", encoding="utf-8") as file:
+            return json.load(file)
+    except Exception:
+        return default
+
+
 # ==========================================================
-# API REQUEST
+# API REQUEST WITH STRICT QUOTA PROTECTION
 # ==========================================================
 
 def api_get(endpoint, params):
@@ -51,11 +80,14 @@ def api_get(endpoint, params):
     global LAST_REMAINING
     global REQUESTS_USED
 
+    if REQUESTS_USED >= MAX_TOTAL_REQUESTS:
+        raise RuntimeError("V3.4.2 per-run request limit reached")
+
     if (
         LAST_REMAINING is not None
         and LAST_REMAINING <= MIN_DAILY_REMAINING
     ):
-        raise RuntimeError("API reserve protection activated")
+        raise RuntimeError("Daily API reserve protection activated")
 
     response = session.get(
         f"{BASE_URL}/{endpoint}",
@@ -67,7 +99,7 @@ def api_get(endpoint, params):
 
     print(
         f"HTTP {response.status_code} | "
-        f"{endpoint} | params={params}"
+        f"{endpoint} | {params}"
     )
 
     remaining = response.headers.get(
@@ -80,7 +112,7 @@ def api_get(endpoint, params):
 
     if remaining is not None:
         LAST_REMAINING = int(remaining)
-        print(f"API quota remaining: {LAST_REMAINING}/{limit}")
+        print(f"API remaining: {LAST_REMAINING}/{limit}")
 
     if response.status_code == 429:
         raise RuntimeError("API rate limit reached")
@@ -100,28 +132,37 @@ def api_get(endpoint, params):
     return payload
 
 
-def is_quota_error(error):
-    message = str(error).lower()
-    return any(word in message for word in (
-        "quota",
-        "rate limit",
-        "429",
-        "reserve protection"
-    ))
+def quota_protected():
+    if REQUESTS_USED >= MAX_TOTAL_REQUESTS:
+        return True
+
+    if (
+        LAST_REMAINING is not None
+        and LAST_REMAINING <= MIN_DAILY_REMAINING
+    ):
+        return True
+
+    return False
 
 
 # ==========================================================
-# 1. FIXTURES
+# 1. COLLECT FIXTURES FOR THE NEXT 14 DAYS
 # ==========================================================
 
-def collect_fixtures(date_string):
+def collect_fixtures():
 
-    print("\n[1] COLLECTING FIXTURES")
+    today = now_local().date()
+    end_date = today + timedelta(days=FIXTURE_LOOKAHEAD_DAYS)
+
+    print("\n[1] COLLECTING 14-DAY FIXTURE WINDOW")
+    print("From:", today.isoformat())
+    print("To:", end_date.isoformat())
 
     payload = api_get(
         "fixtures",
         {
-            "date": date_string,
+            "from": today.isoformat(),
+            "to": end_date.isoformat(),
             "timezone": TIMEZONE
         }
     )
@@ -136,7 +177,9 @@ def collect_fixtures(date_string):
 def build_fixture_index(fixtures):
 
     index = {}
-    now_timestamp = int(time.time())
+    upcoming = {}
+
+    current_timestamp = int(time.time())
 
     for item in fixtures:
 
@@ -152,7 +195,7 @@ def build_fixture_index(fixtures):
         timestamp = fixture.get("timestamp")
         status = fixture.get("status", {}).get("short")
 
-        index[str(fixture_id)] = {
+        info = {
             "fixture_id": fixture_id,
             "date": fixture.get("date"),
             "timestamp": timestamp,
@@ -168,229 +211,226 @@ def build_fixture_index(fixtures):
             "away": teams.get("away", {}).get("name")
         }
 
-    upcoming = {}
-
-    for key, info in index.items():
-
-        status = info.get("status", {}).get("short")
-        timestamp = info.get("timestamp")
+        key = str(fixture_id)
+        index[key] = info
 
         if (
             status in ("NS", "TBD")
             and timestamp
-            and int(timestamp) > now_timestamp
+            and int(timestamp) > current_timestamp
         ):
             upcoming[key] = info
+
+    print("Upcoming fixtures:", len(upcoming))
 
     return index, upcoming
 
 
 # ==========================================================
-# 2. ODDS MAPPING
+# 2. ROTATING MAPPING SCANNER
+# One mapping page per run; progress is saved in GitHub.
 # ==========================================================
 
-def collect_mapping():
+def collect_mapping_page():
 
-    print("\n[2] COLLECTING ODDS MAPPING")
+    print("\n[2] ROTATING ODDS MAPPING SCANNER")
 
-    mapping_rows = []
-    page_results = []
-
-    for page in range(1, MAX_MAPPING_PAGES + 1):
-
-        if (
-            LAST_REMAINING is not None
-            and LAST_REMAINING <= MIN_DAILY_REMAINING
-        ):
-            print("Mapping stopped by quota protection.")
-            break
-
-        try:
-
-            payload = api_get(
-                "odds/mapping",
-                {"page": page}
-            )
-
-            rows = payload.get("response", [])
-            paging = payload.get("paging", {})
-
-            total_pages = int(paging.get("total", 1))
-
-            mapping_rows.extend(rows)
-
-            page_results.append({
-                "page": page,
-                "records": len(rows),
-                "total_pages": total_pages,
-                "status": "success"
-            })
-
-            print(
-                f"Mapping page {page}: "
-                f"{len(rows)} records; "
-                f"provider pages={total_pages}"
-            )
-
-            if page >= total_pages:
-                break
-
-            if page < MAX_MAPPING_PAGES:
-                time.sleep(REQUEST_DELAY)
-
-        except Exception as exc:
-
-            page_results.append({
-                "page": page,
-                "records": 0,
-                "status": "error",
-                "error": str(exc)
-            })
-
-            print("Mapping error:", exc)
-
-            if is_quota_error(exc):
-                break
-
-    return mapping_rows, page_results
-
-
-def extract_mapping_fixture_id(row):
-
-    fixture = row.get("fixture", {})
-
-    if isinstance(fixture, dict):
-        return fixture.get("id")
-
-    return None
-
-
-def match_mapping_to_fixtures(mapping_rows, upcoming):
-
-    available_ids = set()
-
-    for row in mapping_rows:
-
-        fixture_id = extract_mapping_fixture_id(row)
-
-        if fixture_id is None:
-            continue
-
-        key = str(fixture_id)
-
-        if key in upcoming:
-            available_ids.add(key)
-
-    candidates = [
-        upcoming[key]
-        for key in available_ids
-    ]
-
-    candidates.sort(
-        key=lambda item: int(item.get("timestamp") or 0)
-    )
-
-    print("\nMapping records:", len(mapping_rows))
-    print("Today's upcoming fixtures:", len(upcoming))
-    print("Fixtures with odds mapping:", len(candidates))
-
-    return candidates
-
-
-# ==========================================================
-# 3. ROTATE FIXTURE SELECTION
-# ==========================================================
-
-def select_fixtures(candidates, current_time):
-
-    if not candidates:
-        return [], {
-            "available_candidates": 0,
-            "selected_fixtures": 0,
-            "rotation_slot": None,
-            "rotation_start": 0
+    state = load_json(
+        STATE_FILE,
+        {
+            "version": "3.4.2",
+            "next_page": 1,
+            "total_pages": None,
+            "fixture_ids": {},
+            "pages_scanned": 0
         }
-
-    total = len(candidates)
-
-    slot = 0 if current_time.hour < 15 else 1
-
-    start = (
-        current_time.date().toordinal() * 2 + slot
-    ) * MAX_ODDS_FIXTURES_PER_RUN
-
-    start %= total
-
-    count = min(
-        MAX_ODDS_FIXTURES_PER_RUN,
-        total
     )
 
-    selected = []
+    page = int(state.get("next_page", 1))
+    total_pages = state.get("total_pages")
 
-    for offset in range(count):
-        selected.append(
-            candidates[(start + offset) % total]
-        )
+    if total_pages and page > int(total_pages):
+        page = 1
 
-    metadata = {
-        "available_candidates": total,
-        "selected_fixtures": len(selected),
-        "rotation_slot": slot,
-        "rotation_start": start
+    result = {
+        "page": page,
+        "records": 0,
+        "status": "not_run",
+        "error": None
     }
 
-    return selected, metadata
+    if quota_protected():
+        result["status"] = "quota_protected"
+        return state, result
+
+    try:
+
+        payload = api_get(
+            "odds/mapping",
+            {"page": page}
+        )
+
+        rows = payload.get("response", [])
+        paging = payload.get("paging", {})
+
+        total_pages = int(paging.get("total", 1))
+
+        for row in rows:
+
+            fixture = row.get("fixture", {})
+
+            if not isinstance(fixture, dict):
+                continue
+
+            fixture_id = fixture.get("id")
+
+            if fixture_id is None:
+                continue
+
+            key = str(fixture_id)
+
+            state["fixture_ids"][key] = {
+                "fixture_id": fixture_id,
+                "date": fixture.get("date"),
+                "last_seen": now_local().isoformat()
+            }
+
+        state["total_pages"] = total_pages
+        state["pages_scanned"] = (
+            int(state.get("pages_scanned", 0)) + 1
+        )
+
+        next_page = page + 1
+
+        if next_page > total_pages:
+            next_page = 1
+
+        state["next_page"] = next_page
+
+        result.update({
+            "records": len(rows),
+            "total_pages": total_pages,
+            "status": "success"
+        })
+
+        print(
+            f"Mapping page {page}/{total_pages}: "
+            f"{len(rows)} records"
+        )
+
+    except Exception as exc:
+
+        result["status"] = "error"
+        result["error"] = str(exc)
+
+        print("Mapping error:", exc)
+
+    save_json(STATE_FILE, state)
+
+    return state, result
 
 
 # ==========================================================
-# 4. FETCH ODDS BY FIXTURE ID
+# 3. CHOOSE THREE UPCOMING MATCH DATES
 # ==========================================================
 
-def collect_odds_by_fixture(selected):
+def select_odds_dates(upcoming):
 
-    print("\n[3] COLLECTING ODDS BY FIXTURE ID")
+    today = now_local().date()
+    date_counts = {}
+
+    for info in upcoming.values():
+
+        timestamp = info.get("timestamp")
+
+        if not timestamp:
+            continue
+
+        match_date = datetime.fromtimestamp(
+            int(timestamp),
+            TZ
+        ).date()
+
+        days_ahead = (match_date - today).days
+
+        # Pre-match odds are normally available 1-14 days
+        # before kickoff. Do not prioritize today's matches.
+        if not (1 <= days_ahead <= FIXTURE_LOOKAHEAD_DAYS):
+            continue
+
+        key = match_date.isoformat()
+        date_counts[key] = date_counts.get(key, 0) + 1
+
+    ranked_dates = sorted(
+        date_counts.items(),
+        key=lambda item: (-item[1], item[0])
+    )
+
+    selected = [
+        {
+            "date": date_string,
+            "upcoming_fixtures": count
+        }
+        for date_string, count in ranked_dates[
+            :MAX_ODDS_DATE_REQUESTS
+        ]
+    ]
+
+    print("\nSelected odds dates:")
+
+    for item in selected:
+        print(
+            item["date"],
+            "| Upcoming fixtures:",
+            item["upcoming_fixtures"]
+        )
+
+    return selected
+
+
+# ==========================================================
+# 4. COLLECT ODDS BY DATE
+# One request per selected date, page 1 only.
+# Never request page 4 on the free plan.
+# ==========================================================
+
+def collect_odds_by_date(selected_dates):
+
+    print("\n[3] COLLECTING DATE-BASED ODDS")
 
     all_rows = []
     results = []
 
-    for number, fixture_info in enumerate(selected, start=1):
+    for number, item in enumerate(selected_dates, start=1):
 
-        fixture_id = fixture_info["fixture_id"]
+        if quota_protected():
+            print("Stopping odds scan: quota protection.")
+            break
 
-        home = fixture_info.get("home")
-        away = fixture_info.get("away")
+        date_string = item["date"]
 
         result = {
-            "fixture_id": fixture_id,
-            "home": home,
-            "away": away,
+            "date": date_string,
+            "page": 1,
             "records_received": 0,
             "status": "pending",
             "error": None
         }
 
-        print("\n" + "-" * 55)
-        print(f"Fixture {number}/{len(selected)}")
-        print(f"{home} - {away} | ID: {fixture_id}")
-
-        if (
-            LAST_REMAINING is not None
-            and LAST_REMAINING <= MIN_DAILY_REMAINING
-        ):
-            result["status"] = "quota_protection"
-            results.append(result)
-            print("Stopping: quota reserve protection.")
-            break
+        print(
+            f"\nOdds date {number}/{len(selected_dates)}:",
+            date_string
+        )
 
         try:
 
-            # Direct fixture query.
-            # No season parameter is sent.
-
             payload = api_get(
                 "odds",
-                {"fixture": fixture_id}
+                {
+                    "date": date_string,
+                    "timezone": TIMEZONE,
+                    "page": 1
+                }
             )
 
             rows = payload.get("response", [])
@@ -400,31 +440,32 @@ def collect_odds_by_fixture(selected):
                 "success" if rows else "no_odds"
             )
 
+            result["total_pages"] = payload.get(
+                "paging", {}
+            ).get("total")
+
             all_rows.extend(rows)
 
             print("Odds records:", len(rows))
+            print("Provider pages:", result["total_pages"])
 
         except Exception as exc:
 
             result["status"] = "error"
             result["error"] = str(exc)
 
-            print("Fixture odds error:", exc)
-
-            if is_quota_error(exc):
-                results.append(result)
-                break
+            print("Odds date error:", exc)
 
         results.append(result)
 
-        if number < len(selected):
+        if number < len(selected_dates):
             time.sleep(REQUEST_DELAY)
 
     return all_rows, results
 
 
 # ==========================================================
-# 5. MERGE AND AUDIT
+# 5. MERGE ODDS WITH FIXTURE DATA
 # ==========================================================
 
 def merge_odds(raw_rows, fixture_index, upcoming):
@@ -437,7 +478,8 @@ def merge_odds(raw_rows, fixture_index, upcoming):
 
     for row in raw_rows:
 
-        fixture_id = row.get("fixture", {}).get("id")
+        fixture = row.get("fixture", {})
+        fixture_id = fixture.get("id")
 
         if fixture_id is None:
             unmatched += 1
@@ -449,15 +491,14 @@ def merge_odds(raw_rows, fixture_index, upcoming):
             continue
 
         key = str(fixture_id)
+        info = fixture_index.get(key)
 
-        fixture_info = fixture_index.get(key)
-
-        if fixture_info is None:
+        if info is None:
             unmatched += 1
             audit.append({
                 "fixture_id": fixture_id,
                 "linked": False,
-                "reason": "NOT_IN_FIXTURE_DATE"
+                "reason": "NOT_IN_14_DAY_FIXTURE_WINDOW"
             })
             continue
 
@@ -473,7 +514,7 @@ def merge_odds(raw_rows, fixture_index, upcoming):
         if key not in merged:
             merged[key] = {
                 "fixture_id": fixture_id,
-                "fixture_info": fixture_info,
+                "fixture_info": info,
                 "bookmakers": []
             }
 
@@ -507,6 +548,12 @@ def merge_odds(raw_rows, fixture_index, upcoming):
 
     linked = list(merged.values())
 
+    linked.sort(
+        key=lambda item: int(
+            item.get("fixture_info", {}).get("timestamp") or 0
+        )
+    )
+
     print("\nRaw odds records:", len(raw_rows))
     print("Linked upcoming matches:", len(linked))
     print("Unmatched records:", unmatched)
@@ -516,27 +563,27 @@ def merge_odds(raw_rows, fixture_index, upcoming):
 
 
 # ==========================================================
-# 6. SAVE
+# 6. SAVE OUTPUT
+# Compatible with v33_engine.py input schema.
 # ==========================================================
 
-def save_data(
+def save_output(
     date_string,
     started_at,
     fixtures,
     upcoming,
-    mapping_rows,
-    mapping_results,
-    selected,
-    rotation,
+    mapping_state,
+    mapping_result,
+    selected_dates,
+    odds_results,
     raw_rows,
     linked,
-    fixture_results,
     audit,
     unmatched,
     invalid
 ):
 
-    print("\n[4] SAVING V3.4.1 DATA")
+    print("\n[4] SAVING V3.4.2 DATA")
 
     date_dir = OUTPUT_DIR / date_string
     date_dir.mkdir(parents=True, exist_ok=True)
@@ -546,40 +593,47 @@ def save_data(
         for item in linked
     )
 
-    finished_at = now_local().isoformat()
-
     data = {
-        "engine": "AI FOOTBALL PREDICTION V3.4.1",
+        "engine": "AI FOOTBALL PREDICTION V3.4.2",
         "source": "API-FOOTBALL",
-        "query_method": "ODDS_MAPPING_THEN_FIXTURE_ID",
+        "query_method": "14_DAY_FIXTURES_ROTATING_MAPPING_DATE_ODDS",
         "date": date_string,
         "timezone": TIMEZONE,
         "started_at": started_at,
-        "finished_at": finished_at,
+        "finished_at": now_local().isoformat(),
 
         "configuration": {
-            "max_mapping_pages": MAX_MAPPING_PAGES,
-            "max_odds_fixtures_per_run": MAX_ODDS_FIXTURES_PER_RUN,
-            "season_parameter_used": False,
+            "fixture_lookahead_days": FIXTURE_LOOKAHEAD_DAYS,
+            "max_total_requests": MAX_TOTAL_REQUESTS,
+            "max_mapping_requests": MAX_MAPPING_REQUESTS,
+            "max_odds_date_requests": MAX_ODDS_DATE_REQUESTS,
+            "odds_pages_per_date": 1,
             "minimum_remaining_quota": MIN_DAILY_REMAINING
         },
 
-        "rotation": rotation,
+        "mapping": {
+            "page_result": mapping_result,
+            "next_page": mapping_state.get("next_page"),
+            "total_pages": mapping_state.get("total_pages"),
+            "unique_fixture_ids_cached": len(
+                mapping_state.get("fixture_ids", {})
+            ),
+            "pages_scanned_total": mapping_state.get(
+                "pages_scanned", 0
+            )
+        },
+
+        "selected_odds_dates": selected_dates,
 
         "summary": {
             "fixtures_received": len(fixtures),
             "upcoming_fixtures": len(upcoming),
-            "mapping_records": len(mapping_rows),
-            "mapping_pages_successful": sum(
-                1 for item in mapping_results
-                if item.get("status") == "success"
+            "mapping_records_received": mapping_result.get(
+                "records", 0
             ),
-            "mapped_upcoming_fixtures": rotation.get(
-                "available_candidates", 0
-            ),
-            "selected_fixtures": len(selected),
-            "fixture_odds_requests_successful": sum(
-                1 for item in fixture_results
+            "odds_dates_selected": len(selected_dates),
+            "odds_date_requests_successful": sum(
+                1 for item in odds_results
                 if item.get("status") == "success"
             ),
             "raw_odds_records": len(raw_rows),
@@ -591,8 +645,7 @@ def save_data(
             "api_remaining": LAST_REMAINING
         },
 
-        "mapping_page_results": mapping_results,
-        "fixture_odds_results": fixture_results,
+        "odds_date_results": odds_results,
         "raw_odds_audit": audit,
         "odds": linked
     }
@@ -600,22 +653,10 @@ def save_data(
     latest_file = date_dir / "latest.json"
 
     timestamp = now_local().strftime("%Y%m%d_%H%M%S")
+    archive_file = date_dir / f"v342_{timestamp}.json"
 
-    archive_file = date_dir / f"v341_{timestamp}.json"
-
-    for path in (latest_file, archive_file):
-
-        temp = path.with_suffix(".tmp")
-
-        with temp.open("w", encoding="utf-8") as file:
-            json.dump(
-                data,
-                file,
-                ensure_ascii=False,
-                indent=2
-            )
-
-        temp.replace(path)
+    save_json(latest_file, data)
+    save_json(archive_file, data)
 
     print("Saved:", latest_file)
     print("Archive:", archive_file)
@@ -629,10 +670,10 @@ def save_data(
 
 def main():
 
-    print("=" * 65)
-    print("AI FOOTBALL PREDICTION V3.4.1")
-    print("FIXTURE MAPPING + DIRECT ODDS SCANNER")
-    print("=" * 65)
+    print("=" * 68)
+    print("AI FOOTBALL PREDICTION V3.4.2")
+    print("14-DAY FIXTURES + ROTATING MAPPING + DATE-BASED ODDS")
+    print("=" * 68)
 
     if not API_KEY:
         raise RuntimeError("Missing API_FOOTBALL_KEY secret.")
@@ -641,90 +682,75 @@ def main():
     date_string = now_local().strftime("%Y-%m-%d")
 
     print("Vietnam date:", date_string)
-    print("Mapping pages max:", MAX_MAPPING_PAGES)
-    print("Odds fixture requests max:", MAX_ODDS_FIXTURES_PER_RUN)
+    print("Maximum requests this run:", MAX_TOTAL_REQUESTS)
+    print("API reserve:", MIN_DAILY_REMAINING)
 
     # 1. Fixtures
-    fixtures = collect_fixtures(date_string)
+    fixtures = collect_fixtures()
 
     fixture_index, upcoming = build_fixture_index(fixtures)
 
-    # 2. Mapping
-    mapping_rows, mapping_results = collect_mapping()
+    # 2. One rotating mapping page
+    mapping_state, mapping_result = collect_mapping_page()
 
-    # 3. Match mapping IDs to today's fixtures
-    candidates = match_mapping_to_fixtures(
-        mapping_rows,
-        upcoming
+    # 3. Select dates with the most upcoming fixtures
+    selected_dates = select_odds_dates(upcoming)
+
+    # 4. Query odds for selected future dates
+    raw_rows, odds_results = collect_odds_by_date(
+        selected_dates
     )
 
-    # 4. Rotate a limited number of fixtures
-    selected, rotation = select_fixtures(
-        candidates,
-        now_local()
-    )
-
-    print("\nSelected fixtures:", len(selected))
-
-    # 5. Direct odds lookup by fixture ID
-    raw_rows, fixture_results = collect_odds_by_fixture(
-        selected
-    )
-
-    # 6. Merge
+    # 5. Merge
     linked, audit, unmatched, invalid = merge_odds(
         raw_rows,
         fixture_index,
         upcoming
     )
 
-    # 7. Save
-    data = save_data(
+    # 6. Save
+    data = save_output(
         date_string,
         started_at,
         fixtures,
         upcoming,
-        mapping_rows,
-        mapping_results,
-        selected,
-        rotation,
+        mapping_state,
+        mapping_result,
+        selected_dates,
+        odds_results,
         raw_rows,
         linked,
-        fixture_results,
         audit,
         unmatched,
         invalid
     )
 
-    print("\n" + "=" * 65)
-    print("V3.4.1 COLLECTION SUMMARY")
-    print("=" * 65)
+    print("\n" + "=" * 68)
+    print("V3.4.2 COLLECTION SUMMARY")
+    print("=" * 68)
 
     for key, value in data["summary"].items():
         print(f"{key}: {value}")
 
-    print("\n===== FIXTURE ODDS RESULTS =====")
+    print("\n===== ODDS DATE RESULTS =====")
 
-    for item in fixture_results:
+    for item in odds_results:
         print(
-            item["home"],
-            "-",
-            item["away"],
+            item["date"],
             "|",
             item["status"],
             "| Records:",
             item["records_received"]
         )
 
-    print("\nV3.4.1 COMPLETED")
+    print("\nV3.4.2 COMPLETED")
 
 
 if __name__ == "__main__":
 
     try:
         main()
-
     except Exception as error:
-        print("\nV3.4.1 FAILED:")
+        print("\nV3.4.2 FAILED:")
         print(error)
         raise
