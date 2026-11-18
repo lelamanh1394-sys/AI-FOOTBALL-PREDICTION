@@ -1,90 +1,31 @@
 {
-  "engine": "AI FOOTBALL PREDICTION V3.4.3",
+  "engine": "AI FOOTBALL PREDICTION V3.4.4.1",
   "source": "API-FOOTBALL",
-  "query_method": "DIRECT_DATE_BASED_ODDS",
+  "query_method": "FIXTURES_AND_ODDS_BY_DATE_FIXTURE_ID",
   "date": "2026-11-18",
   "timezone": "Asia/Ho_Chi_Minh",
-  "started_at": "2026-11-18T19:44:00.399224+07:00",
-  "finished_at": "2026-11-18T19:44:06.758193+07:00",
+  "started_at": "2026-11-18T20:00:14.556465+07:00",
+  "finished_at": "2026-11-18T20:00:16.266553+07:00",
   "configuration": {
-    "date_offsets": [
-      1,
-      4,
-      7,
-      10,
-      13
-    ],
-    "max_total_requests": 5,
-    "minimum_remaining_quota": 20,
-    "odds_page": 1
+    "target_date": "2026-11-18",
+    "max_odds_pages": 3,
+    "max_total_requests": 4,
+    "minimum_remaining_quota": 20
   },
-  "selected_odds_dates": [
-    {
-      "date": "2026-11-19",
-      "days_ahead": 1
-    },
-    {
-      "date": "2026-11-22",
-      "days_ahead": 4
-    },
-    {
-      "date": "2026-11-25",
-      "days_ahead": 7
-    },
-    {
-      "date": "2026-11-28",
-      "days_ahead": 10
-    },
-    {
-      "date": "2026-12-01",
-      "days_ahead": 13
-    }
-  ],
   "summary": {
-    "fixtures_received": 0,
-    "raw_odds_records": 10,
+    "fixtures_received": 190,
+    "raw_odds_records": 0,
     "linked_upcoming_matches": 0,
     "bookmaker_records": 0,
-    "odds_date_requests_successful": 1,
-    "api_requests_used": 5,
-    "api_remaining": 25,
+    "api_requests_used": 1,
+    "api_remaining": 20,
+    "api_limit": 100,
     "missing_fixture_id": 0,
-    "missing_timestamp": 0,
-    "missing_team_names": 10
+    "fixture_not_found": 0,
+    "missing_team_names": 0,
+    "api_errors": 0
   },
-  "odds_date_results": [
-    {
-      "date": "2026-11-19",
-      "records_received": 10,
-      "status": "success",
-      "error": null,
-      "total_pages": 9
-    },
-    {
-      "date": "2026-11-22",
-      "records_received": 0,
-      "status": "error",
-      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
-    },
-    {
-      "date": "2026-11-25",
-      "records_received": 0,
-      "status": "error",
-      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
-    },
-    {
-      "date": "2026-11-28",
-      "records_received": 0,
-      "status": "error",
-      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
-    },
-    {
-      "date": "2026-12-01",
-      "records_received": 0,
-      "status": "error",
-      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
-    }
-  ],
+  "api_error_details": [],
   "raw_odds_audit": [],
   "odds": []
 }
