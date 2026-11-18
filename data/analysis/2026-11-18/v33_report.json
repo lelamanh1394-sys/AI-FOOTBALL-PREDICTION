@@ -1,8 +1,8 @@
 {
   "engine": "AI Football Prediction V3.3.1",
-  "created_at": "2026-11-18T19:13:20.277957+07:00",
+  "created_at": "2026-11-18T19:18:24.746260+07:00",
   "source_file": "data/public_odds/2026-11-18/latest.json",
-  "source_engine": "AI FOOTBALL PREDICTION V3.3B.1",
+  "source_engine": "AI FOOTBALL PREDICTION V3.4",
   "source": "API-FOOTBALL",
   "purpose": "odds_quality_and_match_research",
   "limits": {
@@ -10,14 +10,14 @@
     "minimum_bookmakers": 2
   },
   "summary": {
-    "total_odds_records": 1,
-    "upcoming_matches_with_odds": 1,
-    "selected_for_research": 1,
+    "total_odds_records": 0,
+    "upcoming_matches_with_odds": 0,
+    "selected_for_research": 0,
     "independent_model_ready": false,
     "betting_recommendations": 0
   },
   "diagnostics": {
-    "total_odds_records": 1,
+    "total_odds_records": 0,
     "not_upcoming": 0,
     "invalid_status": 0,
     "missing_timestamp": 0,
@@ -26,131 +26,8 @@
     "missing_fixture_info": 0,
     "no_valid_1x2_market": 0,
     "below_minimum_bookmakers": 0,
-    "qualified_matches": 1
+    "qualified_matches": 0
   },
   "important_notice": "Bookmaker market consensus is not an independent AI prediction. No positive expected value is claimed.",
-  "matches": [
-    {
-      "fixture_id": 1568556,
-      "kickoff": "2026-11-18T23:00:00+07:00",
-      "league": "III Liga - Group 3",
-      "country": "Poland",
-      "home_team": "Barycz Sułów",
-      "away_team": "Polonia Nysa",
-      "bookmaker_count": 7,
-      "bookmakers": [
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.65,
-            "draw": 3.9,
-            "away": 3.9
-          },
-          "market_probabilities": {
-            "home": 0.5416666666666666,
-            "draw": 0.22916666666666669,
-            "away": 0.22916666666666669
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.62,
-            "draw": 3.82,
-            "away": 4.15
-          },
-          "market_probabilities": {
-            "home": 0.5511326500813506,
-            "draw": 0.23372641181460418,
-            "away": 0.21514093810404528
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.65,
-            "draw": 4.0,
-            "away": 4.1
-          },
-          "market_probabilities": {
-            "home": 0.5509826977994288,
-            "draw": 0.22728036284226438,
-            "away": 0.22173693935830674
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.65,
-            "draw": 3.76,
-            "away": 4.05
-          },
-          "market_probabilities": {
-            "home": 0.541642213092888,
-            "draw": 0.23768873712852795,
-            "away": 0.220669049778584
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.64,
-            "draw": 3.82,
-            "away": 4.25
-          },
-          "market_probabilities": {
-            "home": 0.5509029582827165,
-            "draw": 0.236513311932894,
-            "away": 0.2125837297843894
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.65,
-            "draw": 3.8,
-            "away": 4.15
-          },
-          "market_probabilities": {
-            "home": 0.5459108610990914,
-            "draw": 0.2370402423193423,
-            "away": 0.2170488965815664
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.65,
-            "draw": 4.0,
-            "away": 4.4
-          },
-          "market_probabilities": {
-            "home": 0.5594405594405595,
-            "draw": 0.23076923076923078,
-            "away": 0.2097902097902098
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.65,
-        "draw": 4.0,
-        "away": 4.4
-      },
-      "market_consensus_no_margin": {
-        "home": 0.5488,
-        "draw": 0.2332,
-        "away": 0.218
-      },
-      "market_dispersion": {
-        "home": 0.0058,
-        "draw": 0.0038,
-        "away": 0.006
-      },
-      "captured_at": "2026-11-18T19:13:20.168787+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    }
-  ]
+  "matches": []
 }
