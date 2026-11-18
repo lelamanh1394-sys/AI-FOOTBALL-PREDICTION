@@ -1,4 +1,4 @@
-name: AI Football Prediction V3.3
+name: AI Football Prediction V3.3B
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: football-v33-public-odds
+  group: football-v33b-date-odds
   cancel-in-progress: false
 
 jobs:
@@ -33,9 +33,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Collect public football odds
+      - name: Collect fixtures and odds by date
         env:
-          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           python odds_collector.py
 
@@ -43,7 +43,7 @@ jobs:
         run: |
           python v33_engine.py
 
-      - name: Save V3.3 data and report
+      - name: Save research data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -53,6 +53,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new data to commit."
           else
-            git commit -m "V3.3: collect public odds and analyse matches"
+            git commit -m "V3.3B: collect date-based pre-match odds"
             git push
           fi
