@@ -6540,7 +6540,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 13,
+          "elapsed": 18,
           "extra": null
         }
       },
@@ -6680,7 +6680,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 13,
+          "elapsed": 18,
           "extra": null
         }
       },
@@ -6750,7 +6750,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 13,
+          "elapsed": 18,
           "extra": null
         }
       },
@@ -6820,7 +6820,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 11,
+          "elapsed": 15,
           "extra": null
         }
       },
@@ -6884,7 +6884,7 @@
         },
         "venue": {
           "id": 11583,
-          "name": "Osaka Nagai Stadium",
+          "name": "Yanmar Hanasaka Stadium",
           "city": "Osaka"
         },
         "status": {
