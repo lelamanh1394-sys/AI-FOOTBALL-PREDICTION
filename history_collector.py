@@ -4,6 +4,7 @@ import json
 import urllib.request
 import urllib.parse
 import urllib.error
+
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -14,10 +15,14 @@ QUEUE_FILE = Path("data/catalog/history_queue.json")
 PROGRESS_FILE = Path("data/catalog/history_progress.json")
 OUTPUT_DIR = Path("data/history")
 
-MAX_REQUESTS = 3
-MIN_REMAINING = 10
+# V2.6: gioi han thu thap moi lan chay
+MAX_REQUESTS = 40
+
+# Dung som neu quota con 15 request
+MIN_REMAINING = 15
 
 FINISHED_STATUSES = ["completed", "no_data"]
+RESTRICTED_STATUS = "plan_restricted"
 
 
 def now():
@@ -47,6 +52,13 @@ def task_key(task):
     return f'{task["league_id"]}_{task["season"]}'
 
 
+def output_path(task):
+    return OUTPUT_DIR / (
+        f'league_{task["league_id"]}_'
+        f'season_{task["season"]}.json'
+    )
+
+
 def is_plan_restriction(message):
     text = str(message).lower()
 
@@ -60,6 +72,18 @@ def is_plan_restriction(message):
     ]
 
     return any(word in text for word in keywords)
+
+
+def get_remaining(headers):
+    if headers is None:
+        return None
+
+    value = headers.get("x-ratelimit-requests-remaining")
+
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
 
 
 def api_get(league_id, season):
@@ -77,17 +101,18 @@ def api_get(league_id, season):
     )
 
     with urllib.request.urlopen(request, timeout=60) as response:
-        data = json.loads(response.read().decode("utf-8"))
-
-        remaining = response.headers.get(
-            "x-ratelimit-requests-remaining"
-        )
+        body = response.read().decode("utf-8")
+        data = json.loads(body)
+        remaining = get_remaining(response.headers)
 
     if data.get("errors"):
         message = str(data["errors"])
 
         if is_plan_restriction(message):
             raise PermissionError(message)
+
+        if "limit" in message.lower() or "quota" in message.lower():
+            raise RuntimeError(f"API quota warning: {message}")
 
         raise RuntimeError(message)
 
@@ -96,6 +121,16 @@ def api_get(league_id, season):
 
 def save_progress(progress):
     save_json(PROGRESS_FILE, progress)
+
+
+def mark_retry(progress, key, error):
+    progress[key] = {
+        "status": "retry",
+        "error": str(error)[:1000],
+        "updated_at": now()
+    }
+
+    save_progress(progress)
 
 
 def main():
@@ -116,33 +151,35 @@ def main():
     restricted = 0
     errors = 0
     already_saved = 0
+    safety_stopped = False
 
-    print("=" * 60)
-    print("AI FOOTBALL HISTORY COLLECTOR V2.4")
+    print("=" * 64)
+    print("AI FOOTBALL HISTORY COLLECTOR V2.6")
     print("Queue tasks:", len(queue))
     print("Maximum API calls:", MAX_REQUESTS)
+    print("Minimum remaining quota:", MIN_REMAINING)
+    print("Global fair queue: ON")
     print("Smart plan restriction handling: ON")
     print("Progress auto-save: ON")
-    print("=" * 60)
+    print("Duplicate protection: ON")
+    print("=" * 64)
 
     for task in queue:
-
         key = task_key(task)
-
-        output_file = OUTPUT_DIR / (
-            f'league_{task["league_id"]}_'
-            f'season_{task["season"]}.json'
-        )
+        file_path = output_path(task)
 
         status = progress.get(key, {}).get("status")
 
+        # Bo qua nhiem vu da hoan thanh.
         if status in FINISHED_STATUSES:
             continue
 
-        if status == "plan_restricted":
+        # Bo qua mua bi gioi han boi goi API.
+        if status == RESTRICTED_STATUS:
             continue
 
-        if output_file.exists():
+        # Neu file da ton tai, khong tai lai.
+        if file_path.exists():
             progress[key] = {
                 "status": "completed",
                 "updated_at": now(),
@@ -153,17 +190,18 @@ def main():
             save_progress(progress)
             continue
 
+        # Gioi han so request moi lan chay.
         if requests_used >= MAX_REQUESTS:
             print("\nReached maximum API calls.")
             break
 
         print(
             "\nDownloading:",
-            task["country"],
+            task.get("country", "Unknown"),
             "-",
-            task["league_name"],
+            task.get("league_name", "Unknown league"),
             "-",
-            task["season"]
+            task.get("season")
         )
 
         try:
@@ -176,7 +214,8 @@ def main():
 
             results = data.get("results", 0)
 
-            save_json(output_file, data)
+            # Luu du lieu truoc khi cap nhat tien do.
+            save_json(file_path, data)
 
             status = "completed" if results > 0 else "no_data"
 
@@ -196,21 +235,19 @@ def main():
 
             save_progress(progress)
 
-            if remaining is not None:
-                try:
-                    if int(remaining) <= MIN_REMAINING:
-                        print("Safety stop: API quota is low.")
-                        break
-                except (ValueError, TypeError):
-                    pass
+            # Dung neu quota con thap.
+            if remaining is not None and remaining <= MIN_REMAINING:
+                print("Safety stop: API quota reached safety threshold.")
+                safety_stopped = True
+                break
 
         except PermissionError as exc:
             requests_used += 1
             restricted += 1
 
             progress[key] = {
-                "status": "plan_restricted",
-                "error": str(exc),
+                "status": RESTRICTED_STATUS,
+                "error": str(exc)[:1000],
                 "updated_at": now()
             }
 
@@ -219,14 +256,15 @@ def main():
             print("PLAN RESTRICTION:", exc)
             print("Skipping this season. Continuing queue...")
 
-            continue
-
         except urllib.error.HTTPError as exc:
             requests_used += 1
             errors += 1
 
             try:
-                body = exc.read().decode("utf-8", errors="replace")
+                body = exc.read().decode(
+                    "utf-8",
+                    errors="replace"
+                )
             except Exception:
                 body = ""
 
@@ -234,7 +272,7 @@ def main():
                 restricted += 1
 
                 progress[key] = {
-                    "status": "plan_restricted",
+                    "status": RESTRICTED_STATUS,
                     "error": body[:1000],
                     "updated_at": now()
                 }
@@ -245,29 +283,26 @@ def main():
                 print("Skipping this season. Continuing queue...")
                 continue
 
-            progress[key] = {
-                "status": "retry",
-                "error": f"HTTP {exc.code}: {body[:500]}",
-                "updated_at": now()
-            }
-
-            save_progress(progress)
+            mark_retry(
+                progress,
+                key,
+                f"HTTP {exc.code}: {body[:500]}"
+            )
 
             print("HTTP error:", exc.code)
-            print("Stopping to protect API quota.")
+
+            if exc.code == 429:
+                print("API rate limit reached. Stopping.")
+            else:
+                print("Stopping to protect API quota.")
+
             break
 
         except Exception as exc:
             requests_used += 1
             errors += 1
 
-            progress[key] = {
-                "status": "retry",
-                "error": str(exc),
-                "updated_at": now()
-            }
-
-            save_progress(progress)
+            mark_retry(progress, key, exc)
 
             print("Collection error:", exc)
             print("Stopping. This task can be retried later.")
@@ -282,37 +317,41 @@ def main():
 
     restricted_total = sum(
         1 for item in progress.values()
-        if item.get("status") == "plan_restricted"
+        if item.get("status") == RESTRICTED_STATUS
     )
 
-    pending = sum(
-        1 for task in queue
-        if progress.get(task_key(task), {}).get("status")
-        not in FINISHED_STATUSES + ["plan_restricted"]
-        and not (
-            OUTPUT_DIR / (
-                f'league_{task["league_id"]}_'
-                f'season_{task["season"]}.json'
-            )
-        ).exists()
-    )
+    pending = 0
 
-    print("\n" + "=" * 60)
-    print("AI FOOTBALL HISTORY COLLECTOR V2.4 SUMMARY")
-    print("=" * 60)
+    for task in queue:
+        key = task_key(task)
+        status = progress.get(key, {}).get("status")
+
+        if status in FINISHED_STATUSES + [RESTRICTED_STATUS]:
+            continue
+
+        if output_path(task).exists():
+            continue
+
+        pending += 1
+
+    print("\n" + "=" * 64)
+    print("AI FOOTBALL HISTORY COLLECTOR V2.6 SUMMARY")
+    print("=" * 64)
 
     print("API calls used:", requests_used)
+    print("Maximum API calls:", MAX_REQUESTS)
     print("New seasons downloaded:", completed)
     print("Seasons with no data:", empty)
-    print("Plan restricted seasons:", restricted)
+    print("Plan restricted this run:", restricted)
     print("Total plan restricted:", restricted_total)
     print("Existing files detected:", already_saved)
     print("Errors:", errors)
     print("Total finished tasks:", finished)
     print("Remaining pending tasks:", pending)
+    print("Safety stopped:", safety_stopped)
 
-    print("=" * 60)
-    print("HISTORY COLLECTION COMPLETED")
+    print("=" * 64)
+    print("HISTORY COLLECTION V2.6 COMPLETED")
 
 
 if __name__ == "__main__":
