@@ -1,0 +1,10 @@
+{
+  "engine": "AI Football Prediction V3",
+  "date": "2026-11-18",
+  "finished_at": "2026-11-18T16:45:56.880085+07:00",
+  "fixtures_found": 189,
+  "odds_records_found": 30,
+  "odds_records_linked": 30,
+  "prediction_status": "NOT_ENABLED: independent calibrated probabilities are required before EV selections can be made.",
+  "snapshot": "data/online/2026-11-18/scan_20261118_164514.json"
+}
