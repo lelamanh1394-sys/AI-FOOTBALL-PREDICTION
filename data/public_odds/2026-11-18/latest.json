@@ -1,60 +1,90 @@
 {
-  "engine": "AI FOOTBALL PREDICTION V3.4.1",
+  "engine": "AI FOOTBALL PREDICTION V3.4.3",
   "source": "API-FOOTBALL",
-  "query_method": "ODDS_MAPPING_THEN_FIXTURE_ID",
+  "query_method": "DIRECT_DATE_BASED_ODDS",
   "date": "2026-11-18",
   "timezone": "Asia/Ho_Chi_Minh",
-  "started_at": "2026-11-18T19:25:06.884864+07:00",
-  "finished_at": "2026-11-18T19:25:10.046599+07:00",
+  "started_at": "2026-11-18T19:44:00.399224+07:00",
+  "finished_at": "2026-11-18T19:44:06.758193+07:00",
   "configuration": {
-    "max_mapping_pages": 3,
-    "max_odds_fixtures_per_run": 6,
-    "season_parameter_used": false,
-    "minimum_remaining_quota": 20
+    "date_offsets": [
+      1,
+      4,
+      7,
+      10,
+      13
+    ],
+    "max_total_requests": 5,
+    "minimum_remaining_quota": 20,
+    "odds_page": 1
   },
-  "rotation": {
-    "available_candidates": 0,
-    "selected_fixtures": 0,
-    "rotation_slot": null,
-    "rotation_start": 0
-  },
-  "summary": {
-    "fixtures_received": 190,
-    "upcoming_fixtures": 44,
-    "mapping_records": 300,
-    "mapping_pages_successful": 3,
-    "mapped_upcoming_fixtures": 0,
-    "selected_fixtures": 0,
-    "fixture_odds_requests_successful": 0,
-    "raw_odds_records": 0,
-    "linked_upcoming_matches": 0,
-    "bookmaker_records": 0,
-    "unmatched_records": 0,
-    "invalid_records": 0,
-    "api_requests_used": 4,
-    "api_remaining": 27
-  },
-  "mapping_page_results": [
+  "selected_odds_dates": [
     {
-      "page": 1,
-      "records": 100,
-      "total_pages": 26,
-      "status": "success"
+      "date": "2026-11-19",
+      "days_ahead": 1
     },
     {
-      "page": 2,
-      "records": 100,
-      "total_pages": 27,
-      "status": "success"
+      "date": "2026-11-22",
+      "days_ahead": 4
     },
     {
-      "page": 3,
-      "records": 100,
-      "total_pages": 27,
-      "status": "success"
+      "date": "2026-11-25",
+      "days_ahead": 7
+    },
+    {
+      "date": "2026-11-28",
+      "days_ahead": 10
+    },
+    {
+      "date": "2026-12-01",
+      "days_ahead": 13
     }
   ],
-  "fixture_odds_results": [],
+  "summary": {
+    "fixtures_received": 0,
+    "raw_odds_records": 10,
+    "linked_upcoming_matches": 0,
+    "bookmaker_records": 0,
+    "odds_date_requests_successful": 1,
+    "api_requests_used": 5,
+    "api_remaining": 25,
+    "missing_fixture_id": 0,
+    "missing_timestamp": 0,
+    "missing_team_names": 10
+  },
+  "odds_date_results": [
+    {
+      "date": "2026-11-19",
+      "records_received": 10,
+      "status": "success",
+      "error": null,
+      "total_pages": 9
+    },
+    {
+      "date": "2026-11-22",
+      "records_received": 0,
+      "status": "error",
+      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
+    },
+    {
+      "date": "2026-11-25",
+      "records_received": 0,
+      "status": "error",
+      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
+    },
+    {
+      "date": "2026-11-28",
+      "records_received": 0,
+      "status": "error",
+      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
+    },
+    {
+      "date": "2026-12-01",
+      "records_received": 0,
+      "status": "error",
+      "error": "{'plan': 'Free plans do not have access to this date, try from 2026-11-17 to 2026-11-19.'}"
+    }
+  ],
   "raw_odds_audit": [],
   "odds": []
 }
