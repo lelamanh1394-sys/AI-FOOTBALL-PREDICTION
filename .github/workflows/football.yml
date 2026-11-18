@@ -1,14 +1,17 @@
-name: AI Football Engine
+
+name: AI Football Data Engine
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   football-analysis:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
 
     steps:
       - name: Checkout repository
@@ -19,5 +22,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run Football Engine
-        run: python main.py
+      - name: Collect football data
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python collector.py
+
+      - name: Save database to GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update football database"
+            git push
+          else
+            echo "No database changes"
+          fi
