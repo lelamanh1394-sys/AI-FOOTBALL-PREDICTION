@@ -9,9 +9,8 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 
 # ============================================================
-# AI FOOTBALL PREDICTION V3.4.4.1
-# FIXTURE + ODDS MATCHING
-# STATUS FORMAT COMPATIBILITY FIX
+# AI FOOTBALL PREDICTION V3.4.4.2
+# ADAPTIVE QUOTA + FIXTURE/ODDS MATCHING
 # ============================================================
 
 API_BASE = "https://v3.football.api-sports.io"
@@ -20,7 +19,10 @@ API_KEY = os.getenv("API_FOOTBALL_KEY", "").strip()
 TIMEZONE = "Asia/Ho_Chi_Minh"
 MAX_ODDS_PAGES = 3
 MAX_TOTAL_REQUESTS = 4
-MIN_REMAINING_QUOTA = 20
+
+# Giữ lại 15 request làm dự phòng
+MIN_REMAINING_QUOTA = 15
+
 REQUEST_DELAY = 1.2
 
 VN_TZ = ZoneInfo(TIMEZONE)
@@ -43,24 +45,26 @@ api_limit = None
 api_errors = []
 
 
+# ============================================================
+# API REQUEST
+# ============================================================
+
 def api_get(endpoint, params):
     global request_count, api_remaining, api_limit
 
     if request_count >= MAX_TOTAL_REQUESTS:
-        raise RuntimeError("Request limit reached.")
+        raise RuntimeError("Maximum request limit reached.")
 
     if (
         api_remaining is not None
         and api_remaining <= MIN_REMAINING_QUOTA
     ):
         raise RuntimeError(
-            f"API safety reserve reached: {api_remaining}"
+            f"Quota reserve reached: {api_remaining}"
         )
 
-    url = f"{API_BASE}/{endpoint}"
-
     response = session.get(
-        url,
+        f"{API_BASE}/{endpoint}",
         params=params,
         timeout=30
     )
@@ -70,6 +74,7 @@ def api_get(endpoint, params):
     remaining = response.headers.get(
         "x-ratelimit-requests-remaining"
     )
+
     limit = response.headers.get(
         "x-ratelimit-requests-limit"
     )
@@ -87,16 +92,19 @@ def api_get(endpoint, params):
     errors = payload.get("errors")
 
     if errors:
-        raise RuntimeError(
-            f"API errors: {errors}"
-        )
+        raise RuntimeError(f"API errors: {errors}")
 
     time.sleep(REQUEST_DELAY)
 
     return payload
 
 
+# ============================================================
+# COLLECT FIXTURES
+# ============================================================
+
 def collect_fixtures():
+
     print("\n[1] COLLECTING FIXTURES")
     print("Target date:", TARGET_DATE)
 
@@ -115,6 +123,7 @@ def collect_fixtures():
     fixture_map = {}
 
     for item in fixtures:
+
         fixture = item.get("fixture") or {}
         teams = item.get("teams") or {}
         league = item.get("league") or {}
@@ -126,16 +135,13 @@ def collect_fixtures():
 
         home = teams.get("home") or {}
         away = teams.get("away") or {}
-        status_data = fixture.get("status") or {}
+        status = fixture.get("status") or {}
 
         fixture_map[str(fixture_id)] = {
             "fixture_id": fixture_id,
             "date": fixture.get("date"),
             "timestamp": fixture.get("timestamp"),
-
-            # Store status as a string internally.
-            "status_short": status_data.get("short", "NS"),
-
+            "status_short": status.get("short", "NS"),
             "home": home.get("name"),
             "away": away.get("name"),
             "league": league.get("name"),
@@ -149,7 +155,12 @@ def collect_fixtures():
     return fixture_map
 
 
+# ============================================================
+# COLLECT ODDS
+# ============================================================
+
 def collect_odds():
+
     print("\n[2] COLLECTING ODDS")
 
     all_records = []
@@ -157,19 +168,23 @@ def collect_odds():
     for page in range(1, MAX_ODDS_PAGES + 1):
 
         if request_count >= MAX_TOTAL_REQUESTS:
-            print("Request limit reached.")
+            print("Maximum request limit reached.")
             break
 
         if (
             api_remaining is not None
             and api_remaining <= MIN_REMAINING_QUOTA
         ):
-            print("API safety reserve reached.")
+            print(
+                "Quota reserve reached:",
+                api_remaining
+            )
             break
 
         print(f"Requesting odds page {page}...")
 
         try:
+
             payload = api_get(
                 "odds",
                 {
@@ -194,9 +209,12 @@ def collect_odds():
                 break
 
         except Exception as error:
-            message = f"Page {page}: {error}"
+
+            message = f"Odds page {page}: {error}"
+
             print("ODDS ERROR:", message)
             api_errors.append(message)
+
             break
 
     print("Total raw odds:", len(all_records))
@@ -204,7 +222,12 @@ def collect_odds():
     return all_records
 
 
+# ============================================================
+# MATCH FIXTURES WITH ODDS
+# ============================================================
+
 def build_linked_data(fixture_map, raw_odds):
+
     print("\n[3] MATCHING FIXTURES AND ODDS")
 
     linked = {}
@@ -221,6 +244,7 @@ def build_linked_data(fixture_map, raw_odds):
         fixture_id = fixture.get("id")
 
         if not fixture_id:
+
             missing_fixture_id += 1
             continue
 
@@ -228,15 +252,13 @@ def build_linked_data(fixture_map, raw_odds):
         fixture_info = fixture_map.get(key)
 
         if not fixture_info:
+
             missing_fixture_match += 1
 
             audit.append({
                 "fixture_id": fixture_id,
                 "matched": False,
-                "reason": "FIXTURE_NOT_FOUND",
-                "bookmakers": len(
-                    item.get("bookmakers") or []
-                )
+                "reason": "FIXTURE_NOT_FOUND"
             })
 
             continue
@@ -245,12 +267,14 @@ def build_linked_data(fixture_map, raw_odds):
         away = fixture_info.get("away")
 
         if not home or not away:
+
             missing_team_names += 1
             continue
 
         bookmakers = item.get("bookmakers") or []
 
         if key not in linked:
+
             linked[key] = {
                 "fixture_id": fixture_id,
 
@@ -259,8 +283,7 @@ def build_linked_data(fixture_map, raw_odds):
                     "date": fixture_info.get("date"),
                     "timestamp": fixture_info.get("timestamp"),
 
-                    # IMPORTANT:
-                    # V3.3.1 expects status to be a dictionary.
+                    # Tương thích với V3.3.1
                     "status": {
                         "short": fixture_info.get(
                             "status_short", "NS"
@@ -279,22 +302,22 @@ def build_linked_data(fixture_map, raw_odds):
             }
 
         existing_names = {
-            str(
-                bookmaker.get("id")
-                or bookmaker.get("name")
-            )
-            for bookmaker in linked[key]["bookmakers"]
+            str(b.get("id") or b.get("name"))
+            for b in linked[key]["bookmakers"]
         }
 
         for bookmaker in bookmakers:
+
             bookmaker_key = str(
                 bookmaker.get("id")
                 or bookmaker.get("name")
             )
 
             if bookmaker_key not in existing_names:
+
                 linked[key]["bookmakers"].append(bookmaker)
                 existing_names.add(bookmaker_key)
+
                 bookmaker_records += 1
 
         audit.append({
@@ -318,6 +341,10 @@ def build_linked_data(fixture_map, raw_odds):
     )
 
 
+# ============================================================
+# SAVE OUTPUT
+# ============================================================
+
 def save_output(
     fixture_map,
     raw_odds,
@@ -330,9 +357,11 @@ def save_output(
 ):
 
     output = {
-        "engine": "AI FOOTBALL PREDICTION V3.4.4.1",
+
+        "engine": "AI FOOTBALL PREDICTION V3.4.4.2",
         "source": "API-FOOTBALL",
         "query_method": "FIXTURES_AND_ODDS_BY_DATE_FIXTURE_ID",
+
         "date": TARGET_DATE,
         "timezone": TIMEZONE,
 
@@ -347,16 +376,20 @@ def save_output(
         },
 
         "summary": {
+
             "fixtures_received": len(fixture_map),
             "raw_odds_records": len(raw_odds),
             "linked_upcoming_matches": len(linked),
             "bookmaker_records": bookmaker_records,
+
             "api_requests_used": request_count,
             "api_remaining": api_remaining,
             "api_limit": api_limit,
+
             "missing_fixture_id": missing_fixture_id,
             "fixture_not_found": missing_fixture_match,
             "missing_team_names": missing_team_names,
+
             "api_errors": len(api_errors)
         },
 
@@ -372,6 +405,7 @@ def save_output(
         "w",
         encoding="utf-8"
     ) as file:
+
         json.dump(
             output,
             file,
@@ -382,7 +416,7 @@ def save_output(
     temporary_file.replace(LATEST_FILE)
 
     archive_name = (
-        "v3441_"
+        "v3442_"
         + datetime.now(VN_TZ).strftime("%Y%m%d_%H%M%S")
         + ".json"
     )
@@ -394,6 +428,7 @@ def save_output(
         "w",
         encoding="utf-8"
     ) as file:
+
         json.dump(
             output,
             file,
@@ -408,13 +443,19 @@ def save_output(
     return output
 
 
+# ============================================================
+# MAIN
+# ============================================================
+
 def main():
+
     print("=" * 65)
-    print("AI FOOTBALL PREDICTION V3.4.4.1")
-    print("FIXTURE + ODDS MATCHING")
+    print("AI FOOTBALL PREDICTION V3.4.4.2")
+    print("ADAPTIVE QUOTA + FIXTURE/ODDS MATCHING")
     print("=" * 65)
 
     if not API_KEY:
+
         raise RuntimeError(
             "Missing API_FOOTBALL_KEY GitHub Secret."
         )
@@ -423,19 +464,26 @@ def main():
     raw_odds = []
 
     try:
+
         fixture_map = collect_fixtures()
 
     except Exception as error:
+
         message = f"Fixtures: {error}"
+
         print("FIXTURES ERROR:", message)
         api_errors.append(message)
 
     if fixture_map:
+
         try:
+
             raw_odds = collect_odds()
 
         except Exception as error:
+
             message = f"Odds: {error}"
+
             print("ODDS ERROR:", message)
             api_errors.append(message)
 
@@ -464,12 +512,13 @@ def main():
         bookmaker_records
     )
 
-    print("\n===== V3.4.4.1 SUMMARY =====")
+    print("\n===== V3.4.4.2 SUMMARY =====")
 
     for key, value in output["summary"].items():
+
         print(f"{key}: {value}")
 
-    print("\nV3.4.4.1 COMPLETED")
+    print("\nV3.4.4.2 COMPLETED")
 
 
 if __name__ == "__main__":
