@@ -1,0 +1,60 @@
+{
+  "engine": "AI FOOTBALL PREDICTION V3.4.1",
+  "source": "API-FOOTBALL",
+  "query_method": "ODDS_MAPPING_THEN_FIXTURE_ID",
+  "date": "2026-11-18",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "started_at": "2026-11-18T19:25:06.884864+07:00",
+  "finished_at": "2026-11-18T19:25:10.046599+07:00",
+  "configuration": {
+    "max_mapping_pages": 3,
+    "max_odds_fixtures_per_run": 6,
+    "season_parameter_used": false,
+    "minimum_remaining_quota": 20
+  },
+  "rotation": {
+    "available_candidates": 0,
+    "selected_fixtures": 0,
+    "rotation_slot": null,
+    "rotation_start": 0
+  },
+  "summary": {
+    "fixtures_received": 190,
+    "upcoming_fixtures": 44,
+    "mapping_records": 300,
+    "mapping_pages_successful": 3,
+    "mapped_upcoming_fixtures": 0,
+    "selected_fixtures": 0,
+    "fixture_odds_requests_successful": 0,
+    "raw_odds_records": 0,
+    "linked_upcoming_matches": 0,
+    "bookmaker_records": 0,
+    "unmatched_records": 0,
+    "invalid_records": 0,
+    "api_requests_used": 4,
+    "api_remaining": 27
+  },
+  "mapping_page_results": [
+    {
+      "page": 1,
+      "records": 100,
+      "total_pages": 26,
+      "status": "success"
+    },
+    {
+      "page": 2,
+      "records": 100,
+      "total_pages": 27,
+      "status": "success"
+    },
+    {
+      "page": 3,
+      "records": 100,
+      "total_pages": 27,
+      "status": "success"
+    }
+  ],
+  "fixture_odds_results": [],
+  "raw_odds_audit": [],
+  "odds": []
+}

@@ -1,118 +1,60 @@
 {
-  "engine": "AI FOOTBALL PREDICTION V3.4",
+  "engine": "AI FOOTBALL PREDICTION V3.4.1",
   "source": "API-FOOTBALL",
-  "query_method": "DATE_AND_LEAGUE_WITHOUT_SEASON",
+  "query_method": "ODDS_MAPPING_THEN_FIXTURE_ID",
   "date": "2026-11-18",
   "timezone": "Asia/Ho_Chi_Minh",
-  "started_at": "2026-11-18T19:18:15.128194+07:00",
-  "finished_at": "2026-11-18T19:18:24.660293+07:00",
+  "started_at": "2026-11-18T19:25:06.884864+07:00",
+  "finished_at": "2026-11-18T19:25:10.046599+07:00",
   "configuration": {
-    "max_leagues_per_run": 8,
-    "max_odds_pages_per_league": 1,
+    "max_mapping_pages": 3,
+    "max_odds_fixtures_per_run": 6,
     "season_parameter_used": false,
     "minimum_remaining_quota": 20
   },
   "rotation": {
-    "available_leagues": 61,
-    "selected_leagues": 8,
-    "rotation_slot": 1,
-    "rotation_start": 14
+    "available_candidates": 0,
+    "selected_fixtures": 0,
+    "rotation_slot": null,
+    "rotation_start": 0
   },
   "summary": {
     "fixtures_received": 190,
-    "available_leagues": 61,
-    "selected_leagues": 8,
-    "league_requests_successful": 0,
+    "upcoming_fixtures": 44,
+    "mapping_records": 300,
+    "mapping_pages_successful": 3,
+    "mapped_upcoming_fixtures": 0,
+    "selected_fixtures": 0,
+    "fixture_odds_requests_successful": 0,
     "raw_odds_records": 0,
     "linked_upcoming_matches": 0,
     "bookmaker_records": 0,
     "unmatched_records": 0,
     "invalid_records": 0,
-    "api_requests_used": 9,
-    "api_remaining": 31
+    "api_requests_used": 4,
+    "api_remaining": 27
   },
-  "league_scan_results": [
+  "mapping_page_results": [
     {
-      "league_id": 854,
-      "league_name": "WE League",
-      "country": "Japan",
-      "fixture_count": 5,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
+      "page": 1,
+      "records": 100,
+      "total_pages": 26,
+      "status": "success"
     },
     {
-      "league_id": 58,
-      "league_name": "Non League Premier - Isthmian",
-      "country": "England",
-      "fixture_count": 4,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
+      "page": 2,
+      "records": 100,
+      "total_pages": 27,
+      "status": "success"
     },
     {
-      "league_id": 59,
-      "league_name": "Non League Premier - Northern",
-      "country": "England",
-      "fixture_count": 4,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
-    },
-    {
-      "league_id": 760,
-      "league_name": "LFA First Division",
-      "country": "Liberia",
-      "fixture_count": 4,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
-    },
-    {
-      "league_id": 1129,
-      "league_name": "ASEAN Club Championship",
-      "country": "World",
-      "fixture_count": 3,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
-    },
-    {
-      "league_id": 1252,
-      "league_name": "Premier League U22",
-      "country": "Hong-Kong",
-      "fixture_count": 3,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
-    },
-    {
-      "league_id": 178,
-      "league_name": "Third League - Southwest",
-      "country": "Bulgaria",
-      "fixture_count": 3,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
-    },
-    {
-      "league_id": 375,
-      "league_name": "Cup",
-      "country": "Slovenia",
-      "fixture_count": 3,
-      "records_received": 0,
-      "provider_total_pages": null,
-      "status": "error",
-      "error": "API errors: {'season': 'The Season field is required.'}"
+      "page": 3,
+      "records": 100,
+      "total_pages": 27,
+      "status": "success"
     }
   ],
+  "fixture_odds_results": [],
   "raw_odds_audit": [],
   "odds": []
 }
