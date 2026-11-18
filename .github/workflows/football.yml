@@ -1,5 +1,5 @@
 
-name: AI Football Data Engine V2.5
+name: AI Football Data Engine V2.6
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ concurrency:
 jobs:
   football-analysis:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -39,7 +39,7 @@ jobs:
       - name: Build global fair priority queue V2.5
         run: python priority.py
 
-      - name: Download historical fixtures V2.4
+      - name: Download historical fixtures V2.6
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python history_collector.py
@@ -50,7 +50,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "Update global football database V2.5"
+            git commit -m "Update global football database V2.6"
             git push
           else
             echo "No database changes"
