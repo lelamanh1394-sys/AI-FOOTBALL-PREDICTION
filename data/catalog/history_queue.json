@@ -6389,8 +6389,8 @@
     "country": "Iran",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 40,
-    "priority_tier": "C",
+    "priority_score": 55,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 4,
     "queue_order": 533
@@ -11177,8 +11177,8 @@
     "country": "Iran",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 40,
-    "priority_tier": "C",
+    "priority_score": 55,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 8,
     "queue_order": 932
@@ -14165,8 +14165,8 @@
     "country": "Iran",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 40,
-    "priority_tier": "C",
+    "priority_score": 55,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 11,
     "queue_order": 1181

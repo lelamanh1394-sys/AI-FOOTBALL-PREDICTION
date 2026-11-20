@@ -1,0 +1,1345 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "259",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 19,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1178065,
+        "referee": "P. Lauziere",
+        "timezone": "UTC",
+        "date": "2024-04-24T01:00:00+00:00",
+        "timestamp": 1713920400,
+        "periods": {
+          "first": 1713920400,
+          "second": 1713924000
+        },
+        "venue": {
+          "id": 2597,
+          "name": "ATCO Field",
+          "city": "Calgary, Alberta"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Preliminary Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2619,
+          "name": "Cavalry FC",
+          "logo": "https://media.api-sports.io/football/teams/2619.png",
+          "winner": true
+        },
+        "away": {
+          "id": 20881,
+          "name": "Vancouver FC",
+          "logo": "https://media.api-sports.io/football/teams/20881.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1178070,
+        "referee": "M. Venne",
+        "timezone": "UTC",
+        "date": "2024-04-25T01:30:00+00:00",
+        "timestamp": 1714008600,
+        "periods": {
+          "first": 1714008600,
+          "second": 1714012200
+        },
+        "venue": {
+          "id": 312,
+          "name": "BMO Field",
+          "city": "Toronto, Ontario"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Preliminary Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1601,
+          "name": "Toronto FC",
+          "logo": "https://media.api-sports.io/football/teams/1601.png",
+          "winner": true
+        },
+        "away": {
+          "id": 19110,
+          "name": "Simcoe County Rovers",
+          "logo": "https://media.api-sports.io/football/teams/19110.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1178068,
+        "referee": "B. Hoskins",
+        "timezone": "UTC",
+        "date": "2024-05-01T23:00:00+00:00",
+        "timestamp": 1714604400,
+        "periods": {
+          "first": 1714604400,
+          "second": 1714608000
+        },
+        "venue": {
+          "id": 2602,
+          "name": "Tim Hortons Field",
+          "city": "Hamilton"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Preliminary Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3830,
+          "name": "Forge",
+          "logo": "https://media.api-sports.io/football/teams/3830.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2623,
+          "name": "York United",
+          "logo": "https://media.api-sports.io/football/teams/2623.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1178066,
+        "referee": "S. Bowman",
+        "timezone": "UTC",
+        "date": "2024-05-01T23:00:00+00:00",
+        "timestamp": 1714604400,
+        "periods": {
+          "first": 1714604400,
+          "second": 1714608000
+        },
+        "venue": {
+          "id": 7149,
+          "name": "TD Place Stadium",
+          "city": "Ottawa, Ontario"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Preliminary Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 10169,
+          "name": "Atlético Ottawa",
+          "logo": "https://media.api-sports.io/football/teams/10169.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3831,
+          "name": "Valour",
+          "logo": "https://media.api-sports.io/football/teams/3831.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1178067,
+        "referee": "A. Ruch",
+        "timezone": "UTC",
+        "date": "2024-05-02T02:00:00+00:00",
+        "timestamp": 1714615200,
+        "periods": {
+          "first": 1714615200,
+          "second": 1714618800
+        },
+        "venue": {
+          "id": 19444,
+          "name": "Starlight Stadium",
+          "city": "Victoria, British Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Preliminary Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2622,
+          "name": "Pacific FC",
+          "logo": "https://media.api-sports.io/football/teams/2622.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4085,
+          "name": "TSS Rovers",
+          "logo": "https://media.api-sports.io/football/teams/4085.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1178069,
+        "referee": "F. Dujic",
+        "timezone": "UTC",
+        "date": "2024-05-02T22:00:00+00:00",
+        "timestamp": 1714687200,
+        "periods": {
+          "first": 1714687200,
+          "second": 1714690800
+        },
+        "venue": {
+          "id": 2599,
+          "name": "Wanderers Grounds",
+          "city": "Halifax, Nova Scotia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Preliminary Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2621,
+          "name": "HFX Wanderers FC",
+          "logo": "https://media.api-sports.io/football/teams/2621.png",
+          "winner": false
+        },
+        "away": {
+          "id": 23151,
+          "name": "Saint-Laurent",
+          "logo": "https://media.api-sports.io/football/teams/23151.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1198559,
+        "referee": "R. Villanueva",
+        "timezone": "UTC",
+        "date": "2024-05-07T15:00:00+00:00",
+        "timestamp": 1715094000,
+        "periods": {
+          "first": 1715094000,
+          "second": 1715097600
+        },
+        "venue": {
+          "id": 2602,
+          "name": "Tim Hortons Field",
+          "city": "Hamilton"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3830,
+          "name": "Forge",
+          "logo": "https://media.api-sports.io/football/teams/3830.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1614,
+          "name": "CF Montreal",
+          "logo": "https://media.api-sports.io/football/teams/1614.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197273,
+        "referee": "B. Hoskins",
+        "timezone": "UTC",
+        "date": "2024-05-08T01:00:00+00:00",
+        "timestamp": 1715130000,
+        "periods": {
+          "first": 1715130000,
+          "second": 1715133600
+        },
+        "venue": {
+          "id": 2597,
+          "name": "ATCO Field",
+          "city": "Calgary, Alberta"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2619,
+          "name": "Cavalry FC",
+          "logo": "https://media.api-sports.io/football/teams/2619.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1603,
+          "name": "Vancouver Whitecaps",
+          "logo": "https://media.api-sports.io/football/teams/1603.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1198561,
+        "referee": "M. Beaudoin",
+        "timezone": "UTC",
+        "date": "2024-05-08T23:00:00+00:00",
+        "timestamp": 1715209200,
+        "periods": {
+          "first": 1715209200,
+          "second": 1715212800
+        },
+        "venue": {
+          "id": 7149,
+          "name": "TD Place Stadium",
+          "city": "Ottawa, Ontario"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 10169,
+          "name": "Atlético Ottawa",
+          "logo": "https://media.api-sports.io/football/teams/10169.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2622,
+          "name": "Pacific FC",
+          "logo": "https://media.api-sports.io/football/teams/2622.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1198640,
+        "referee": "M. Venne",
+        "timezone": "UTC",
+        "date": "2024-05-08T23:00:00+00:00",
+        "timestamp": 1715209200,
+        "periods": {
+          "first": 1715209200,
+          "second": 1715212800
+        },
+        "venue": {
+          "id": null,
+          "name": "Complexe sportif Claude-Robillard",
+          "city": "Montreal, Quebec"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23151,
+          "name": "Saint-Laurent",
+          "logo": "https://media.api-sports.io/football/teams/23151.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1601,
+          "name": "Toronto FC",
+          "logo": "https://media.api-sports.io/football/teams/1601.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1198641,
+        "referee": "Y. Rudolf",
+        "timezone": "UTC",
+        "date": "2024-05-21T23:00:00+00:00",
+        "timestamp": 1716332400,
+        "periods": {
+          "first": 1716332400,
+          "second": 1716336000
+        },
+        "venue": {
+          "id": 312,
+          "name": "BMO Field",
+          "city": "Toronto, Ontario"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1601,
+          "name": "Toronto FC",
+          "logo": "https://media.api-sports.io/football/teams/1601.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23151,
+          "name": "Saint-Laurent",
+          "logo": "https://media.api-sports.io/football/teams/23151.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 8,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 8,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197274,
+        "referee": "M. Souaré",
+        "timezone": "UTC",
+        "date": "2024-05-22T02:30:00+00:00",
+        "timestamp": 1716345000,
+        "periods": {
+          "first": 1716345000,
+          "second": 1716348600
+        },
+        "venue": {
+          "id": 19445,
+          "name": "BC Place",
+          "city": "Vancouver, British Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1603,
+          "name": "Vancouver Whitecaps",
+          "logo": "https://media.api-sports.io/football/teams/1603.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2619,
+          "name": "Cavalry FC",
+          "logo": "https://media.api-sports.io/football/teams/2619.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1198560,
+        "referee": "M. Beaudoin",
+        "timezone": "UTC",
+        "date": "2024-05-22T23:30:00+00:00",
+        "timestamp": 1716420600,
+        "periods": {
+          "first": 1716420600,
+          "second": 1716424200
+        },
+        "venue": {
+          "id": 310,
+          "name": "Stade Saputo",
+          "city": "Montreal, Quebec"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1614,
+          "name": "CF Montreal",
+          "logo": "https://media.api-sports.io/football/teams/1614.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3830,
+          "name": "Forge",
+          "logo": "https://media.api-sports.io/football/teams/3830.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1198562,
+        "referee": "P. Lauziere",
+        "timezone": "UTC",
+        "date": "2024-05-30T02:00:00+00:00",
+        "timestamp": 1717034400,
+        "periods": {
+          "first": 1717034400,
+          "second": 1717038000
+        },
+        "venue": {
+          "id": 19444,
+          "name": "Starlight Stadium",
+          "city": "Victoria, British Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2622,
+          "name": "Pacific FC",
+          "logo": "https://media.api-sports.io/football/teams/2622.png",
+          "winner": true
+        },
+        "away": {
+          "id": 10169,
+          "name": "Atlético Ottawa",
+          "logo": "https://media.api-sports.io/football/teams/10169.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205594,
+        "referee": "B. Hoskins",
+        "timezone": "UTC",
+        "date": "2024-07-10T23:00:00+00:00",
+        "timestamp": 1720652400,
+        "periods": {
+          "first": 1720652400,
+          "second": 1720656000
+        },
+        "venue": {
+          "id": 2602,
+          "name": "Tim Hortons Field",
+          "city": "Hamilton"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3830,
+          "name": "Forge",
+          "logo": "https://media.api-sports.io/football/teams/3830.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1601,
+          "name": "Toronto FC",
+          "logo": "https://media.api-sports.io/football/teams/1601.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205596,
+        "referee": "R. Villanueva",
+        "timezone": "UTC",
+        "date": "2024-07-11T02:00:00+00:00",
+        "timestamp": 1720663200,
+        "periods": {
+          "first": 1720663200,
+          "second": 1720666800
+        },
+        "venue": {
+          "id": 19444,
+          "name": "Starlight Stadium",
+          "city": "Victoria, British Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2622,
+          "name": "Pacific FC",
+          "logo": "https://media.api-sports.io/football/teams/2622.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1603,
+          "name": "Vancouver Whitecaps",
+          "logo": "https://media.api-sports.io/football/teams/1603.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205595,
+        "referee": "R. Villanueva",
+        "timezone": "UTC",
+        "date": "2024-08-27T23:00:00+00:00",
+        "timestamp": 1724799600,
+        "periods": {
+          "first": 1724799600,
+          "second": 1724803200
+        },
+        "venue": {
+          "id": 312,
+          "name": "BMO Field",
+          "city": "Toronto, Ontario"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1601,
+          "name": "Toronto FC",
+          "logo": "https://media.api-sports.io/football/teams/1601.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3830,
+          "name": "Forge",
+          "logo": "https://media.api-sports.io/football/teams/3830.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205597,
+        "referee": "M. Venne",
+        "timezone": "UTC",
+        "date": "2024-08-28T02:30:00+00:00",
+        "timestamp": 1724812200,
+        "periods": {
+          "first": 1724812200,
+          "second": 1724815800
+        },
+        "venue": {
+          "id": 19445,
+          "name": "BC Place",
+          "city": "Vancouver, British Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1603,
+          "name": "Vancouver Whitecaps",
+          "logo": "https://media.api-sports.io/football/teams/1603.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2622,
+          "name": "Pacific FC",
+          "logo": "https://media.api-sports.io/football/teams/2622.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1297994,
+        "referee": "M. Beaudoin",
+        "timezone": "UTC",
+        "date": "2024-09-26T02:00:00+00:00",
+        "timestamp": 1727316000,
+        "periods": {
+          "first": 1727316000,
+          "second": 1727319600
+        },
+        "venue": {
+          "id": 19445,
+          "name": "BC Place",
+          "city": "Vancouver, British Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 259,
+        "name": "Canadian Championship",
+        "country": "Canada",
+        "logo": "https://media.api-sports.io/football/leagues/259.png",
+        "flag": "https://media.api-sports.io/flags/ca.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1603,
+          "name": "Vancouver Whitecaps",
+          "logo": "https://media.api-sports.io/football/teams/1603.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1601,
+          "name": "Toronto FC",
+          "logo": "https://media.api-sports.io/football/teams/1601.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 2
+        }
+      }
+    }
+  ]
+}

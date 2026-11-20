@@ -2956,7 +2956,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -3194,7 +3194,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -3560,7 +3560,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -5926,7 +5926,7 @@
       },
       {
         "year": 2026,
-        "start": "2026-07-25",
+        "start": "2026-07-24",
         "end": "2027-06-03",
         "current": true
       }
@@ -6678,7 +6678,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -7757,7 +7757,7 @@
       {
         "year": 2026,
         "start": "2026-10-31",
-        "end": "2026-11-28",
+        "end": "2026-11-29",
         "current": true
       }
     ],
@@ -8814,7 +8814,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -14332,7 +14332,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -15138,7 +15138,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -15878,7 +15878,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -15994,7 +15994,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -28101,7 +28101,7 @@
     "coverage": {
       "fixtures": {
         "events": true,
-        "lineups": false,
+        "lineups": true,
         "statistics_fixtures": false,
         "statistics_players": false
       },
@@ -29996,7 +29996,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -30548,7 +30548,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -33246,7 +33246,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -33332,7 +33332,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -35222,7 +35222,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -38915,7 +38915,7 @@
       {
         "year": 2026,
         "start": "2026-07-31",
-        "end": "2026-11-15",
+        "end": "2026-11-24",
         "current": true
       }
     ],
@@ -39396,7 +39396,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -55682,7 +55682,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -57460,7 +57460,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": true
+      "odds": false
     }
   },
   {
@@ -59600,7 +59600,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -62062,7 +62062,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
@@ -71614,7 +71614,7 @@
       "top_cards": true,
       "injuries": false,
       "predictions": true,
-      "odds": true
+      "odds": false
     }
   },
   {
@@ -82121,7 +82121,7 @@
       {
         "year": 2026,
         "start": "2026-10-22",
-        "end": "2026-11-19",
+        "end": "2026-11-28",
         "current": true
       }
     ],
@@ -84298,7 +84298,7 @@
       "top_cards": false,
       "injuries": false,
       "predictions": true,
-      "odds": false
+      "odds": true
     }
   },
   {
