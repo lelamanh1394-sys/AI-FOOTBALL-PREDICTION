@@ -1,6 +1,6 @@
 {
   "engine": "AI Football Prediction V3.3.1",
-  "created_at": "2026-11-20T09:43:50.703209+07:00",
+  "created_at": "2026-11-20T21:47:10.519257+07:00",
   "source_file": "data/public_odds/2026-11-20/latest.json",
   "source_engine": "AI FOOTBALL PREDICTION V3.4.4.3",
   "source": "API-FOOTBALL",
@@ -11,25 +11,186 @@
   },
   "summary": {
     "total_odds_records": 30,
-    "upcoming_matches_with_odds": 26,
-    "selected_for_research": 20,
+    "upcoming_matches_with_odds": 7,
+    "selected_for_research": 7,
     "independent_model_ready": false,
     "betting_recommendations": 0
   },
   "diagnostics": {
     "total_odds_records": 30,
-    "not_upcoming": 4,
-    "invalid_status": 4,
+    "not_upcoming": 23,
+    "invalid_status": 23,
     "missing_timestamp": 0,
     "kickoff_passed": 0,
     "invalid_timestamp": 0,
     "missing_fixture_info": 0,
     "no_valid_1x2_market": 0,
     "below_minimum_bookmakers": 0,
-    "qualified_matches": 26
+    "qualified_matches": 7
   },
   "important_notice": "Bookmaker market consensus is not an independent AI prediction. No positive expected value is claimed.",
   "matches": [
+    {
+      "fixture_id": 1559008,
+      "kickoff": "2026-11-20T23:00:00+07:00",
+      "league": "2. SNL",
+      "country": "Slovenia",
+      "home_team": "Dravinja",
+      "away_team": "Ilirija",
+      "bookmaker_count": 10,
+      "bookmakers": [
+        {
+          "name": "William Hill",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.3,
+            "away": 2.3
+          },
+          "market_probabilities": {
+            "home": 0.3515516442797591,
+            "draw": 0.26632700324224173,
+            "away": 0.38212135247799905
+          }
+        },
+        {
+          "name": "Bet365",
+          "odds": {
+            "home": 2.55,
+            "draw": 3.5,
+            "away": 2.3
+          },
+          "market_probabilities": {
+            "home": 0.35245183887915943,
+            "draw": 0.25678633975481613,
+            "away": 0.39076182136602455
+          }
+        },
+        {
+          "name": "Marathonbet",
+          "odds": {
+            "home": 2.53,
+            "draw": 3.44,
+            "away": 2.29
+          },
+          "market_probabilities": {
+            "home": 0.35207937607544304,
+            "draw": 0.258942099264788,
+            "away": 0.3889785246597689
+          }
+        },
+        {
+          "name": "Betfair",
+          "odds": {
+            "home": 2.63,
+            "draw": 3.5,
+            "away": 2.3
+          },
+          "market_probabilities": {
+            "home": 0.34543426021283896,
+            "draw": 0.259569172674219,
+            "away": 0.39499656711294195
+          }
+        },
+        {
+          "name": "BetVictor",
+          "odds": {
+            "home": 2.38,
+            "draw": 3.1,
+            "away": 2.2
+          },
+          "market_probabilities": {
+            "home": 0.35093135741483994,
+            "draw": 0.2694247195636513,
+            "away": 0.3796439230215087
+          }
+        },
+        {
+          "name": "Pinnacle",
+          "odds": {
+            "home": 2.52,
+            "draw": 3.49,
+            "away": 2.3
+          },
+          "market_probabilities": {
+            "home": 0.35489747013414213,
+            "draw": 0.25625834519714563,
+            "away": 0.3888441846687123
+          }
+        },
+        {
+          "name": "SBO",
+          "odds": {
+            "home": 2.48,
+            "draw": 3.02,
+            "away": 2.24
+          },
+          "market_probabilities": {
+            "home": 0.3414909942654067,
+            "draw": 0.280429690655036,
+            "away": 0.3780793150795574
+          }
+        },
+        {
+          "name": "1xBet",
+          "odds": {
+            "home": 2.53,
+            "draw": 3.44,
+            "away": 2.29
+          },
+          "market_probabilities": {
+            "home": 0.35207937607544304,
+            "draw": 0.258942099264788,
+            "away": 0.3889785246597689
+          }
+        },
+        {
+          "name": "Betano",
+          "odds": {
+            "home": 2.65,
+            "draw": 3.45,
+            "away": 2.37
+          },
+          "market_probabilities": {
+            "home": 0.3464692048560351,
+            "draw": 0.26612851967202694,
+            "away": 0.3874022754719379
+          }
+        },
+        {
+          "name": "Dafabet",
+          "odds": {
+            "home": 2.65,
+            "draw": 3.55,
+            "away": 2.38
+          },
+          "market_probabilities": {
+            "home": 0.3496596105696609,
+            "draw": 0.26101351211538065,
+            "away": 0.3893268773149585
+          }
+        }
+      ],
+      "best_available_odds": {
+        "home": 2.65,
+        "draw": 3.55,
+        "away": 2.38
+      },
+      "market_consensus_no_margin": {
+        "home": 0.3497,
+        "draw": 0.2634,
+        "away": 0.3869
+      },
+      "market_dispersion": {
+        "home": 0.0038,
+        "draw": 0.0071,
+        "away": 0.005
+      },
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
+      "model_probability": null,
+      "expected_value": null,
+      "recommendation": "RESEARCH_ONLY",
+      "reason": "Independent probability model has not yet been validated."
+    },
     {
       "fixture_id": 1551149,
       "kickoff": "2026-11-20T23:00:00+07:00",
@@ -42,794 +203,150 @@
         {
           "name": "William Hill",
           "odds": {
-            "home": 2.3,
+            "home": 2.45,
             "draw": 2.9,
-            "away": 2.9
+            "away": 2.75
           },
           "market_probabilities": {
-            "home": 0.38666666666666666,
-            "draw": 0.30666666666666664,
-            "away": 0.30666666666666664
+            "home": 0.36553225621634006,
+            "draw": 0.3088117337000115,
+            "away": 0.3256560100836485
           }
         },
         {
           "name": "Bet365",
           "odds": {
-            "home": 2.4,
+            "home": 2.5,
             "draw": 3.2,
-            "away": 3.0
+            "away": 2.88
           },
           "market_probabilities": {
-            "home": 0.39215686274509803,
-            "draw": 0.29411764705882354,
-            "away": 0.3137254901960784
+            "home": 0.3774574049803408,
+            "draw": 0.2948885976408912,
+            "away": 0.327653997378768
           }
         },
         {
           "name": "Marathonbet",
           "odds": {
-            "home": 2.39,
-            "draw": 3.06,
+            "home": 2.59,
+            "draw": 2.96,
+            "away": 2.76
+          },
+          "market_probabilities": {
+            "home": 0.3554410817772054,
+            "draw": 0.31101094655505473,
+            "away": 0.3335479716677399
+          }
+        },
+        {
+          "name": "Betfair",
+          "odds": {
+            "home": 2.45,
+            "draw": 2.9,
+            "away": 2.8
+          },
+          "market_probabilities": {
+            "home": 0.3676703645007923,
+            "draw": 0.31061806656101426,
+            "away": 0.3217115689381933
+          }
+        },
+        {
+          "name": "BetVictor",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.0,
+            "away": 2.8
+          },
+          "market_probabilities": {
+            "home": 0.3668122270742358,
+            "draw": 0.30567685589519644,
+            "away": 0.32751091703056767
+          }
+        },
+        {
+          "name": "Pinnacle",
+          "odds": {
+            "home": 2.63,
+            "draw": 3.11,
             "away": 2.93
           },
           "market_probabilities": {
-            "home": 0.38509743620580794,
-            "draw": 0.30077871651368665,
-            "away": 0.31412384728050546
+            "home": 0.36452845284528457,
+            "draw": 0.30826682668266825,
+            "away": 0.3272047204720472
           }
         },
         {
-          "name": "Betfair",
+          "name": "SBO",
           "odds": {
-            "home": 2.4,
-            "draw": 3.0,
-            "away": 2.88
+            "home": 2.31,
+            "draw": 2.85,
+            "away": 2.73
           },
           "market_probabilities": {
-            "home": 0.37974683544303794,
-            "draw": 0.30379746835443033,
-            "away": 0.3164556962025316
+            "home": 0.37640963120999693,
+            "draw": 0.3050899116123133,
+            "away": 0.3185004571776897
           }
         },
         {
-          "name": "BetVictor",
+          "name": "1xBet",
           "odds": {
-            "home": 2.4,
+            "home": 2.59,
+            "draw": 2.96,
+            "away": 2.76
+          },
+          "market_probabilities": {
+            "home": 0.3554410817772054,
+            "draw": 0.31101094655505473,
+            "away": 0.3335479716677399
+          }
+        },
+        {
+          "name": "Betano",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.05,
+            "away": 2.85
+          },
+          "market_probabilities": {
+            "home": 0.37080089580889414,
+            "draw": 0.3039351604990935,
+            "away": 0.32526394369201234
+          }
+        },
+        {
+          "name": "Dafabet",
+          "odds": {
+            "home": 2.55,
             "draw": 3.1,
-            "away": 2.88
+            "away": 2.85
           },
           "market_probabilities": {
-            "home": 0.3835051546391752,
-            "draw": 0.2969072164948453,
-            "away": 0.31958762886597936
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 2.51,
-            "draw": 3.13,
-            "away": 3.02
-          },
-          "market_probabilities": {
-            "home": 0.37978874286334174,
-            "draw": 0.3045590238297085,
-            "away": 0.3156522333069496
-          }
-        },
-        {
-          "name": "SBO",
-          "odds": {
-            "home": 2.26,
-            "draw": 2.8,
-            "away": 2.69
-          },
-          "market_probabilities": {
-            "home": 0.37774456603508627,
-            "draw": 0.3048938282997482,
-            "away": 0.3173616056651654
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 2.41,
-            "draw": 3.06,
-            "away": 2.96
-          },
-          "market_probabilities": {
-            "home": 0.38435359716198897,
-            "draw": 0.302709859202743,
-            "away": 0.31293654363526807
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 2.37,
-            "draw": 3.15,
-            "away": 2.92
-          },
-          "market_probabilities": {
-            "home": 0.39001183010443563,
-            "draw": 0.2934374721738135,
-            "away": 0.3165506977217509
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 2.4,
-            "draw": 3.2,
-            "away": 2.95
-          },
-          "market_probabilities": {
-            "home": 0.39008264462809916,
-            "draw": 0.29256198347107437,
-            "away": 0.3173553719008264
+            "home": 0.3680099968759763,
+            "draw": 0.302717900656045,
+            "away": 0.3292721024679787
           }
         }
       ],
       "best_available_odds": {
-        "home": 2.51,
+        "home": 2.63,
         "draw": 3.2,
-        "away": 3.02
+        "away": 2.93
       },
       "market_consensus_no_margin": {
-        "home": 0.3849,
-        "draw": 0.3,
-        "away": 0.315
+        "home": 0.3668,
+        "draw": 0.3062,
+        "away": 0.327
       },
       "market_dispersion": {
-        "home": 0.0046,
-        "draw": 0.005,
-        "away": 0.0034
+        "home": 0.007,
+        "draw": 0.0047,
+        "away": 0.0044
       },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1556143,
-      "kickoff": "2026-11-20T17:00:00+07:00",
-      "league": "J1 League",
-      "country": "Japan",
-      "home_team": "Kashima",
-      "away_team": "Shimizu S-pulse",
-      "bookmaker_count": 10,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.0,
-            "away": 5.8
-          },
-          "market_probabilities": {
-            "home": 0.6121372031662269,
-            "draw": 0.2295514511873351,
-            "away": 0.158311345646438
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.45,
-            "draw": 4.5,
-            "away": 6.0
-          },
-          "market_probabilities": {
-            "home": 0.6394316163410302,
-            "draw": 0.20603907637655416,
-            "away": 0.15452930728241562
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.48,
-            "draw": 4.25,
-            "away": 6.1
-          },
-          "market_probabilities": {
-            "home": 0.6285915185607255,
-            "draw": 0.21889775234585263,
-            "away": 0.15251072909342192
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.47,
-            "draw": 4.33,
-            "away": 6.0
-          },
-          "market_probabilities": {
-            "home": 0.6311171356318823,
-            "draw": 0.21425916613830648,
-            "away": 0.15462369822981117
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 1.45,
-            "draw": 4.33,
-            "away": 6.5
-          },
-          "market_probabilities": {
-            "home": 0.6418691631412705,
-            "draw": 0.2149446389272153,
-            "away": 0.1431861979315142
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.52,
-            "draw": 4.48,
-            "away": 6.52
-          },
-          "market_probabilities": {
-            "home": 0.6359646067024316,
-            "draw": 0.21577370584546784,
-            "away": 0.1482616874521006
-          }
-        },
-        {
-          "name": "SBO",
-          "odds": {
-            "home": 1.43,
-            "draw": 3.89,
-            "away": 5.8
-          },
-          "market_probabilities": {
-            "home": 0.6195168965394152,
-            "draw": 0.22774014448621172,
-            "away": 0.15274295897437307
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.52,
-            "draw": 4.36,
-            "away": 6.26
-          },
-          "market_probabilities": {
-            "home": 0.6283635693894465,
-            "draw": 0.21906252877797217,
-            "away": 0.15257390183258124
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.2,
-            "away": 6.1
-          },
-          "market_probabilities": {
-            "home": 0.6238130021913806,
-            "draw": 0.22279035792549307,
-            "away": 0.1533966398831264
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.5,
-            "away": 6.4
-          },
-          "market_probabilities": {
-            "home": 0.6378737541528239,
-            "draw": 0.21262458471760798,
-            "away": 0.14950166112956811
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.52,
-        "draw": 4.5,
-        "away": 6.52
-      },
-      "market_consensus_no_margin": {
-        "home": 0.6299,
-        "draw": 0.2182,
-        "away": 0.152
-      },
-      "market_dispersion": {
-        "home": 0.0089,
-        "draw": 0.0067,
-        "away": 0.0039
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1556144,
-      "kickoff": "2026-11-20T17:00:00+07:00",
-      "league": "J1 League",
-      "country": "Japan",
-      "home_team": "Kashiwa Reysol",
-      "away_team": "JEF United Chiba",
-      "bookmaker_count": 10,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 1.44,
-            "draw": 4.33,
-            "away": 5.5
-          },
-          "market_probabilities": {
-            "home": 0.6272023850282591,
-            "draw": 0.20858462689161503,
-            "away": 0.16421298808012602
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.33,
-            "away": 5.75
-          },
-          "market_probabilities": {
-            "home": 0.6221653026800774,
-            "draw": 0.21553070531642404,
-            "away": 0.16230399200349846
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.47,
-            "draw": 4.45,
-            "away": 5.9
-          },
-          "market_probabilities": {
-            "home": 0.6331159044599043,
-            "draw": 0.20914165832720433,
-            "away": 0.1577424372128914
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.47,
-            "draw": 4.5,
-            "away": 5.5
-          },
-          "market_probabilities": {
-            "home": 0.6273764258555132,
-            "draw": 0.20494296577946766,
-            "away": 0.16768060836501902
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 1.45,
-            "draw": 4.5,
-            "away": 6.0
-          },
-          "market_probabilities": {
-            "home": 0.6394316163410302,
-            "draw": 0.20603907637655416,
-            "away": 0.15452930728241562
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.51,
-            "draw": 4.81,
-            "away": 6.15
-          },
-          "market_probabilities": {
-            "home": 0.6412485286498696,
-            "draw": 0.20130671065723557,
-            "away": 0.15744476069289481
-          }
-        },
-        {
-          "name": "SBO",
-          "odds": {
-            "home": 1.44,
-            "draw": 4.07,
-            "away": 5.42
-          },
-          "market_probabilities": {
-            "home": 0.6174779566130161,
-            "draw": 0.21846885934219734,
-            "away": 0.16405318404478658
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.51,
-            "draw": 4.57,
-            "away": 6.05
-          },
-          "market_probabilities": {
-            "home": 0.6329103782331115,
-            "draw": 0.2091235604227567,
-            "away": 0.15796606134413194
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.52,
-            "draw": 4.25,
-            "away": 5.8
-          },
-          "market_probabilities": {
-            "home": 0.6173921755247207,
-            "draw": 0.22080849571707653,
-            "away": 0.16179932875820266
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.56,
-            "draw": 4.5,
-            "away": 5.6
-          },
-          "market_probabilities": {
-            "home": 0.6152944623498389,
-            "draw": 0.21330208028127748,
-            "away": 0.1714034573688837
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.56,
-        "draw": 4.81,
-        "away": 6.15
-      },
-      "market_consensus_no_margin": {
-        "home": 0.6274,
-        "draw": 0.2107,
-        "away": 0.1619
-      },
-      "market_dispersion": {
-        "home": 0.0088,
-        "draw": 0.0059,
-        "away": 0.0049
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1556150,
-      "kickoff": "2026-11-20T17:00:00+07:00",
-      "league": "J1 League",
-      "country": "Japan",
-      "home_team": "Vissel Kobe",
-      "away_team": "Mito Hollyhock",
-      "bookmaker_count": 10,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.4,
-            "away": 7.5
-          },
-          "market_probabilities": {
-            "home": 0.6709499024072868,
-            "draw": 0.20738451528952503,
-            "away": 0.12166558230318802
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.5,
-            "away": 7.5
-          },
-          "market_probabilities": {
-            "home": 0.6676557863501484,
-            "draw": 0.20771513353115725,
-            "away": 0.12462908011869436
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.38,
-            "draw": 4.55,
-            "away": 7.7
-          },
-          "market_probabilities": {
-            "home": 0.6745283018867926,
-            "draw": 0.2045822102425876,
-            "away": 0.12088948787061993
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.6,
-            "away": 7.0
-          },
-          "market_probabilities": {
-            "home": 0.6711689177922295,
-            "draw": 0.19843254960813744,
-            "away": 0.13039853259963316
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.4,
-            "away": 7.5
-          },
-          "market_probabilities": {
-            "home": 0.6645187273459524,
-            "draw": 0.21143777688280302,
-            "away": 0.12404349577124445
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.86,
-            "away": 8.48
-          },
-          "market_probabilities": {
-            "home": 0.6881553813066885,
-            "draw": 0.19823406045871683,
-            "away": 0.11361055823459479
-          }
-        },
-        {
-          "name": "SBO",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.12,
-            "away": 6.66
-          },
-          "market_probabilities": {
-            "home": 0.6517624703087886,
-            "draw": 0.21514489311163898,
-            "away": 0.13309263657957246
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.42,
-            "draw": 4.66,
-            "away": 7.9
-          },
-          "market_probabilities": {
-            "home": 0.6736420661235664,
-            "draw": 0.20527290426941291,
-            "away": 0.12108502960702075
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.42,
-            "draw": 4.45,
-            "away": 7.1
-          },
-          "market_probabilities": {
-            "home": 0.658284023668639,
-            "draw": 0.21005917159763313,
-            "away": 0.13165680473372782
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.44,
-            "draw": 4.8,
-            "away": 7.4
-          },
-          "market_probabilities": {
-            "home": 0.6690777576853526,
-            "draw": 0.20072332730560577,
-            "away": 0.13019891500904157
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.44,
-        "draw": 4.86,
-        "away": 8.48
-      },
-      "market_consensus_no_margin": {
-        "home": 0.669,
-        "draw": 0.2059,
-        "away": 0.1251
-      },
-      "market_dispersion": {
-        "home": 0.0093,
-        "draw": 0.0053,
-        "away": 0.0058
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1565308,
-      "kickoff": "2026-11-20T22:30:00+07:00",
-      "league": "Liga I",
-      "country": "Romania",
-      "home_team": "FC Botosani",
-      "away_team": "FC Voluntari",
-      "bookmaker_count": 10,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 1.7,
-            "draw": 3.75,
-            "away": 4.33
-          },
-          "market_probabilities": {
-            "home": 0.5417285268653977,
-            "draw": 0.24558359884564696,
-            "away": 0.21268787428895522
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.67,
-            "draw": 3.75,
-            "away": 4.33
-          },
-          "market_probabilities": {
-            "home": 0.5461452822129017,
-            "draw": 0.24321669901214552,
-            "away": 0.2106380187749528
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.66,
-            "draw": 3.84,
-            "away": 4.5
-          },
-          "market_probabilities": {
-            "home": 0.5551914253768748,
-            "draw": 0.24000462659521152,
-            "away": 0.2048039480279138
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.67,
-            "draw": 4.0,
-            "away": 4.5
-          },
-          "market_probabilities": {
-            "home": 0.5590930268675262,
-            "draw": 0.23342133871719212,
-            "away": 0.20748563441528187
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 1.65,
-            "draw": 3.8,
-            "away": 4.33
-          },
-          "market_probabilities": {
-            "home": 0.5508813633091718,
-            "draw": 0.2391984867000351,
-            "away": 0.20992014999079295
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.67,
-            "draw": 4.05,
-            "away": 4.83
-          },
-          "market_probabilities": {
-            "home": 0.5687954150928584,
-            "draw": 0.23454033165557367,
-            "away": 0.19666425325156794
-          }
-        },
-        {
-          "name": "SBO",
-          "odds": {
-            "home": 1.67,
-            "draw": 3.33,
-            "away": 3.73
-          },
-          "market_probabilities": {
-            "home": 0.5130250174506734,
-            "draw": 0.2572828165593467,
-            "away": 0.2296921659899798
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.68,
-            "draw": 3.84,
-            "away": 4.49
-          },
-          "market_probabilities": {
-            "home": 0.5519784863618902,
-            "draw": 0.24149058778332694,
-            "away": 0.20653092585478294
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.7,
-            "draw": 3.75,
-            "away": 4.5
-          },
-          "market_probabilities": {
-            "home": 0.5461165048543689,
-            "draw": 0.24757281553398053,
-            "away": 0.20631067961165045
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.73,
-            "draw": 3.8,
-            "away": 4.4
-          },
-          "market_probabilities": {
-            "home": 0.5409952759981881,
-            "draw": 0.24629521775706978,
-            "away": 0.21270950624474208
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.73,
-        "draw": 4.05,
-        "away": 4.83
-      },
-      "market_consensus_no_margin": {
-        "home": 0.5474,
-        "draw": 0.2429,
-        "away": 0.2097
-      },
-      "market_dispersion": {
-        "home": 0.014,
-        "draw": 0.0066,
-        "away": 0.008
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
       "model_probability": null,
       "expected_value": null,
       "recommendation": "RESEARCH_ONLY",
@@ -842,19 +359,19 @@
       "country": "Czech-Republic",
       "home_team": "Táborsko",
       "away_team": "Slavia Praha II",
-      "bookmaker_count": 9,
+      "bookmaker_count": 10,
       "bookmakers": [
         {
           "name": "William Hill",
           "odds": {
-            "home": 1.91,
-            "draw": 3.4,
-            "away": 3.4
+            "home": 2.05,
+            "draw": 3.3,
+            "away": 3.1
           },
           "market_probabilities": {
-            "home": 0.4709141274238227,
-            "draw": 0.26454293628808867,
-            "away": 0.26454293628808867
+            "home": 0.4381156316916488,
+            "draw": 0.2721627408993576,
+            "away": 0.28972162740899354
           }
         },
         {
@@ -873,1030 +390,124 @@
         {
           "name": "Marathonbet",
           "odds": {
-            "home": 1.84,
-            "draw": 3.62,
-            "away": 3.3
+            "home": 1.9,
+            "draw": 3.58,
+            "away": 3.16
           },
           "market_probabilities": {
-            "home": 0.4840591925053082,
-            "draw": 0.24604113652203516,
-            "away": 0.2698996709726567
+            "home": 0.4690448944391927,
+            "draw": 0.24893444118281177,
+            "away": 0.2820206643779956
           }
         },
         {
           "name": "Betfair",
           "odds": {
-            "home": 1.87,
-            "draw": 3.6,
-            "away": 3.4
-          },
-          "market_probabilities": {
-            "home": 0.4832214765100671,
-            "draw": 0.251006711409396,
-            "away": 0.26577181208053696
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 1.85,
-            "draw": 3.7,
-            "away": 3.5
-          },
-          "market_probabilities": {
-            "home": 0.49295774647887314,
-            "draw": 0.24647887323943657,
-            "away": 0.2605633802816901
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.89,
-            "draw": 3.69,
-            "away": 3.5
-          },
-          "market_probabilities": {
-            "home": 0.48728309959591154,
-            "draw": 0.24958402662229615,
-            "away": 0.2631328737817922
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.86,
-            "draw": 3.62,
-            "away": 3.38
-          },
-          "market_probabilities": {
-            "home": 0.4844707708389427,
-            "draw": 0.24892697065205344,
-            "away": 0.266602258509004
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
             "home": 1.95,
-            "draw": 3.65,
-            "away": 3.4
-          },
-          "market_probabilities": {
-            "home": 0.4744337188186945,
-            "draw": 0.25346458950587786,
-            "away": 0.2721016916754277
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.95,
-            "draw": 3.7,
-            "away": 3.5
-          },
-          "market_probabilities": {
-            "home": 0.479807336050389,
-            "draw": 0.25287143386439415,
-            "away": 0.2673212300852167
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.95,
-        "draw": 3.7,
-        "away": 3.5
-      },
-      "market_consensus_no_margin": {
-        "home": 0.4808,
-        "draw": 0.252,
-        "away": 0.2672
-      },
-      "market_dispersion": {
-        "home": 0.0073,
-        "draw": 0.0053,
-        "away": 0.0042
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1561738,
-      "kickoff": "2026-11-20T18:30:00+07:00",
-      "league": "II Liga - East",
-      "country": "Poland",
-      "home_team": "Świt Skolwin",
-      "away_team": "Stal Stalowa Wola",
-      "bookmaker_count": 9,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 2.88,
-            "draw": 3.2,
-            "away": 2.15
-          },
-          "market_probabilities": {
-            "home": 0.30868628858578606,
-            "draw": 0.27781765972720746,
-            "away": 0.4134960516870064
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 2.75,
-            "draw": 3.6,
-            "away": 2.1
-          },
-          "market_probabilities": {
-            "home": 0.32537120723047125,
-            "draw": 0.2485474499677211,
-            "away": 0.42608134280180754
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 2.8,
-            "draw": 3.38,
-            "away": 2.13
-          },
-          "market_probabilities": {
-            "home": 0.3181717740438584,
-            "draw": 0.26357425068721996,
-            "away": 0.4182539752689218
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 2.8,
             "draw": 3.5,
-            "away": 2.15
-          },
-          "market_probabilities": {
-            "home": 0.3223388305847077,
-            "draw": 0.25787106446776614,
-            "away": 0.4197901049475263
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 2.55,
-            "draw": 3.2,
-            "away": 2.0
-          },
-          "market_probabilities": {
-            "home": 0.3255340793489319,
-            "draw": 0.25940996948118006,
-            "away": 0.41505595116988814
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 2.85,
-            "draw": 3.48,
-            "away": 2.24
-          },
-          "market_probabilities": {
-            "home": 0.3234898660425278,
-            "draw": 0.26492704546586326,
-            "away": 0.41158308849160896
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 2.87,
-            "draw": 3.38,
-            "away": 2.15
-          },
-          "market_probabilities": {
-            "home": 0.31407073182326983,
-            "draw": 0.2666813610452025,
-            "away": 0.41924790713152765
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 2.82,
-            "draw": 3.4,
-            "away": 2.27
-          },
-          "market_probabilities": {
-            "home": 0.32555235917899056,
-            "draw": 0.2700169567308098,
-            "away": 0.40443068409019967
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 2.9,
-            "draw": 3.6,
-            "away": 2.19
-          },
-          "market_probabilities": {
-            "home": 0.31951367781155016,
-            "draw": 0.25738601823708207,
-            "away": 0.4231003039513678
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 2.9,
-        "draw": 3.6,
-        "away": 2.27
-      },
-      "market_consensus_no_margin": {
-        "home": 0.3203,
-        "draw": 0.2629,
-        "away": 0.4168
-      },
-      "market_dispersion": {
-        "home": 0.0055,
-        "draw": 0.0079,
-        "away": 0.0061
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1516189,
-      "kickoff": "2026-11-20T20:30:00+07:00",
-      "league": "Super League",
-      "country": "Uzbekistan",
-      "home_team": "Navbahor",
-      "away_team": "Neftchi",
-      "bookmaker_count": 9,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 2.4,
-            "draw": 2.9,
-            "away": 2.7
-          },
-          "market_probabilities": {
-            "home": 0.3681241184767278,
-            "draw": 0.304654442877292,
-            "away": 0.32722143864598024
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 2.25,
-            "draw": 3.3,
-            "away": 2.75
-          },
-          "market_probabilities": {
-            "home": 0.39999999999999997,
-            "draw": 0.2727272727272727,
-            "away": 0.32727272727272727
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 2.22,
-            "draw": 3.22,
-            "away": 2.77
-          },
-          "market_probabilities": {
-            "home": 0.40146373080316144,
-            "draw": 0.2767855535350989,
-            "away": 0.3217507156617396
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 2.4,
-            "draw": 2.88,
-            "away": 2.9
-          },
-          "market_probabilities": {
-            "home": 0.37580993520518363,
-            "draw": 0.31317494600431967,
-            "away": 0.3110151187904968
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 2.3,
-            "draw": 3.25,
-            "away": 2.8
-          },
-          "market_probabilities": {
-            "home": 0.39539430805996095,
-            "draw": 0.279817510319357,
-            "away": 0.3247881816206822
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 2.48,
-            "draw": 2.81,
             "away": 3.2
           },
           "market_probabilities": {
-            "home": 0.3762846908372669,
-            "draw": 0.3320946737638512,
-            "away": 0.29162063539888183
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 2.34,
-            "draw": 3.38,
-            "away": 2.89
-          },
-          "market_probabilities": {
-            "home": 0.39968085106382983,
-            "draw": 0.27670212765957447,
-            "away": 0.32361702127659575
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 2.37,
-            "draw": 2.95,
-            "away": 3.0
-          },
-          "market_probabilities": {
-            "home": 0.38559571269851645,
-            "draw": 0.3097836742696556,
-            "away": 0.304620613031828
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 2.34,
-            "draw": 3.1,
-            "away": 2.85
-          },
-          "market_probabilities": {
-            "home": 0.3882151331399948,
-            "draw": 0.2930398101766412,
-            "away": 0.3187450566833641
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 2.48,
-        "draw": 3.38,
-        "away": 3.2
-      },
-      "market_consensus_no_margin": {
-        "home": 0.3878,
-        "draw": 0.2954,
-        "away": 0.3167
-      },
-      "market_dispersion": {
-        "home": 0.0116,
-        "draw": 0.0195,
-        "away": 0.0114
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1516190,
-      "kickoff": "2026-11-20T19:00:00+07:00",
-      "league": "Super League",
-      "country": "Uzbekistan",
-      "home_team": "Olmaliq",
-      "away_team": "Qizilqum",
-      "bookmaker_count": 8,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 1.75,
-            "draw": 3.4,
-            "away": 3.8
-          },
-          "market_probabilities": {
-            "home": 0.5062695924764891,
-            "draw": 0.26057993730407525,
-            "away": 0.23315047021943572
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.7,
-            "draw": 3.58,
-            "away": 3.92
-          },
-          "market_probabilities": {
-            "home": 0.5239624247673951,
-            "draw": 0.24880897265490823,
-            "away": 0.22722860257769684
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.75,
-            "draw": 3.6,
-            "away": 4.0
-          },
-          "market_probabilities": {
-            "home": 0.51985559566787,
-            "draw": 0.2527075812274368,
-            "away": 0.22743682310469313
+            "home": 0.4615701627859057,
+            "draw": 0.25716051926643313,
+            "away": 0.28126931794766125
           }
         },
         {
           "name": "BetVictor",
           "odds": {
-            "home": 1.7,
-            "draw": 3.7,
-            "away": 4.2
+            "home": 1.95,
+            "draw": 3.6,
+            "away": 3.25
           },
           "market_probabilities": {
-            "home": 0.536416983085951,
-            "draw": 0.24646185709354498,
-            "away": 0.21712115982050395
+            "home": 0.4669260700389105,
+            "draw": 0.2529182879377432,
+            "away": 0.2801556420233463
           }
         },
         {
           "name": "Pinnacle",
           "odds": {
-            "home": 1.78,
-            "draw": 3.7,
-            "away": 4.16
+            "home": 2.06,
+            "draw": 3.54,
+            "away": 3.15
           },
           "market_probabilities": {
-            "home": 0.5238438814544564,
-            "draw": 0.2520113808078195,
-            "away": 0.2241447377377241
+            "home": 0.4472493622755932,
+            "draw": 0.26026375318862205,
+            "away": 0.29248688453578475
+          }
+        },
+        {
+          "name": "SBO",
+          "odds": {
+            "home": 1.92,
+            "draw": 3.24,
+            "away": 3.13
+          },
+          "market_probabilities": {
+            "home": 0.4533068712117149,
+            "draw": 0.2686262940513866,
+            "away": 0.2780668347368986
           }
         },
         {
           "name": "1xBet",
           "odds": {
-            "home": 1.78,
-            "draw": 3.76,
-            "away": 4.12
+            "home": 1.92,
+            "draw": 3.58,
+            "away": 3.24
           },
           "market_probabilities": {
-            "home": 0.5248123153643928,
-            "draw": 0.24844838333739866,
-            "away": 0.2267393012982085
+            "home": 0.4697249489746331,
+            "draw": 0.2519195257070658,
+            "away": 0.2783555253183011
           }
         },
         {
           "name": "Betano",
           "odds": {
-            "home": 1.78,
-            "draw": 3.65,
-            "away": 3.95
+            "home": 2.02,
+            "draw": 3.55,
+            "away": 3.25
           },
           "market_probabilities": {
-            "home": 0.515914905798787,
-            "draw": 0.2515968581703673,
-            "away": 0.2324882360308457
+            "home": 0.4565058262607078,
+            "draw": 0.25975824480186754,
+            "away": 0.28373592893742455
           }
         },
         {
           "name": "Dafabet",
           "odds": {
-            "home": 1.75,
-            "draw": 3.7,
-            "away": 3.9
+            "home": 2.02,
+            "draw": 3.65,
+            "away": 3.35
           },
           "market_probabilities": {
-            "home": 0.5203750450775334,
-            "draw": 0.24612333213126578,
-            "away": 0.23350162279120093
+            "home": 0.46373376315539966,
+            "draw": 0.25664169906134443,
+            "away": 0.2796245377832559
           }
         }
       ],
       "best_available_odds": {
-        "home": 1.78,
-        "draw": 3.76,
-        "away": 4.2
+        "home": 2.06,
+        "draw": 3.65,
+        "away": 3.35
       },
       "market_consensus_no_margin": {
-        "home": 0.5214,
-        "draw": 0.2508,
-        "away": 0.2277
+        "home": 0.4596,
+        "draw": 0.2584,
+        "away": 0.282
       },
       "market_dispersion": {
-        "home": 0.008,
-        "draw": 0.0044,
+        "home": 0.0102,
+        "draw": 0.0069,
         "away": 0.0051
       },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1516192,
-      "kickoff": "2026-11-20T19:00:00+07:00",
-      "league": "Super League",
-      "country": "Uzbekistan",
-      "home_team": "Lokomotiv",
-      "away_team": "Pakhtakor",
-      "bookmaker_count": 8,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 3.6,
-            "draw": 3.25,
-            "away": 1.85
-          },
-          "market_probabilities": {
-            "home": 0.24669196840701613,
-            "draw": 0.27325879577392553,
-            "away": 0.48004923581905834
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 3.52,
-            "draw": 3.52,
-            "away": 1.81
-          },
-          "market_probabilities": {
-            "home": 0.2535014005602241,
-            "draw": 0.2535014005602241,
-            "away": 0.4929971988795518
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 3.6,
-            "draw": 3.5,
-            "away": 1.85
-          },
-          "market_probabilities": {
-            "home": 0.25160287546143384,
-            "draw": 0.25879152904604624,
-            "away": 0.4896055954925198
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 3.6,
-            "draw": 3.6,
-            "away": 1.85
-          },
-          "market_probabilities": {
-            "home": 0.2534246575342466,
-            "draw": 0.2534246575342466,
-            "away": 0.49315068493150677
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 3.81,
-            "draw": 3.59,
-            "away": 1.88
-          },
-          "market_probabilities": {
-            "home": 0.24462575072762133,
-            "draw": 0.25961674380842265,
-            "away": 0.49575750546395597
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 3.68,
-            "draw": 3.68,
-            "away": 1.9
-          },
-          "market_probabilities": {
-            "home": 0.25401069518716574,
-            "draw": 0.25401069518716574,
-            "away": 0.4919786096256684
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 3.8,
-            "draw": 3.55,
-            "away": 1.83
-          },
-          "market_probabilities": {
-            "home": 0.24114251777064272,
-            "draw": 0.25812438521927955,
-            "away": 0.5007330970100777
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 3.8,
-            "draw": 3.6,
-            "away": 1.8
-          },
-          "market_probabilities": {
-            "home": 0.23999999999999996,
-            "draw": 0.2533333333333333,
-            "away": 0.5066666666666666
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 3.81,
-        "draw": 3.68,
-        "away": 1.9
-      },
-      "market_consensus_no_margin": {
-        "home": 0.2481,
-        "draw": 0.258,
-        "away": 0.4939
-      },
-      "market_dispersion": {
-        "home": 0.0054,
-        "draw": 0.0063,
-        "away": 0.0073
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1551493,
-      "kickoff": "2026-11-20T19:00:00+07:00",
-      "league": "First League",
-      "country": "Macedonia",
-      "home_team": "Shkëndija Haraçinë",
-      "away_team": "Bashkimi Kumanovo",
-      "bookmaker_count": 7,
-      "bookmakers": [
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.33,
-            "draw": 5.25,
-            "away": 5.75
-          },
-          "market_probabilities": {
-            "home": 0.6735650136665365,
-            "draw": 0.17063647012885594,
-            "away": 0.1557985162046076
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.35,
-            "draw": 4.5,
-            "away": 6.3
-          },
-          "market_probabilities": {
-            "home": 0.660377358490566,
-            "draw": 0.19811320754716982,
-            "away": 0.14150943396226415
-          }
-        },
-        {
-          "name": "Betfair",
-          "odds": {
-            "home": 1.3,
-            "draw": 5.0,
-            "away": 7.0
-          },
-          "market_probabilities": {
-            "home": 0.691699604743083,
-            "draw": 0.17984189723320163,
-            "away": 0.12845849802371542
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.4,
-            "away": 6.5
-          },
-          "market_probabilities": {
-            "home": 0.6520747834017327,
-            "draw": 0.2074783401732786,
-            "away": 0.1404468764249886
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.5,
-            "away": 6.62
-          },
-          "market_probabilities": {
-            "home": 0.6632793922499398,
-            "draw": 0.20045777187998182,
-            "away": 0.13626283587007829
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.39,
-            "draw": 4.5,
-            "away": 5.9
-          },
-          "market_probabilities": {
-            "home": 0.6474662244549578,
-            "draw": 0.19999512266497582,
-            "away": 0.15253865288006632
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.35,
-            "draw": 4.7,
-            "away": 6.8
-          },
-          "market_probabilities": {
-            "home": 0.6730546488364747,
-            "draw": 0.19332420764451932,
-            "away": 0.133621143519006
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.4,
-        "draw": 5.25,
-        "away": 7.0
-      },
-      "market_consensus_no_margin": {
-        "home": 0.6659,
-        "draw": 0.1928,
-        "away": 0.1412
-      },
-      "market_dispersion": {
-        "home": 0.0139,
-        "draw": 0.012,
-        "away": 0.0092
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1565534,
-      "kickoff": "2026-11-20T23:00:00+07:00",
-      "league": "Premier League",
-      "country": "Ukraine",
-      "home_team": "Shakhtar Donetsk",
-      "away_team": "Livyi Bereh",
-      "bookmaker_count": 7,
-      "bookmakers": [
-        {
-          "name": "William Hill",
-          "odds": {
-            "home": 1.25,
-            "draw": 5.5,
-            "away": 10.0
-          },
-          "market_probabilities": {
-            "home": 0.7394957983193277,
-            "draw": 0.1680672268907563,
-            "away": 0.09243697478991596
-          }
-        },
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 1.25,
-            "draw": 4.5,
-            "away": 10.0
-          },
-          "market_probabilities": {
-            "home": 0.712871287128713,
-            "draw": 0.198019801980198,
-            "away": 0.08910891089108912
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.26,
-            "draw": 5.25,
-            "away": 9.8
-          },
-          "market_probabilities": {
-            "home": 0.7306889352818372,
-            "draw": 0.1753653444676409,
-            "away": 0.09394572025052192
-          }
-        },
-        {
-          "name": "Pinnacle",
-          "odds": {
-            "home": 1.21,
-            "draw": 6.21,
-            "away": 12.96
-          },
-          "market_probabilities": {
-            "home": 0.776270215370192,
-            "draw": 0.151253938904659,
-            "away": 0.0724758457251491
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.27,
-            "draw": 5.67,
-            "away": 12.0
-          },
-          "market_probabilities": {
-            "home": 0.7519819099942641,
-            "draw": 0.16843333786467643,
-            "away": 0.07958475214105962
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 1.27,
-            "draw": 5.0,
-            "away": 9.75
-          },
-          "market_probabilities": {
-            "home": 0.7224095135775942,
-            "draw": 0.18349201644870894,
-            "away": 0.09409846997369688
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.26,
-            "draw": 5.6,
-            "away": 11.0
-          },
-          "market_probabilities": {
-            "home": 0.7465218866644044,
-            "draw": 0.167967424499491,
-            "away": 0.08551068883610452
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.27,
-        "draw": 6.21,
-        "away": 12.96
-      },
-      "market_consensus_no_margin": {
-        "home": 0.74,
-        "draw": 0.1732,
-        "away": 0.0867
-      },
-      "market_dispersion": {
-        "home": 0.0194,
-        "draw": 0.0135,
-        "away": 0.0076
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1559008,
-      "kickoff": "2026-11-20T23:00:00+07:00",
-      "league": "2. SNL",
-      "country": "Slovenia",
-      "home_team": "Dravinja",
-      "away_team": "Ilirija",
-      "bookmaker_count": 6,
-      "bookmakers": [
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 2.88,
-            "draw": 3.5,
-            "away": 2.1
-          },
-          "market_probabilities": {
-            "home": 0.31305903398926654,
-            "draw": 0.257602862254025,
-            "away": 0.4293381037567084
-          }
-        },
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 2.85,
-            "draw": 3.38,
-            "away": 2.1
-          },
-          "market_probabilities": {
-            "home": 0.3124669836238774,
-            "draw": 0.2634706814580032,
-            "away": 0.42406233491811934
-          }
-        },
-        {
-          "name": "BetVictor",
-          "odds": {
-            "home": 2.63,
-            "draw": 3.1,
-            "away": 2.0
-          },
-          "market_probabilities": {
-            "home": 0.31611686126548716,
-            "draw": 0.2681894661703972,
-            "away": 0.4156936725641156
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 2.92,
-            "draw": 3.38,
-            "away": 2.12
-          },
-          "market_probabilities": {
-            "home": 0.3085216313033894,
-            "draw": 0.2665334802976027,
-            "away": 0.424944888399008
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 3.1,
-            "draw": 3.4,
-            "away": 2.12
-          },
-          "market_probabilities": {
-            "home": 0.29638157894736844,
-            "draw": 0.2702302631578948,
-            "away": 0.43338815789473684
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 3.1,
-            "draw": 3.55,
-            "away": 2.1
-          },
-          "market_probabilities": {
-            "home": 0.2985582699239087,
-            "draw": 0.26071285542651185,
-            "away": 0.44072887464957955
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 3.1,
-        "draw": 3.55,
-        "away": 2.12
-      },
-      "market_consensus_no_margin": {
-        "home": 0.3075,
-        "draw": 0.2645,
-        "away": 0.428
-      },
-      "market_dispersion": {
-        "home": 0.0075,
-        "draw": 0.0044,
-        "away": 0.0078
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
       "model_probability": null,
       "expected_value": null,
       "recommendation": "RESEARCH_ONLY",
@@ -1909,103 +520,155 @@
       "country": "Slovenia",
       "home_team": "Triglav",
       "away_team": "Dren Vrhnika",
-      "bookmaker_count": 6,
+      "bookmaker_count": 10,
       "bookmakers": [
         {
-          "name": "Bet365",
+          "name": "William Hill",
           "odds": {
-            "home": 1.28,
-            "draw": 5.25,
+            "home": 1.3,
+            "draw": 4.8,
             "away": 7.0
           },
           "market_probabilities": {
-            "home": 0.7009345794392524,
-            "draw": 0.17089452603471295,
-            "away": 0.12817089452603472
+            "home": 0.686554965263588,
+            "draw": 0.18594196975888844,
+            "away": 0.12750306497752348
+          }
+        },
+        {
+          "name": "Bet365",
+          "odds": {
+            "home": 1.33,
+            "draw": 5.0,
+            "away": 6.5
+          },
+          "market_probabilities": {
+            "home": 0.6799874463856053,
+            "draw": 0.18087666073857103,
+            "away": 0.13913589287582387
           }
         },
         {
           "name": "Marathonbet",
           "odds": {
-            "home": 1.23,
-            "draw": 5.3,
-            "away": 8.3
+            "home": 1.25,
+            "draw": 5.15,
+            "away": 7.8
           },
           "market_probabilities": {
-            "home": 0.7244968543100894,
-            "draw": 0.1681379492078132,
-            "away": 0.10736519648209757
+            "home": 0.7127711484718093,
+            "draw": 0.17300270593975955,
+            "away": 0.114226145588431
+          }
+        },
+        {
+          "name": "Betfair",
+          "odds": {
+            "home": 1.25,
+            "draw": 5.5,
+            "away": 7.5
+          },
+          "market_probabilities": {
+            "home": 0.717391304347826,
+            "draw": 0.16304347826086957,
+            "away": 0.11956521739130434
           }
         },
         {
           "name": "BetVictor",
           "odds": {
-            "home": 1.2,
-            "draw": 4.5,
-            "away": 7.0
+            "home": 1.22,
+            "draw": 4.33,
+            "away": 6.5
           },
           "market_probabilities": {
-            "home": 0.695364238410596,
-            "draw": 0.18543046357615894,
-            "away": 0.11920529801324503
+            "home": 0.6805278836296109,
+            "draw": 0.19174226744298503,
+            "away": 0.12772984892740388
+          }
+        },
+        {
+          "name": "Pinnacle",
+          "odds": {
+            "home": 1.23,
+            "draw": 5.48,
+            "away": 7.64
+          },
+          "market_probabilities": {
+            "home": 0.7217885416379334,
+            "draw": 0.16200728215595953,
+            "away": 0.11620417620610708
+          }
+        },
+        {
+          "name": "SBO",
+          "odds": {
+            "home": 1.33,
+            "draw": 4.12,
+            "away": 5.51
+          },
+          "market_probabilities": {
+            "home": 0.639306543956338,
+            "draw": 0.206378083364546,
+            "away": 0.15431537267911608
           }
         },
         {
           "name": "1xBet",
           "odds": {
-            "home": 1.24,
-            "draw": 5.3,
-            "away": 8.75
+            "home": 1.26,
+            "draw": 5.15,
+            "away": 8.25
           },
           "market_probabilities": {
-            "home": 0.7269150587018198,
-            "draw": 0.1700706929792937,
-            "away": 0.10301424831888645
+            "home": 0.7156211313509006,
+            "draw": 0.17508400495187082,
+            "away": 0.10929486369722846
           }
         },
         {
           "name": "Betano",
           "odds": {
-            "home": 1.29,
-            "draw": 5.2,
-            "away": 7.9
+            "home": 1.34,
+            "draw": 5.0,
+            "away": 6.9
           },
           "market_probabilities": {
-            "home": 0.7085323996619466,
-            "draw": 0.17577053760844444,
-            "away": 0.115697062729609
+            "home": 0.6838996154303612,
+            "draw": 0.18328509693533682,
+            "away": 0.13281528763430206
           }
         },
         {
           "name": "Dafabet",
           "odds": {
-            "home": 1.27,
-            "draw": 5.6,
-            "away": 8.8
+            "home": 1.32,
+            "draw": 5.2,
+            "away": 7.4
           },
           "market_probabilities": {
-            "home": 0.7293393322282737,
-            "draw": 0.16540374141605496,
-            "away": 0.10525692635567134
+            "home": 0.6982145449266948,
+            "draw": 0.17723907678908404,
+            "away": 0.12454637828422122
           }
         }
       ],
       "best_available_odds": {
-        "home": 1.29,
-        "draw": 5.6,
-        "away": 8.8
+        "home": 1.34,
+        "draw": 5.5,
+        "away": 8.25
       },
       "market_consensus_no_margin": {
-        "home": 0.7143,
-        "draw": 0.1726,
-        "away": 0.1131
+        "home": 0.6936,
+        "draw": 0.1799,
+        "away": 0.1265
       },
       "market_dispersion": {
-        "home": 0.0133,
-        "draw": 0.0065,
-        "away": 0.0088
+        "home": 0.0238,
+        "draw": 0.0125,
+        "away": 0.0126
       },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
       "model_probability": null,
       "expected_value": null,
       "recommendation": "RESEARCH_ONLY",
@@ -2018,90 +681,142 @@
       "country": "Georgia",
       "home_team": "Dinamo Tbilisi",
       "away_team": "Torpedo Kutaisi",
-      "bookmaker_count": 5,
+      "bookmaker_count": 9,
       "bookmakers": [
+        {
+          "name": "William Hill",
+          "odds": {
+            "home": 1.57,
+            "draw": 3.6,
+            "away": 4.8
+          },
+          "market_probabilities": {
+            "home": 0.5671524222134698,
+            "draw": 0.2473414730208744,
+            "away": 0.1855061047656558
+          }
+        },
         {
           "name": "Marathonbet",
           "odds": {
-            "home": 1.68,
-            "draw": 3.64,
-            "away": 3.96
+            "home": 1.53,
+            "draw": 3.84,
+            "away": 4.8
           },
           "market_probabilities": {
-            "home": 0.5302843016069221,
-            "draw": 0.24474660074165633,
-            "away": 0.2249690976514215
+            "home": 0.5823475887170155,
+            "draw": 0.23202911737943588,
+            "away": 0.1856232939035487
           }
         },
         {
           "name": "Betfair",
           "odds": {
-            "home": 1.7,
-            "draw": 3.75,
-            "away": 4.0
+            "home": 1.53,
+            "draw": 4.0,
+            "away": 5.0
           },
           "market_probabilities": {
-            "home": 0.5323868677905945,
-            "draw": 0.24134871339840283,
-            "away": 0.22626441881100265
+            "home": 0.5922416345869115,
+            "draw": 0.22653242522949363,
+            "away": 0.1812259401835949
+          }
+        },
+        {
+          "name": "BetVictor",
+          "odds": {
+            "home": 1.55,
+            "draw": 4.0,
+            "away": 5.0
+          },
+          "market_probabilities": {
+            "home": 0.589101620029455,
+            "draw": 0.22827687776141384,
+            "away": 0.18262150220913106
+          }
+        },
+        {
+          "name": "Pinnacle",
+          "odds": {
+            "home": 1.57,
+            "draw": 3.91,
+            "away": 5.21
+          },
+          "market_probabilities": {
+            "home": 0.5872410960088787,
+            "draw": 0.2357975756352787,
+            "away": 0.17696132835584255
+          }
+        },
+        {
+          "name": "SBO",
+          "odds": {
+            "home": 1.51,
+            "draw": 3.81,
+            "away": 4.49
+          },
+          "market_probabilities": {
+            "home": 0.5771578176714496,
+            "draw": 0.22874233718737239,
+            "away": 0.1940998451411779
           }
         },
         {
           "name": "1xBet",
           "odds": {
-            "home": 1.7,
-            "draw": 3.64,
-            "away": 4.06
+            "home": 1.55,
+            "draw": 3.84,
+            "away": 4.92
           },
           "market_probabilities": {
-            "home": 0.5302923741585452,
-            "draw": 0.24766402089822162,
-            "away": 0.22204360494323322
+            "home": 0.581839683654237,
+            "draw": 0.23485716397501755,
+            "away": 0.1833031523707454
           }
         },
         {
           "name": "Betano",
           "odds": {
-            "home": 1.75,
-            "draw": 3.55,
-            "away": 3.9
+            "home": 1.57,
+            "draw": 3.95,
+            "away": 4.55
           },
           "market_probabilities": {
-            "home": 0.515019064447131,
-            "draw": 0.2538826374035153,
-            "away": 0.2310982981493537
+            "home": 0.5738804182964796,
+            "draw": 0.2280993055001197,
+            "away": 0.19802027620340065
           }
         },
         {
           "name": "Dafabet",
           "odds": {
-            "home": 1.73,
-            "draw": 3.65,
-            "away": 4.0
+            "home": 1.55,
+            "draw": 4.1,
+            "away": 4.7
           },
           "market_probabilities": {
-            "home": 0.524528911961774,
-            "draw": 0.24861233361475862,
-            "away": 0.22685875442346726
+            "home": 0.5855363111516256,
+            "draw": 0.22136128836219998,
+            "away": 0.1931024004861744
           }
         }
       ],
       "best_available_odds": {
-        "home": 1.75,
-        "draw": 3.75,
-        "away": 4.06
+        "home": 1.57,
+        "draw": 4.1,
+        "away": 5.21
       },
       "market_consensus_no_margin": {
-        "home": 0.5265,
-        "draw": 0.2473,
-        "away": 0.2262
+        "home": 0.5818,
+        "draw": 0.2314,
+        "away": 0.1867
       },
       "market_dispersion": {
-        "home": 0.0063,
-        "draw": 0.0042,
-        "away": 0.0029
+        "home": 0.0075,
+        "draw": 0.007,
+        "away": 0.0065
       },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
       "model_probability": null,
       "expected_value": null,
       "recommendation": "RESEARCH_ONLY",
@@ -2114,8 +829,21 @@
       "country": "Serbia",
       "home_team": "Naftagas",
       "away_team": "Borac Cacak",
-      "bookmaker_count": 5,
+      "bookmaker_count": 8,
       "bookmakers": [
+        {
+          "name": "William Hill",
+          "odds": {
+            "home": 2.75,
+            "draw": 2.9,
+            "away": 2.38
+          },
+          "market_probabilities": {
+            "home": 0.32219213892260296,
+            "draw": 0.30552702828867523,
+            "away": 0.37228083278872187
+          }
+        },
         {
           "name": "Bet365",
           "odds": {
@@ -2130,74 +858,100 @@
           }
         },
         {
-          "name": "Betfair",
+          "name": "Marathonbet",
           "odds": {
-            "home": 2.8,
-            "draw": 3.2,
-            "away": 2.25
+            "home": 2.62,
+            "draw": 3.1,
+            "away": 2.4
           },
           "market_probabilities": {
-            "home": 0.3205699020480855,
-            "draw": 0.2804986642920748,
-            "away": 0.3989314336598397
+            "home": 0.34050343249427917,
+            "draw": 0.2877803203661327,
+            "away": 0.3717162471395881
+          }
+        },
+        {
+          "name": "Betfair",
+          "odds": {
+            "home": 2.75,
+            "draw": 3.1,
+            "away": 2.4
+          },
+          "market_probabilities": {
+            "home": 0.32971415909594504,
+            "draw": 0.2924883669399512,
+            "away": 0.3777974739641037
+          }
+        },
+        {
+          "name": "Pinnacle",
+          "odds": {
+            "home": 2.67,
+            "draw": 2.97,
+            "away": 2.46
+          },
+          "market_probabilities": {
+            "home": 0.33508069509225247,
+            "draw": 0.3012341602344491,
+            "away": 0.3636851446732984
           }
         },
         {
           "name": "1xBet",
           "odds": {
-            "home": 3.04,
-            "draw": 3.2,
-            "away": 2.22
+            "home": 2.62,
+            "draw": 3.1,
+            "away": 2.4
           },
           "market_probabilities": {
-            "home": 0.3012620436965668,
-            "draw": 0.2861989415117384,
-            "away": 0.41253901479169497
+            "home": 0.34050343249427917,
+            "draw": 0.2877803203661327,
+            "away": 0.3717162471395881
           }
         },
         {
           "name": "Betano",
           "odds": {
-            "home": 2.77,
-            "draw": 3.2,
-            "away": 2.3
+            "home": 2.7,
+            "draw": 3.1,
+            "away": 2.42
           },
           "market_probabilities": {
-            "home": 0.3257357822527108,
-            "draw": 0.28196503651250276,
-            "away": 0.3922991812347865
+            "home": 0.3348210300812282,
+            "draw": 0.2916183165223601,
+            "away": 0.3735606533964117
           }
         },
         {
           "name": "Dafabet",
           "odds": {
-            "home": 2.8,
-            "draw": 3.25,
-            "away": 2.29
+            "home": 2.75,
+            "draw": 3.1,
+            "away": 2.42
           },
           "market_probabilities": {
-            "home": 0.3242283648086432,
-            "draw": 0.27933520660436956,
-            "away": 0.3964364285869873
+            "home": 0.33074684772065954,
+            "draw": 0.29340446168768186,
+            "away": 0.3758486905916586
           }
         }
       ],
       "best_available_odds": {
-        "home": 3.04,
+        "home": 2.75,
         "draw": 3.25,
-        "away": 2.3
+        "away": 2.46
       },
       "market_consensus_no_margin": {
-        "home": 0.3209,
-        "draw": 0.2809,
-        "away": 0.3982
+        "home": 0.3333,
+        "draw": 0.292,
+        "away": 0.3747
       },
       "market_dispersion": {
-        "home": 0.0106,
-        "draw": 0.0032,
-        "away": 0.0078
+        "home": 0.0056,
+        "draw": 0.0083,
+        "away": 0.0072
       },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
       "model_probability": null,
       "expected_value": null,
       "recommendation": "RESEARCH_ONLY",
@@ -2215,308 +969,85 @@
         {
           "name": "Marathonbet",
           "odds": {
-            "home": 1.93,
-            "draw": 3.58,
-            "away": 4.1
+            "home": 2.31,
+            "draw": 3.32,
+            "away": 3.26
           },
           "market_probabilities": {
-            "home": 0.4975525755582975,
-            "draw": 0.268233651069138,
-            "away": 0.23421377337256444
+            "home": 0.4159090035737617,
+            "draw": 0.289382469354033,
+            "away": 0.29470852707220535
           }
         },
         {
           "name": "Pinnacle",
           "odds": {
-            "home": 1.96,
-            "draw": 3.5,
-            "away": 4.12
+            "home": 2.36,
+            "draw": 3.26,
+            "away": 3.32
           },
           "market_probabilities": {
-            "home": 0.4912247233880198,
-            "draw": 0.27508584509729106,
-            "away": 0.23368943151468902
+            "home": 0.41071645415907715,
+            "draw": 0.29732847601700063,
+            "away": 0.29195506982392233
           }
         },
         {
           "name": "SBO",
           "odds": {
-            "home": 1.94,
-            "draw": 2.95,
-            "away": 3.4
+            "home": 2.28,
+            "draw": 3.02,
+            "away": 2.95
           },
           "market_probabilities": {
-            "home": 0.4487896550181217,
-            "draw": 0.2951362477068325,
-            "away": 0.2560740972750459
+            "home": 0.3955933678498797,
+            "draw": 0.29865989360851847,
+            "away": 0.3057467385416019
           }
         },
         {
           "name": "1xBet",
           "odds": {
-            "home": 1.98,
-            "draw": 3.67,
-            "away": 4.2
-          },
-          "market_probabilities": {
-            "home": 0.49728034687675426,
-            "draw": 0.2682874895956331,
-            "away": 0.2344321635276127
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 2.01,
+            "home": 2.37,
             "draw": 3.4,
-            "away": 3.85
+            "away": 3.34
           },
           "market_probabilities": {
-            "home": 0.4732037957523725,
-            "draw": 0.2797469498418437,
-            "away": 0.247049254405784
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 2.01,
-        "draw": 3.67,
-        "away": 4.2
-      },
-      "market_consensus_no_margin": {
-        "home": 0.4816,
-        "draw": 0.2773,
-        "away": 0.2411
-      },
-      "market_dispersion": {
-        "home": 0.0187,
-        "draw": 0.0099,
-        "away": 0.009
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1559425,
-      "kickoff": "2026-11-20T19:00:00+07:00",
-      "league": "Second League",
-      "country": "Montenegro",
-      "home_team": "Kom",
-      "away_team": "Zeta",
-      "bookmaker_count": 4,
-      "bookmakers": [
-        {
-          "name": "Bet365",
-          "odds": {
-            "home": 2.1,
-            "draw": 3.2,
-            "away": 3.1
-          },
-          "market_probabilities": {
-            "home": 0.42850971922246217,
-            "draw": 0.2812095032397408,
-            "away": 0.29028077753779696
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 2.18,
-            "draw": 3.2,
-            "away": 3.14
-          },
-          "market_probabilities": {
-            "home": 0.42096090359123894,
-            "draw": 0.28677961557153153,
-            "away": 0.2922594808372296
-          }
-        },
-        {
-          "name": "Betano",
-          "odds": {
-            "home": 2.12,
-            "draw": 3.15,
-            "away": 3.1
-          },
-          "market_probabilities": {
-            "home": 0.42428850749511193,
-            "draw": 0.2855529002824245,
-            "away": 0.29015859222246365
+            "home": 0.41551712782384065,
+            "draw": 0.2896398802772066,
+            "away": 0.29484299189895286
           }
         },
         {
           "name": "Dafabet",
           "odds": {
-            "home": 2.15,
+            "home": 2.36,
             "draw": 3.2,
-            "away": 3.1
+            "away": 3.15
           },
           "market_probabilities": {
-            "home": 0.42275729810355855,
-            "draw": 0.2840400596633284,
-            "away": 0.29320264223311315
+            "home": 0.40213835474347726,
+            "draw": 0.29657703662331447,
+            "away": 0.30128460863320833
           }
         }
       ],
       "best_available_odds": {
-        "home": 2.18,
-        "draw": 3.2,
-        "away": 3.14
+        "home": 2.37,
+        "draw": 3.4,
+        "away": 3.34
       },
       "market_consensus_no_margin": {
-        "home": 0.4241,
-        "draw": 0.2844,
-        "away": 0.2915
+        "home": 0.408,
+        "draw": 0.2943,
+        "away": 0.2977
       },
       "market_dispersion": {
-        "home": 0.0028,
-        "draw": 0.0021,
-        "away": 0.0013
+        "home": 0.0079,
+        "draw": 0.004,
+        "away": 0.0051
       },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1519198,
-      "kickoff": "2026-11-20T20:00:00+07:00",
-      "league": "Youth Championship",
-      "country": "Russia",
-      "home_team": "Dynamo Makhachkala U19",
-      "away_team": "Nizhny Novgorod U19",
-      "bookmaker_count": 3,
-      "bookmakers": [
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.55,
-            "away": 4.33
-          },
-          "market_probabilities": {
-            "home": 0.5966264403494692,
-            "draw": 0.1966900352800448,
-            "away": 0.20668352437048587
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.51,
-            "draw": 4.55,
-            "away": 4.49
-          },
-          "market_probabilities": {
-            "home": 0.5994589186001134,
-            "draw": 0.19894131144751012,
-            "away": 0.2015997699523766
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.52,
-            "draw": 4.6,
-            "away": 4.4
-          },
-          "market_probabilities": {
-            "home": 0.5966981132075472,
-            "draw": 0.1971698113207547,
-            "away": 0.20613207547169807
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.52,
-        "draw": 4.6,
-        "away": 4.49
-      },
-      "market_consensus_no_margin": {
-        "home": 0.5976,
-        "draw": 0.1976,
-        "away": 0.2048
-      },
-      "market_dispersion": {
-        "home": 0.0013,
-        "draw": 0.001,
-        "away": 0.0023
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
-      "model_probability": null,
-      "expected_value": null,
-      "recommendation": "RESEARCH_ONLY",
-      "reason": "Independent probability model has not yet been validated."
-    },
-    {
-      "fixture_id": 1519199,
-      "kickoff": "2026-11-20T20:00:00+07:00",
-      "league": "Youth Championship",
-      "country": "Russia",
-      "home_team": "Dinamo Moskva U19",
-      "away_team": "Rubin Kazan U20",
-      "bookmaker_count": 3,
-      "bookmakers": [
-        {
-          "name": "Marathonbet",
-          "odds": {
-            "home": 1.26,
-            "draw": 5.6,
-            "away": 6.85
-          },
-          "market_probabilities": {
-            "home": 0.7097526227172646,
-            "draw": 0.15969434011138456,
-            "away": 0.1305530371713509
-          }
-        },
-        {
-          "name": "1xBet",
-          "odds": {
-            "home": 1.27,
-            "draw": 5.6,
-            "away": 7.15
-          },
-          "market_probabilities": {
-            "home": 0.7120437469434936,
-            "draw": 0.1614813497532566,
-            "away": 0.1264749033032499
-          }
-        },
-        {
-          "name": "Dafabet",
-          "odds": {
-            "home": 1.29,
-            "draw": 5.8,
-            "away": 6.6
-          },
-          "market_probabilities": {
-            "home": 0.7052841034711473,
-            "draw": 0.1568649126685828,
-            "away": 0.13785098386026973
-          }
-        }
-      ],
-      "best_available_odds": {
-        "home": 1.29,
-        "draw": 5.8,
-        "away": 7.15
-      },
-      "market_consensus_no_margin": {
-        "home": 0.709,
-        "draw": 0.1593,
-        "away": 0.1316
-      },
-      "market_dispersion": {
-        "home": 0.0028,
-        "draw": 0.0019,
-        "away": 0.0047
-      },
-      "captured_at": "2026-11-20T09:43:50.063504+07:00",
+      "captured_at": "2026-11-20T21:47:09.845547+07:00",
       "model_probability": null,
       "expected_value": null,
       "recommendation": "RESEARCH_ONLY",
