@@ -10787,7 +10787,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -18663,7 +18663,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -24014,7 +24014,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -31068,7 +31068,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -31413,7 +31413,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -42262,7 +42262,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -42952,7 +42952,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -60893,7 +60893,7 @@
             "top_cards": true,
             "injuries": true,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -63214,7 +63214,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -64323,7 +64323,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -78782,7 +78782,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -86353,7 +86353,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -87124,7 +87124,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -88152,7 +88152,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -88923,7 +88923,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -89180,7 +89180,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -90148,7 +90148,7 @@
         {
           "year": 2026,
           "start": "2026-10-17",
-          "end": "2026-11-19",
+          "end": "2026-11-22",
           "current": true,
           "coverage": {
             "fixtures": {
@@ -90421,7 +90421,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -93784,7 +93784,7 @@
           "year": 2026,
           "start": "2026-01-10",
           "end": "2026-03-21",
-          "current": true,
+          "current": false,
           "coverage": {
             "fixtures": {
               "events": true,
@@ -93793,6 +93793,28 @@
               "statistics_players": false
             },
             "standings": true,
+            "players": false,
+            "top_scorers": false,
+            "top_assists": false,
+            "top_cards": false,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2027,
+          "start": "2027-01-09",
+          "end": "2027-02-17",
+          "current": true,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": false,
             "players": false,
             "top_scorers": false,
             "top_assists": false,
@@ -96414,7 +96436,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -97457,7 +97479,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -99051,7 +99073,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -99505,7 +99527,7 @@
         {
           "year": 2026,
           "start": "2026-01-01",
-          "end": "2026-11-19",
+          "end": "2026-12-13",
           "current": true,
           "coverage": {
             "fixtures": {
@@ -108925,7 +108947,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -112134,7 +112156,7 @@
         {
           "year": 2026,
           "start": "2026-10-10",
-          "end": "2027-01-17",
+          "end": "2027-04-18",
           "current": true,
           "coverage": {
             "fixtures": {
@@ -114642,7 +114664,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -119998,7 +120020,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": true
+            "odds": false
           }
         }
       ]
@@ -128558,7 +128580,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -138411,7 +138433,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": true
+            "odds": false
           }
         }
       ]
@@ -140927,8 +140949,8 @@
           "current": true,
           "coverage": {
             "fixtures": {
-              "events": false,
-              "lineups": false,
+              "events": true,
+              "lineups": true,
               "statistics_fixtures": false,
               "statistics_players": false
             },
@@ -144076,7 +144098,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -147449,7 +147471,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -150999,7 +151021,7 @@
         {
           "year": 2025,
           "start": "2026-09-23",
-          "end": "2026-11-18",
+          "end": "2027-06-09",
           "current": true,
           "coverage": {
             "fixtures": {
@@ -152191,7 +152213,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -155013,7 +155035,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -168265,7 +168287,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -172013,7 +172035,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -172307,7 +172329,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -177039,7 +177061,7 @@
         {
           "year": 2027,
           "start": "2027-01-09",
-          "end": "2027-01-09",
+          "end": "2027-02-20",
           "current": true,
           "coverage": {
             "fixtures": {
@@ -178605,11 +178627,33 @@
           "year": 2026,
           "start": "2026-01-17",
           "end": "2026-04-05",
-          "current": true,
+          "current": false,
           "coverage": {
             "fixtures": {
               "events": true,
               "lineups": true,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": false,
+            "players": false,
+            "top_scorers": false,
+            "top_assists": false,
+            "top_cards": false,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2027,
+          "start": "2027-01-16",
+          "end": "2027-02-20",
+          "current": true,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
               "statistics_fixtures": false,
               "statistics_players": false
             },
@@ -180473,7 +180517,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -185355,7 +185399,7 @@
             "top_cards": true,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -197798,7 +197842,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": true
+            "odds": false
           }
         }
       ]
@@ -200625,7 +200669,7 @@
         {
           "year": 2027,
           "start": "2026-09-28",
-          "end": "2026-11-17",
+          "end": "2027-03-30",
           "current": true,
           "coverage": {
             "fixtures": {
@@ -210251,7 +210295,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -210546,7 +210590,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]
@@ -210937,7 +210981,7 @@
             "top_cards": false,
             "injuries": false,
             "predictions": true,
-            "odds": false
+            "odds": true
           }
         }
       ]

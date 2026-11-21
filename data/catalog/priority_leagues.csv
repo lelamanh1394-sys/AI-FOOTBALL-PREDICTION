@@ -407,7 +407,6 @@
 398,Premier League,Bangladesh,League,55,B,2027,11
 506,2. liga,Slovakia,League,55,B,2026,11
 521,Amapaense,Brazil,League,55,B,2026,11
-522,Amazonense,Brazil,League,55,B,2026,11
 425,Premier League,Syria,League,55,B,2026,10
 304,Liga Panameña de Fútbol,Panama,League,55,B,2026,10
 510,1. Liga Promotion,Switzerland,League,55,B,2026,10
@@ -608,6 +607,7 @@
 1225,Copa Centro-Oeste,Brazil,Cup,51,B,2026,1
 915,1. Division Women,Norway,League,50,B,2026,5
 921,UEFA U17 Championship,World,Cup,50,B,2026,5
+587,World Cup - U17,World,Cup,49,B,2026,4
 950,World Cup - U17 - Women,World,Cup,49,B,2026,4
 1030,Goiano - 2,Brazil,League,49,B,2026,4
 1033,Ekstraliga Women,Poland,League,49,B,2026,4
@@ -839,7 +839,6 @@
 755,Oberliga - Nordost-Süd,Germany,League,37,C,2026,7
 758,Premier Division,Gibraltar,League,37,C,2026,7
 759,Liga Mayor,Dominican-Republic,League,37,C,2026,7
-631,Tocantinense,Brazil,League,37,C,2026,7
 662,Copa por México,Mexico,Cup,37,C,2022,2
 700,Kakkosen Cup,Finland,Cup,37,C,2021,2
 801,2. Liga Interregional - Group 6,Switzerland,League,37,C,2021,2
@@ -1121,7 +1120,6 @@
 962,Premier League,Lesotho,League,20,C,2026,5
 804,Caribbean Cup,World,Cup,19,C,2016,4
 582,Gamma Ethniki - Group 7,Greece,League,19,C,2026,4
-587,World Cup - U17,World,Cup,19,C,2026,4
 646,3. liga - Center,Slovakia,League,19,C,2026,4
 741,Brasileiro de Aspirantes,Brazil,Cup,19,C,2024,4
 763,Mauritian League,Mauritius,League,19,C,2024,4
@@ -1199,6 +1197,7 @@
 421,Division di Honor,Aruba,League,10,C,2026,14
 378,Ligue 1,Guinea,League,10,C,2025,12
 547,Super Cup,Italy,Cup,10,C,2026,12
+522,Amazonense,Brazil,League,10,C,2027,12
 488,U19 Bundesliga,Germany,League,10,C,2026,11
 402,Sudani Premier League,Sudan,League,10,C,2026,10
 415,Championnat National,Benin,League,10,C,2026,10
@@ -1213,6 +1212,7 @@
 611,Capixaba,Brazil,League,8,C,2027,8
 621,Piauiense,Brazil,League,8,C,2027,8
 623,Sul-Matogrossense,Brazil,League,8,C,2027,8
+631,Tocantinense,Brazil,League,8,C,2027,8
 820,Crown Prince Cup,Kuwait,Cup,7,C,2026,7
 708,Super Cup,Albania,Cup,7,C,2026,7
 761,Cup,Liechtenstein,Cup,7,C,2026,7

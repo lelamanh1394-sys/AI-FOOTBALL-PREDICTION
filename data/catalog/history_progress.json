@@ -185,8 +185,48 @@
     "updated_at": "2026-11-20T02:42:50.559171+00:00"
   },
   "527_2024": {
+    "status": "completed",
+    "results": 1,
+    "updated_at": "2026-11-21T02:41:39.695067+00:00"
+  },
+  "171_2024": {
+    "status": "completed",
+    "results": 79,
+    "updated_at": "2026-11-21T02:41:39.932627+00:00"
+  },
+  "589_2024": {
+    "status": "completed",
+    "results": 84,
+    "updated_at": "2026-11-21T02:41:40.158842+00:00"
+  },
+  "241_2024": {
+    "status": "completed",
+    "results": 70,
+    "updated_at": "2026-11-21T02:41:40.376402+00:00"
+  },
+  "844_2024": {
+    "status": "completed",
+    "results": 109,
+    "updated_at": "2026-11-21T02:41:40.615740+00:00"
+  },
+  "424_2024": {
+    "status": "completed",
+    "results": 420,
+    "updated_at": "2026-11-21T02:41:40.922779+00:00"
+  },
+  "958_2024": {
+    "status": "completed",
+    "results": 21,
+    "updated_at": "2026-11-21T02:41:41.409634+00:00"
+  },
+  "870_2022": {
+    "status": "completed",
+    "results": 47,
+    "updated_at": "2026-11-21T02:41:41.625969+00:00"
+  },
+  "1021_2023": {
     "status": "retry",
     "error": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-    "updated_at": "2026-11-20T02:42:50.594014+00:00"
+    "updated_at": "2026-11-21T02:41:41.691307+00:00"
   }
 }

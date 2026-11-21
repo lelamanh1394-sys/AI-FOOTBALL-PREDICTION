@@ -1,0 +1,5545 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "171",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 79,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1177784,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-15T06:00:00+00:00",
+        "timestamp": 1710482400,
+        "periods": {
+          "first": 1710482400,
+          "second": 1710486000
+        },
+        "venue": {
+          "id": null,
+          "name": "Shanghai Liancheng Football Base Field No. 2",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21329,
+          "name": "Shanghai Shenshui",
+          "logo": "https://media.api-sports.io/football/teams/21329.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23148,
+          "name": "Shanghai Tongji",
+          "logo": "https://media.api-sports.io/football/teams/23148.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177793,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-15T06:00:00+00:00",
+        "timestamp": 1710482400,
+        "periods": {
+          "first": 1710482400,
+          "second": 1710486000
+        },
+        "venue": {
+          "id": null,
+          "name": "Shanxi Engineering Science and Technology Vocational University Football Field",
+          "city": "Taiyuan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23149,
+          "name": "Shanxi Xiangyu",
+          "logo": "https://media.api-sports.io/football/teams/23149.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5678,
+          "name": "Qingdao Kunpeng",
+          "logo": "https://media.api-sports.io/football/teams/5678.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177785,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-15T07:00:00+00:00",
+        "timestamp": 1710486000,
+        "periods": {
+          "first": 1710486000,
+          "second": 1710489600
+        },
+        "venue": {
+          "id": 21690,
+          "name": "Linping Sports Center Stadium",
+          "city": "Hangzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5658,
+          "name": "Hangzhou Wuyue Qiantang",
+          "logo": "https://media.api-sports.io/football/teams/5658.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21325,
+          "name": "Ningxia Renfangzhong",
+          "logo": "https://media.api-sports.io/football/teams/21325.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177794,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-15T07:30:00+00:00",
+        "timestamp": 1710487800,
+        "periods": {
+          "first": 1710487800,
+          "second": 1710491400
+        },
+        "venue": {
+          "id": null,
+          "name": "Qianxinan Prefecture Yilong Baseball and Softball Sports Park Football Field",
+          "city": "Xingyi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23146,
+          "name": "Qianxinan Xu Fengtang",
+          "logo": "https://media.api-sports.io/football/teams/23146.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21333,
+          "name": "Wuhan Xiaoma Guohe",
+          "logo": "https://media.api-sports.io/football/teams/21333.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177787,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-15T11:30:00+00:00",
+        "timestamp": 1710502200,
+        "periods": {
+          "first": 1710502200,
+          "second": 1710505800
+        },
+        "venue": {
+          "id": null,
+          "name": "Guigang Sports Center Stadium",
+          "city": "Guigang"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23138,
+          "name": "Guangxi Bushan",
+          "logo": "https://media.api-sports.io/football/teams/23138.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23145,
+          "name": "Ningxia Pingluo",
+          "logo": "https://media.api-sports.io/football/teams/23145.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177790,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T06:00:00+00:00",
+        "timestamp": 1710568800,
+        "periods": {
+          "first": 1710568800,
+          "second": 1710572400
+        },
+        "venue": {
+          "id": null,
+          "name": "Ningbo Fubang Stadium",
+          "city": "Ningbo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23144,
+          "name": "Ningo Shoufa",
+          "logo": "https://media.api-sports.io/football/teams/23144.png",
+          "winner": false
+        },
+        "away": {
+          "id": 23140,
+          "name": "Jiangsu Nan Dongsheng",
+          "logo": "https://media.api-sports.io/football/teams/23140.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177791,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T06:30:00+00:00",
+        "timestamp": 1710570600,
+        "periods": {
+          "first": 1710570600,
+          "second": 1710574200
+        },
+        "venue": {
+          "id": null,
+          "name": "Shanghai East China University of Science and Technology Football Stadium",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23133,
+          "name": "Changning Flying Lions",
+          "logo": "https://media.api-sports.io/football/teams/23133.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23135,
+          "name": "Fujian Quanzhou Qinggong",
+          "logo": "https://media.api-sports.io/football/teams/23135.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177797,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T07:00:00+00:00",
+        "timestamp": 1710572400,
+        "periods": {
+          "first": 1710572400,
+          "second": 1710576000
+        },
+        "venue": {
+          "id": null,
+          "name": "Dézhōu Senior Normal School Football Field",
+          "city": "Dezhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23139,
+          "name": "Haishan",
+          "logo": "https://media.api-sports.io/football/teams/23139.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23137,
+          "name": "Guangdong Shudihong",
+          "logo": "https://media.api-sports.io/football/teams/23137.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177786,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T07:00:00+00:00",
+        "timestamp": 1710572400,
+        "periods": {
+          "first": 1710572400,
+          "second": 1710576000
+        },
+        "venue": {
+          "id": null,
+          "name": "Xiamen Haicang Sports Center Stadium",
+          "city": "Xiamen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23142,
+          "name": "Lujian Tiancheng",
+          "logo": "https://media.api-sports.io/football/teams/23142.png",
+          "winner": false
+        },
+        "away": {
+          "id": 20674,
+          "name": "Xi'an Ronghai",
+          "logo": "https://media.api-sports.io/football/teams/20674.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177788,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T07:30:00+00:00",
+        "timestamp": 1710574200,
+        "periods": {
+          "first": 1710574200,
+          "second": 1710577800
+        },
+        "venue": {
+          "id": null,
+          "name": "Qujing Sports Centre Stadium",
+          "city": "Qujing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21327,
+          "name": "Qujing Yibu",
+          "logo": "https://media.api-sports.io/football/teams/21327.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5697,
+          "name": "Xi'an Hi-Tech Zone",
+          "logo": "https://media.api-sports.io/football/teams/5697.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177796,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T07:30:00+00:00",
+        "timestamp": 1710574200,
+        "periods": {
+          "first": 1710574200,
+          "second": 1710577800
+        },
+        "venue": {
+          "id": null,
+          "name": "Linxia Stadium",
+          "city": "Linxia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23136,
+          "name": "Gannan 92 United",
+          "logo": "https://media.api-sports.io/football/teams/23136.png",
+          "winner": false
+        },
+        "away": {
+          "id": 21322,
+          "name": "Changle Jingangtui",
+          "logo": "https://media.api-sports.io/football/teams/21322.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177792,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T07:30:00+00:00",
+        "timestamp": 1710574200,
+        "periods": {
+          "first": 1710574200,
+          "second": 1710577800
+        },
+        "venue": {
+          "id": null,
+          "name": "Shenzhen Bao'an Stadium",
+          "city": "Shenzhen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23150,
+          "name": "Shenzhen Jixiang",
+          "logo": "https://media.api-sports.io/football/teams/23150.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5662,
+          "name": "Inner Mongolia Caoshang.",
+          "logo": "https://media.api-sports.io/football/teams/5662.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177798,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-16T11:00:00+00:00",
+        "timestamp": 1710586800,
+        "periods": {
+          "first": 1710586800,
+          "second": 1710590400
+        },
+        "venue": {
+          "id": 21672,
+          "name": "Dongxing Sports Center Stadium",
+          "city": "Dongxing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23132,
+          "name": "Changchun Xidu",
+          "logo": "https://media.api-sports.io/football/teams/23132.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23141,
+          "name": "Lanzhou Hailu",
+          "logo": "https://media.api-sports.io/football/teams/23141.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177799,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-17T06:00:00+00:00",
+        "timestamp": 1710655200,
+        "periods": {
+          "first": 1710655200,
+          "second": 1710658800
+        },
+        "venue": {
+          "id": null,
+          "name": "Jinshan Sports Center Stadium",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23147,
+          "name": "Shanghai Segenda",
+          "logo": "https://media.api-sports.io/football/teams/23147.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23143,
+          "name": "Nanning Juding",
+          "logo": "https://media.api-sports.io/football/teams/23143.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177795,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-17T06:30:00+00:00",
+        "timestamp": 1710657000,
+        "periods": {
+          "first": 1710657000,
+          "second": 1710660600
+        },
+        "venue": {
+          "id": null,
+          "name": "Qingdao Jimo Chuangzhi New District Sports Center Stadium",
+          "city": "Qingdao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5677,
+          "name": "Qingdao Elite United",
+          "logo": "https://media.api-sports.io/football/teams/5677.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21331,
+          "name": "Shanxi Longchengren",
+          "logo": "https://media.api-sports.io/football/teams/21331.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1177789,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-17T07:30:00+00:00",
+        "timestamp": 1710660600,
+        "periods": {
+          "first": 1710660600,
+          "second": 1710664200
+        },
+        "venue": {
+          "id": null,
+          "name": "Chongqing Longxing Football Stadium Outfield",
+          "city": "Chongqing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23134,
+          "name": "Chunlei",
+          "logo": "https://media.api-sports.io/football/teams/23134.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5652,
+          "name": "Dalian Huayi",
+          "logo": "https://media.api-sports.io/football/teams/5652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1184791,
+        "referee": "Shuo Zhang",
+        "timezone": "UTC",
+        "date": "2024-04-19T06:00:00+00:00",
+        "timestamp": 1713506400,
+        "periods": {
+          "first": 1713506400,
+          "second": 1713510000
+        },
+        "venue": {
+          "id": 21690,
+          "name": "Linping Sports Center Stadium",
+          "city": "Hangzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5658,
+          "name": "Hangzhou Wuyue Qiantang",
+          "logo": "https://media.api-sports.io/football/teams/5658.png",
+          "winner": true
+        },
+        "away": {
+          "id": 19319,
+          "name": "Nantong Haimen Codion",
+          "logo": "https://media.api-sports.io/football/teams/19319.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185126,
+        "referee": "Zhikai Yin",
+        "timezone": "UTC",
+        "date": "2024-04-20T06:00:00+00:00",
+        "timestamp": 1713592800,
+        "periods": {
+          "first": 1713592800,
+          "second": 1713596400
+        },
+        "venue": {
+          "id": null,
+          "name": "Shanghai East China University of Science and Technology Football Stadium",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23133,
+          "name": "Changning Flying Lions",
+          "logo": "https://media.api-sports.io/football/teams/23133.png",
+          "winner": true
+        },
+        "away": {
+          "id": 17272,
+          "name": "Yichun Grand Tiger",
+          "logo": "https://media.api-sports.io/football/teams/17272.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185125,
+        "referee": "Xue Xiangsheng",
+        "timezone": "UTC",
+        "date": "2024-04-20T06:00:00+00:00",
+        "timestamp": 1713592800,
+        "periods": {
+          "first": 1713592800,
+          "second": 1713596400
+        },
+        "venue": {
+          "id": 356,
+          "name": "Nanjing Olympic Sports Center",
+          "city": "Nanjing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23140,
+          "name": "Jiangsu Nan Dongsheng",
+          "logo": "https://media.api-sports.io/football/teams/23140.png",
+          "winner": null
+        },
+        "away": {
+          "id": 23270,
+          "name": "Langfang Glory City",
+          "logo": "https://media.api-sports.io/football/teams/23270.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185649,
+        "referee": "Xianda Zhang",
+        "timezone": "UTC",
+        "date": "2024-04-20T06:00:00+00:00",
+        "timestamp": 1713592800,
+        "periods": {
+          "first": 1713592800,
+          "second": 1713596400
+        },
+        "venue": {
+          "id": null,
+          "name": "Jinshan Sports Center Outfield",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23147,
+          "name": "Shanghai Segenda",
+          "logo": "https://media.api-sports.io/football/teams/23147.png",
+          "winner": null
+        },
+        "away": {
+          "id": 19320,
+          "name": "Shangyu Pterosaur",
+          "logo": "https://media.api-sports.io/football/teams/19320.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1184792,
+        "referee": "Liu Xin",
+        "timezone": "UTC",
+        "date": "2024-04-20T06:30:00+00:00",
+        "timestamp": 1713594600,
+        "periods": {
+          "first": 1713594600,
+          "second": 1713598200
+        },
+        "venue": {
+          "id": null,
+          "name": "Tunliu Sports Center",
+          "city": "Changzhi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23149,
+          "name": "Shanxi Xiangyu",
+          "logo": "https://media.api-sports.io/football/teams/23149.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5647,
+          "name": "BIT",
+          "logo": "https://media.api-sports.io/football/teams/5647.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1186269,
+        "referee": "Ren Dexin",
+        "timezone": "UTC",
+        "date": "2024-04-20T07:00:00+00:00",
+        "timestamp": 1713596400,
+        "periods": {
+          "first": 1713596400,
+          "second": 1713600000
+        },
+        "venue": {
+          "id": null,
+          "name": "Dalian Pro Soccer Academy Base Stadium",
+          "city": "Dalian"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5652,
+          "name": "Dalian Huayi",
+          "logo": "https://media.api-sports.io/football/teams/5652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 17266,
+          "name": "Quanzhou Yassin",
+          "logo": "https://media.api-sports.io/football/teams/17266.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185650,
+        "referee": "Wang Yang I",
+        "timezone": "UTC",
+        "date": "2024-04-20T07:00:00+00:00",
+        "timestamp": 1713596400,
+        "periods": {
+          "first": 1713596400,
+          "second": 1713600000
+        },
+        "venue": {
+          "id": null,
+          "name": "Changchun Yatai Training Field",
+          "city": "Changchun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23132,
+          "name": "Changchun Xidu",
+          "logo": "https://media.api-sports.io/football/teams/23132.png",
+          "winner": false
+        },
+        "away": {
+          "id": 23286,
+          "name": "Shaanxi Union",
+          "logo": "https://media.api-sports.io/football/teams/23286.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185129,
+        "referee": "Wang Minjie",
+        "timezone": "UTC",
+        "date": "2024-04-20T07:00:00+00:00",
+        "timestamp": 1713596400,
+        "periods": {
+          "first": 1713596400,
+          "second": 1713600000
+        },
+        "venue": {
+          "id": null,
+          "name": "Dézhōu Senior Normal School Football Field",
+          "city": "Dezhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23139,
+          "name": "Haishan",
+          "logo": "https://media.api-sports.io/football/teams/23139.png",
+          "winner": false
+        },
+        "away": {
+          "id": 19321,
+          "name": "Tai'an Tiankuang",
+          "logo": "https://media.api-sports.io/football/teams/19321.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1184793,
+        "referee": "Liu Xiao",
+        "timezone": "UTC",
+        "date": "2024-04-20T07:00:00+00:00",
+        "timestamp": 1713596400,
+        "periods": {
+          "first": 1713596400,
+          "second": 1713600000
+        },
+        "venue": {
+          "id": null,
+          "name": "Qianxinan Prefecture Yilong Baseball and Softball Sports Park Football Field",
+          "city": "Xingyi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23146,
+          "name": "Qianxinan Xu Fengtang",
+          "logo": "https://media.api-sports.io/football/teams/23146.png",
+          "winner": false
+        },
+        "away": {
+          "id": 23265,
+          "name": "Shenzhen Juniors",
+          "logo": "https://media.api-sports.io/football/teams/23265.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185122,
+        "referee": "Li Wei",
+        "timezone": "UTC",
+        "date": "2024-04-20T07:30:00+00:00",
+        "timestamp": 1713598200,
+        "periods": {
+          "first": 1713598200,
+          "second": 1713601800
+        },
+        "venue": {
+          "id": null,
+          "name": "Xi'an PEU Football Field",
+          "city": "Xi'An"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 20674,
+          "name": "Xi'an Ronghai",
+          "logo": "https://media.api-sports.io/football/teams/20674.png",
+          "winner": false
+        },
+        "away": {
+          "id": 23269,
+          "name": "Guangzhou E-Power",
+          "logo": "https://media.api-sports.io/football/teams/23269.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185127,
+        "referee": "Xiaochun Cai",
+        "timezone": "UTC",
+        "date": "2024-04-20T07:30:00+00:00",
+        "timestamp": 1713598200,
+        "periods": {
+          "first": 1713598200,
+          "second": 1713601800
+        },
+        "venue": {
+          "id": null,
+          "name": "Shenzhen Youth Football Training Center Field 1",
+          "city": "Shenzhen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23150,
+          "name": "Shenzhen Jixiang",
+          "logo": "https://media.api-sports.io/football/teams/23150.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21264,
+          "name": "Guangxi Lanhang",
+          "logo": "https://media.api-sports.io/football/teams/21264.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185123,
+        "referee": "Chen Sijian",
+        "timezone": "UTC",
+        "date": "2024-04-20T11:30:00+00:00",
+        "timestamp": 1713612600,
+        "periods": {
+          "first": 1713612600,
+          "second": 1713616200
+        },
+        "venue": {
+          "id": null,
+          "name": "Guigang Sports Center Stadium",
+          "city": "Guigang"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23138,
+          "name": "Guangxi Bushan",
+          "logo": "https://media.api-sports.io/football/teams/23138.png",
+          "winner": false
+        },
+        "away": {
+          "id": 21328,
+          "name": "Rizhao Yuqi",
+          "logo": "https://media.api-sports.io/football/teams/21328.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185648,
+        "referee": "Xie Chenyao",
+        "timezone": "UTC",
+        "date": "2024-04-21T06:30:00+00:00",
+        "timestamp": 1713681000,
+        "periods": {
+          "first": 1713681000,
+          "second": 1713684600
+        },
+        "venue": {
+          "id": null,
+          "name": "Qingdao Jimo Chuangzhi New District Sports Center Stadium",
+          "city": "Qingdao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5677,
+          "name": "Qingdao Elite United",
+          "logo": "https://media.api-sports.io/football/teams/5677.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5660,
+          "name": "Hubei Chufeng Heli",
+          "logo": "https://media.api-sports.io/football/teams/5660.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185128,
+        "referee": "Feiqiang Wang",
+        "timezone": "UTC",
+        "date": "2024-04-21T06:30:00+00:00",
+        "timestamp": 1713681000,
+        "periods": {
+          "first": 1713681000,
+          "second": 1713684600
+        },
+        "venue": {
+          "id": null,
+          "name": "Tianjin University Fuzhou Football Field",
+          "city": "Fuzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21322,
+          "name": "Changle Jingangtui",
+          "logo": "https://media.api-sports.io/football/teams/21322.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1438,
+          "name": "Hunan Billows FC",
+          "logo": "https://media.api-sports.io/football/teams/1438.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1184790,
+        "referee": "Liang Ming",
+        "timezone": "UTC",
+        "date": "2024-04-21T07:00:00+00:00",
+        "timestamp": 1713682800,
+        "periods": {
+          "first": 1713682800,
+          "second": 1713686400
+        },
+        "venue": {
+          "id": null,
+          "name": "Shanghai United Football Base Field 3",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21329,
+          "name": "Shanghai Shenshui",
+          "logo": "https://media.api-sports.io/football/teams/21329.png",
+          "winner": null
+        },
+        "away": {
+          "id": 19317,
+          "name": "Hainan Star",
+          "logo": "https://media.api-sports.io/football/teams/19317.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185124,
+        "referee": "Zheng Shenfei",
+        "timezone": "UTC",
+        "date": "2024-04-21T07:30:00+00:00",
+        "timestamp": 1713684600,
+        "periods": {
+          "first": 1713684600,
+          "second": 1713688200
+        },
+        "venue": {
+          "id": null,
+          "name": "Qujing Sports Centre Stadium",
+          "city": "Qujing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21327,
+          "name": "Qujing Yibu",
+          "logo": "https://media.api-sports.io/football/teams/21327.png",
+          "winner": false
+        },
+        "away": {
+          "id": 23268,
+          "name": "Guangxi Hengchen",
+          "logo": "https://media.api-sports.io/football/teams/23268.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197003,
+        "referee": "Li Pengda",
+        "timezone": "UTC",
+        "date": "2024-05-15T06:00:00+00:00",
+        "timestamp": 1715752800,
+        "periods": {
+          "first": 1715752800,
+          "second": 1715756400
+        },
+        "venue": {
+          "id": null,
+          "name": "Shanghai East China University of Science and Technology Football Stadium",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23133,
+          "name": "Changning Flying Lions",
+          "logo": "https://media.api-sports.io/football/teams/23133.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17271,
+          "name": "Yanbian Longding",
+          "logo": "https://media.api-sports.io/football/teams/17271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197007,
+        "referee": "Su Zihao",
+        "timezone": "UTC",
+        "date": "2024-05-17T07:30:00+00:00",
+        "timestamp": 1715931000,
+        "periods": {
+          "first": 1715931000,
+          "second": 1715934600
+        },
+        "venue": {
+          "id": null,
+          "name": "Taishan Stadium",
+          "city": "Tai'an"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 19321,
+          "name": "Tai'an Tiankuang",
+          "logo": "https://media.api-sports.io/football/teams/19321.png",
+          "winner": false
+        },
+        "away": {
+          "id": 17263,
+          "name": "Dongguan United",
+          "logo": "https://media.api-sports.io/football/teams/17263.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197006,
+        "referee": "Dan Ning",
+        "timezone": "UTC",
+        "date": "2024-05-17T07:30:00+00:00",
+        "timestamp": 1715931000,
+        "periods": {
+          "first": 1715931000,
+          "second": 1715934600
+        },
+        "venue": {
+          "id": null,
+          "name": "Longhua Sports Center Stadium",
+          "city": "Shenzhen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23265,
+          "name": "Shenzhen Juniors",
+          "logo": "https://media.api-sports.io/football/teams/23265.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5679,
+          "name": "Qingdao Red Lions",
+          "logo": "https://media.api-sports.io/football/teams/5679.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197067,
+        "referee": "Xiong Xing",
+        "timezone": "UTC",
+        "date": "2024-05-17T09:00:00+00:00",
+        "timestamp": 1715936400,
+        "periods": {
+          "first": 1715936400,
+          "second": 1715940000
+        },
+        "venue": {
+          "id": 19663,
+          "name": "Mission Hills Football Base Stadium",
+          "city": "Haikou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 19317,
+          "name": "Hainan Star",
+          "logo": "https://media.api-sports.io/football/teams/19317.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5665,
+          "name": "Jiangxi Liansheng",
+          "logo": "https://media.api-sports.io/football/teams/5665.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197001,
+        "referee": "Han Lei",
+        "timezone": "UTC",
+        "date": "2024-05-17T11:00:00+00:00",
+        "timestamp": 1715943600,
+        "periods": {
+          "first": 1715943600,
+          "second": 1715947200
+        },
+        "venue": {
+          "id": 19670,
+          "name": "Jinzhou Stadium",
+          "city": "Dalian"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5652,
+          "name": "Dalian Huayi",
+          "logo": "https://media.api-sports.io/football/teams/5652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 21265,
+          "name": "Yunnan Yukun",
+          "logo": "https://media.api-sports.io/football/teams/21265.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197068,
+        "referee": "Li Peng",
+        "timezone": "UTC",
+        "date": "2024-05-17T11:30:00+00:00",
+        "timestamp": 1715945400,
+        "periods": {
+          "first": 1715945400,
+          "second": 1715949000
+        },
+        "venue": {
+          "id": 21673,
+          "name": "Rizhao International Football Centre Stadium",
+          "city": "Rizhao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21328,
+          "name": "Rizhao Yuqi",
+          "logo": "https://media.api-sports.io/football/teams/21328.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5682,
+          "name": "Shanghai Jiading",
+          "logo": "https://media.api-sports.io/football/teams/5682.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197004,
+        "referee": "Liu Xindong",
+        "timezone": "UTC",
+        "date": "2024-05-18T07:30:00+00:00",
+        "timestamp": 1716017400,
+        "periods": {
+          "first": 1716017400,
+          "second": 1716021000
+        },
+        "venue": {
+          "id": null,
+          "name": "Shenzhen Youth Football Training Center Field 1",
+          "city": "Shenzhen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23150,
+          "name": "Shenzhen Jixiang",
+          "logo": "https://media.api-sports.io/football/teams/23150.png",
+          "winner": false
+        },
+        "away": {
+          "id": 16619,
+          "name": "Nanjing City",
+          "logo": "https://media.api-sports.io/football/teams/16619.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197002,
+        "referee": "Meng Xiangkun",
+        "timezone": "UTC",
+        "date": "2024-05-18T07:30:00+00:00",
+        "timestamp": 1716017400,
+        "periods": {
+          "first": 1716017400,
+          "second": 1716021000
+        },
+        "venue": {
+          "id": 1786,
+          "name": "Langfang City Sports Center",
+          "city": "Langfang"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23270,
+          "name": "Langfang Glory City",
+          "logo": "https://media.api-sports.io/football/teams/23270.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1445,
+          "name": "Heilongjiang Lava Spring",
+          "logo": "https://media.api-sports.io/football/teams/1445.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197000,
+        "referee": "Wang Xiao",
+        "timezone": "UTC",
+        "date": "2024-05-18T09:00:00+00:00",
+        "timestamp": 1716022800,
+        "periods": {
+          "first": 1716022800,
+          "second": 1716026400
+        },
+        "venue": {
+          "id": null,
+          "name": "Huangpu Sports Center",
+          "city": "Guangzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23269,
+          "name": "Guangzhou E-Power",
+          "logo": "https://media.api-sports.io/football/teams/23269.png",
+          "winner": false
+        },
+        "away": {
+          "id": 17269,
+          "name": "Wuxi Wugou",
+          "logo": "https://media.api-sports.io/football/teams/17269.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197008,
+        "referee": "Yan Xu",
+        "timezone": "UTC",
+        "date": "2024-05-18T09:00:00+00:00",
+        "timestamp": 1716022800,
+        "periods": {
+          "first": 1716022800,
+          "second": 1716026400
+        },
+        "venue": {
+          "id": 1904,
+          "name": "Weinan Sports Center Stadium",
+          "city": "Weinan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23286,
+          "name": "Shaanxi Union",
+          "logo": "https://media.api-sports.io/football/teams/23286.png",
+          "winner": null
+        },
+        "away": {
+          "id": 832,
+          "name": "Guangzhou Evergrande FC",
+          "logo": "https://media.api-sports.io/football/teams/832.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197071,
+        "referee": "Li Wei",
+        "timezone": "UTC",
+        "date": "2024-05-18T09:30:00+00:00",
+        "timestamp": 1716024600,
+        "periods": {
+          "first": 1716024600,
+          "second": 1716028200
+        },
+        "venue": {
+          "id": 19659,
+          "name": "Loudi Sports Center",
+          "city": "Loudi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1438,
+          "name": "Hunan Billows FC",
+          "logo": "https://media.api-sports.io/football/teams/1438.png",
+          "winner": false
+        },
+        "away": {
+          "id": 17264,
+          "name": "Hebei Kungfu",
+          "logo": "https://media.api-sports.io/football/teams/17264.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197070,
+        "referee": "Gu Zhongchao",
+        "timezone": "UTC",
+        "date": "2024-05-19T06:30:00+00:00",
+        "timestamp": 1716100200,
+        "periods": {
+          "first": 1716100200,
+          "second": 1716103800
+        },
+        "venue": {
+          "id": null,
+          "name": "Qingdao Jimo Chuangzhi New District Sports Center Stadium",
+          "city": "Qingdao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5677,
+          "name": "Qingdao Elite United",
+          "logo": "https://media.api-sports.io/football/teams/5677.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5688,
+          "name": "Suzhou Dongwu",
+          "logo": "https://media.api-sports.io/football/teams/5688.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197005,
+        "referee": "Mu Yuchen",
+        "timezone": "UTC",
+        "date": "2024-05-19T07:30:00+00:00",
+        "timestamp": 1716103800,
+        "periods": {
+          "first": 1716103800,
+          "second": 1716107400
+        },
+        "venue": {
+          "id": 4227,
+          "name": "Beijing Institute of Technology Eastern Athletic Field",
+          "city": "Beijing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5647,
+          "name": "BIT",
+          "logo": "https://media.api-sports.io/football/teams/5647.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5657,
+          "name": "Guangxi Baoyun",
+          "logo": "https://media.api-sports.io/football/teams/5657.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197009,
+        "referee": "Jiang Ning",
+        "timezone": "UTC",
+        "date": "2024-05-19T07:30:00+00:00",
+        "timestamp": 1716103800,
+        "periods": {
+          "first": 1716103800,
+          "second": 1716107400
+        },
+        "venue": {
+          "id": 21670,
+          "name": "Dingnan Football Youth Training Center",
+          "city": "Dingnan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 19320,
+          "name": "Shangyu Pterosaur",
+          "logo": "https://media.api-sports.io/football/teams/19320.png",
+          "winner": null
+        },
+        "away": {
+          "id": 5684,
+          "name": "Shenyang Urban",
+          "logo": "https://media.api-sports.io/football/teams/5684.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197069,
+        "referee": "Wu Can",
+        "timezone": "UTC",
+        "date": "2024-05-19T09:00:00+00:00",
+        "timestamp": 1716109200,
+        "periods": {
+          "first": 1716109200,
+          "second": 1716112800
+        },
+        "venue": {
+          "id": 21689,
+          "name": "Nanning Sports School Wuhe Campus Football Field",
+          "city": "Nanning"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23268,
+          "name": "Guangxi Hengchen",
+          "logo": "https://media.api-sports.io/football/teams/23268.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21263,
+          "name": "Dalian Zhixing",
+          "logo": "https://media.api-sports.io/football/teams/21263.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1196959,
+        "referee": "Geng Maoxiang",
+        "timezone": "UTC",
+        "date": "2024-05-19T11:30:00+00:00",
+        "timestamp": 1716118200,
+        "periods": {
+          "first": 1716118200,
+          "second": 1716121800
+        },
+        "venue": {
+          "id": 21690,
+          "name": "Linping Sports Center Stadium",
+          "city": "Hangzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5658,
+          "name": "Hangzhou Wuyue Qiantang",
+          "logo": "https://media.api-sports.io/football/teams/5658.png",
+          "winner": false
+        },
+        "away": {
+          "id": 21262,
+          "name": "Chongqing Tongliang Long",
+          "logo": "https://media.api-sports.io/football/teams/21262.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200760,
+        "referee": "Geng Maoxiang",
+        "timezone": "UTC",
+        "date": "2024-06-19T08:00:00+00:00",
+        "timestamp": 1718784000,
+        "periods": {
+          "first": 1718784000,
+          "second": 1718787600
+        },
+        "venue": {
+          "id": 21670,
+          "name": "Dingnan Football Youth Training Center",
+          "city": "Dingnan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 19320,
+          "name": "Shangyu Pterosaur",
+          "logo": "https://media.api-sports.io/football/teams/19320.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2626,
+          "name": "Nantong Zhiyun",
+          "logo": "https://media.api-sports.io/football/teams/2626.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200754,
+        "referee": "He Xin",
+        "timezone": "UTC",
+        "date": "2024-06-19T08:00:00+00:00",
+        "timestamp": 1718784000,
+        "periods": {
+          "first": 1718784000,
+          "second": 1718787600
+        },
+        "venue": {
+          "id": 1786,
+          "name": "Langfang City Sports Center",
+          "city": "Langfang"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23270,
+          "name": "Langfang Glory City",
+          "logo": "https://media.api-sports.io/football/teams/23270.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1431,
+          "name": "Qingdao Jonoon",
+          "logo": "https://media.api-sports.io/football/teams/1431.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200435,
+        "referee": "Sun Shengyu",
+        "timezone": "UTC",
+        "date": "2024-06-21T08:00:00+00:00",
+        "timestamp": 1718956800,
+        "periods": {
+          "first": 1718956800,
+          "second": 1718960400
+        },
+        "venue": {
+          "id": 19701,
+          "name": "Shanghai Stadium",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23133,
+          "name": "Changning Flying Lions",
+          "logo": "https://media.api-sports.io/football/teams/23133.png",
+          "winner": null
+        },
+        "away": {
+          "id": 5648,
+          "name": "Chengdu Better City",
+          "logo": "https://media.api-sports.io/football/teams/5648.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200867,
+        "referee": "Liang Songshang",
+        "timezone": "UTC",
+        "date": "2024-06-21T09:00:00+00:00",
+        "timestamp": 1718960400,
+        "periods": {
+          "first": 1718960400,
+          "second": 1718964000
+        },
+        "venue": {
+          "id": 21689,
+          "name": "Nanning Sports School Wuhe Campus Football Field",
+          "city": "Nanning"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23268,
+          "name": "Guangxi Hengchen",
+          "logo": "https://media.api-sports.io/football/teams/23268.png",
+          "winner": false
+        },
+        "away": {
+          "id": 836,
+          "name": "SHANGHAI SIPG",
+          "logo": "https://media.api-sports.io/football/teams/836.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200759,
+        "referee": "Wang Wei",
+        "timezone": "UTC",
+        "date": "2024-06-21T09:00:00+00:00",
+        "timestamp": 1718960400,
+        "periods": {
+          "first": 1718960400,
+          "second": 1718964000
+        },
+        "venue": {
+          "id": 1904,
+          "name": "Weinan Sports Center Stadium",
+          "city": "Weinan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23286,
+          "name": "Shaanxi Union",
+          "logo": "https://media.api-sports.io/football/teams/23286.png",
+          "winner": null
+        },
+        "away": {
+          "id": 834,
+          "name": "Changchun Yatai",
+          "logo": "https://media.api-sports.io/football/teams/834.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200631,
+        "referee": "Su Zihao",
+        "timezone": "UTC",
+        "date": "2024-06-21T11:30:00+00:00",
+        "timestamp": 1718969400,
+        "periods": {
+          "first": 1718969400,
+          "second": 1718973000
+        },
+        "venue": {
+          "id": null,
+          "name": "Nanhai Sports Center Stadium",
+          "city": "Foshan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 17263,
+          "name": "Dongguan United",
+          "logo": "https://media.api-sports.io/football/teams/17263.png",
+          "winner": false
+        },
+        "away": {
+          "id": 833,
+          "name": "Shanghai Shenhua",
+          "logo": "https://media.api-sports.io/football/teams/833.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200753,
+        "referee": "Cui Yong",
+        "timezone": "UTC",
+        "date": "2024-06-21T11:30:00+00:00",
+        "timestamp": 1718969400,
+        "periods": {
+          "first": 1718969400,
+          "second": 1718973000
+        },
+        "venue": {
+          "id": null,
+          "name": "Jiangyin Sports Park Stadium",
+          "city": "Jiangyin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 17269,
+          "name": "Wuxi Wugou",
+          "logo": "https://media.api-sports.io/football/teams/17269.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1439,
+          "name": "Meizhou Kejia",
+          "logo": "https://media.api-sports.io/football/teams/1439.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200672,
+        "referee": "He Kai",
+        "timezone": "UTC",
+        "date": "2024-06-21T11:30:00+00:00",
+        "timestamp": 1718969400,
+        "periods": {
+          "first": 1718969400,
+          "second": 1718973000
+        },
+        "venue": {
+          "id": 19672,
+          "name": "Yuxi Plateau Sports Center Stadium",
+          "city": "Yuxi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21265,
+          "name": "Yunnan Yukun",
+          "logo": "https://media.api-sports.io/football/teams/21265.png",
+          "winner": null
+        },
+        "away": {
+          "id": 837,
+          "name": "Tianjin Teda",
+          "logo": "https://media.api-sports.io/football/teams/837.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200671,
+        "referee": "Yu Bo",
+        "timezone": "UTC",
+        "date": "2024-06-21T11:30:00+00:00",
+        "timestamp": 1718969400,
+        "periods": {
+          "first": 1718969400,
+          "second": 1718973000
+        },
+        "venue": {
+          "id": 21673,
+          "name": "Rizhao International Football Centre Stadium",
+          "city": "Rizhao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21328,
+          "name": "Rizhao Yuqi",
+          "logo": "https://media.api-sports.io/football/teams/21328.png",
+          "winner": false
+        },
+        "away": {
+          "id": 840,
+          "name": "Henan Jianye",
+          "logo": "https://media.api-sports.io/football/teams/840.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200756,
+        "referee": "Dai Yige",
+        "timezone": "UTC",
+        "date": "2024-06-21T12:00:00+00:00",
+        "timestamp": 1718971200,
+        "periods": {
+          "first": 1718971200,
+          "second": 1718974800
+        },
+        "venue": {
+          "id": null,
+          "name": "Pingguo Stadium",
+          "city": "Pingguo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5657,
+          "name": "Guangxi Baoyun",
+          "logo": "https://media.api-sports.io/football/teams/5657.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5695,
+          "name": "Wuhan Three Towns",
+          "logo": "https://media.api-sports.io/football/teams/5695.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200670,
+        "referee": "Zhang Chao",
+        "timezone": "UTC",
+        "date": "2024-06-22T10:30:00+00:00",
+        "timestamp": 1719052200,
+        "periods": {
+          "first": 1719052200,
+          "second": 1719055800
+        },
+        "venue": {
+          "id": 21667,
+          "name": "Ruichang Sports Park Stadium",
+          "city": "Jiujiang"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5665,
+          "name": "Jiangxi Liansheng",
+          "logo": "https://media.api-sports.io/football/teams/5665.png",
+          "winner": false
+        },
+        "away": {
+          "id": 848,
+          "name": "Hangzhou Greentown",
+          "logo": "https://media.api-sports.io/football/teams/848.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200673,
+        "referee": "Huang Yi",
+        "timezone": "UTC",
+        "date": "2024-06-22T11:30:00+00:00",
+        "timestamp": 1719055800,
+        "periods": {
+          "first": 1719055800,
+          "second": 1719059400
+        },
+        "venue": {
+          "id": null,
+          "name": "Qingdao West Coast University City Stadium",
+          "city": "Qingdao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5679,
+          "name": "Qingdao Red Lions",
+          "logo": "https://media.api-sports.io/football/teams/5679.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5686,
+          "name": "Sichuan Jiuniu",
+          "logo": "https://media.api-sports.io/football/teams/5686.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200757,
+        "referee": "Gu Chunhan",
+        "timezone": "UTC",
+        "date": "2024-06-22T11:30:00+00:00",
+        "timestamp": 1719055800,
+        "periods": {
+          "first": 1719055800,
+          "second": 1719059400
+        },
+        "venue": {
+          "id": null,
+          "name": "Suzhou Olympic Sports Centre Stadium",
+          "city": "Suzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5688,
+          "name": "Suzhou Dongwu",
+          "logo": "https://media.api-sports.io/football/teams/5688.png",
+          "winner": false
+        },
+        "away": {
+          "id": 830,
+          "name": "Beijing Guoan",
+          "logo": "https://media.api-sports.io/football/teams/830.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200758,
+        "referee": "Shan Dan'ao",
+        "timezone": "UTC",
+        "date": "2024-06-22T11:30:00+00:00",
+        "timestamp": 1719055800,
+        "periods": {
+          "first": 1719055800,
+          "second": 1719059400
+        },
+        "venue": {
+          "id": null,
+          "name": "Yutong International Sports Center",
+          "city": "Shijiazhuang"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 17264,
+          "name": "Hebei Kungfu",
+          "logo": "https://media.api-sports.io/football/teams/17264.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17265,
+          "name": "Qingdao Youth Island",
+          "logo": "https://media.api-sports.io/football/teams/17265.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200866,
+        "referee": "Memetjan Ahmat",
+        "timezone": "UTC",
+        "date": "2024-06-22T11:30:00+00:00",
+        "timestamp": 1719055800,
+        "periods": {
+          "first": 1719055800,
+          "second": 1719059400
+        },
+        "venue": {
+          "id": 19669,
+          "name": "Tongliang Long Stadium",
+          "city": "Chongqing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 21262,
+          "name": "Chongqing Tongliang Long",
+          "logo": "https://media.api-sports.io/football/teams/21262.png",
+          "winner": false
+        },
+        "away": {
+          "id": 844,
+          "name": "Shandong Luneng",
+          "logo": "https://media.api-sports.io/football/teams/844.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200755,
+        "referee": "Xu Qiangqiang",
+        "timezone": "UTC",
+        "date": "2024-06-23T11:30:00+00:00",
+        "timestamp": 1719142200,
+        "periods": {
+          "first": 1719142200,
+          "second": 1719145800
+        },
+        "venue": {
+          "id": null,
+          "name": "Wutaishan Stadium",
+          "city": "Nanjing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 16619,
+          "name": "Nanjing City",
+          "logo": "https://media.api-sports.io/football/teams/16619.png",
+          "winner": true
+        },
+        "away": {
+          "id": 849,
+          "name": "Shijiazhuang Y. J.",
+          "logo": "https://media.api-sports.io/football/teams/849.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215131,
+        "referee": "Ma Yunkun",
+        "timezone": "UTC",
+        "date": "2024-07-16T11:35:00+00:00",
+        "timestamp": 1721129700,
+        "periods": {
+          "first": 1721129700,
+          "second": 1721133300
+        },
+        "venue": {
+          "id": 20429,
+          "name": "Chengdu Phoenix Mountain Sports Park",
+          "city": "Chengdu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5648,
+          "name": "Chengdu Better City",
+          "logo": "https://media.api-sports.io/football/teams/5648.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2626,
+          "name": "Nantong Zhiyun",
+          "logo": "https://media.api-sports.io/football/teams/2626.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215129,
+        "referee": "Zhang Lei",
+        "timezone": "UTC",
+        "date": "2024-07-17T10:00:00+00:00",
+        "timestamp": 1721210400,
+        "periods": {
+          "first": 1721210400,
+          "second": 1721214000
+        },
+        "venue": {
+          "id": null,
+          "name": "Qingdao West Coast University City Stadium",
+          "city": "Qingdao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 17265,
+          "name": "Qingdao Youth Island",
+          "logo": "https://media.api-sports.io/football/teams/17265.png",
+          "winner": false
+        },
+        "away": {
+          "id": 844,
+          "name": "Shandong Luneng",
+          "logo": "https://media.api-sports.io/football/teams/844.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215128,
+        "referee": "Sun Shengyu",
+        "timezone": "UTC",
+        "date": "2024-07-17T11:00:00+00:00",
+        "timestamp": 1721214000,
+        "periods": {
+          "first": 1721214000,
+          "second": 1721217600
+        },
+        "venue": {
+          "id": 355,
+          "name": "Zhengzhou Hanghai Stadium",
+          "city": "Zhengzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 840,
+          "name": "Henan Jianye",
+          "logo": "https://media.api-sports.io/football/teams/840.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5657,
+          "name": "Guangxi Baoyun",
+          "logo": "https://media.api-sports.io/football/teams/5657.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215126,
+        "referee": "Dai Yige",
+        "timezone": "UTC",
+        "date": "2024-07-17T11:30:00+00:00",
+        "timestamp": 1721215800,
+        "periods": {
+          "first": 1721215800,
+          "second": 1721219400
+        },
+        "venue": {
+          "id": null,
+          "name": "TEDA Football Stadium",
+          "city": "Tianjin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 837,
+          "name": "Tianjin Teda",
+          "logo": "https://media.api-sports.io/football/teams/837.png",
+          "winner": true
+        },
+        "away": {
+          "id": 834,
+          "name": "Changchun Yatai",
+          "logo": "https://media.api-sports.io/football/teams/834.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 2,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215124,
+        "referee": "Shan Dan'ao",
+        "timezone": "UTC",
+        "date": "2024-07-17T11:30:00+00:00",
+        "timestamp": 1721215800,
+        "periods": {
+          "first": 1721215800,
+          "second": 1721219400
+        },
+        "venue": {
+          "id": 21668,
+          "name": "Wuxi Sports Center",
+          "city": "Wuxi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 17269,
+          "name": "Wuxi Wugou",
+          "logo": "https://media.api-sports.io/football/teams/17269.png",
+          "winner": false
+        },
+        "away": {
+          "id": 830,
+          "name": "Beijing Guoan",
+          "logo": "https://media.api-sports.io/football/teams/830.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215127,
+        "referee": "Liu Wei",
+        "timezone": "UTC",
+        "date": "2024-07-17T11:35:00+00:00",
+        "timestamp": 1721216100,
+        "periods": {
+          "first": 1721216100,
+          "second": 1721219700
+        },
+        "venue": {
+          "id": null,
+          "name": "Xiaoshan Sports Center Stadium",
+          "city": "Hangzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 848,
+          "name": "Hangzhou Greentown",
+          "logo": "https://media.api-sports.io/football/teams/848.png",
+          "winner": false
+        },
+        "away": {
+          "id": 836,
+          "name": "SHANGHAI SIPG",
+          "logo": "https://media.api-sports.io/football/teams/836.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215130,
+        "referee": "Liu Zhao",
+        "timezone": "UTC",
+        "date": "2024-07-17T12:00:00+00:00",
+        "timestamp": 1721217600,
+        "periods": {
+          "first": 1721217600,
+          "second": 1721221200
+        },
+        "venue": {
+          "id": 20427,
+          "name": "Qingdao Youth Football Stadium",
+          "city": "Qingdao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1431,
+          "name": "Qingdao Jonoon",
+          "logo": "https://media.api-sports.io/football/teams/1431.png",
+          "winner": false
+        },
+        "away": {
+          "id": 16619,
+          "name": "Nanjing City",
+          "logo": "https://media.api-sports.io/football/teams/16619.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215125,
+        "referee": "Mu Yuchen",
+        "timezone": "UTC",
+        "date": "2024-07-17T12:00:00+00:00",
+        "timestamp": 1721217600,
+        "periods": {
+          "first": 1721217600,
+          "second": 1721221200
+        },
+        "venue": {
+          "id": null,
+          "name": "Shenzhen Bao'an Stadium",
+          "city": "Shenzhen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5686,
+          "name": "Sichuan Jiuniu",
+          "logo": "https://media.api-sports.io/football/teams/5686.png",
+          "winner": false
+        },
+        "away": {
+          "id": 833,
+          "name": "Shanghai Shenhua",
+          "logo": "https://media.api-sports.io/football/teams/833.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251016,
+        "referee": "Gao Peng",
+        "timezone": "UTC",
+        "date": "2024-08-21T11:35:00+00:00",
+        "timestamp": 1724240100,
+        "periods": {
+          "first": 1724240100,
+          "second": 1724243700
+        },
+        "venue": {
+          "id": 359,
+          "name": "Jinan Olympic Sports Center Stadium",
+          "city": "Ji'nan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 844,
+          "name": "Shandong Luneng",
+          "logo": "https://media.api-sports.io/football/teams/844.png",
+          "winner": true
+        },
+        "away": {
+          "id": 840,
+          "name": "Henan Jianye",
+          "logo": "https://media.api-sports.io/football/teams/840.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251017,
+        "referee": "Zhang Lei",
+        "timezone": "UTC",
+        "date": "2024-08-21T11:35:00+00:00",
+        "timestamp": 1724240100,
+        "periods": {
+          "first": 1724240100,
+          "second": 1724243700
+        },
+        "venue": {
+          "id": null,
+          "name": "Wutaishan Stadium",
+          "city": "Nanjing"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 16619,
+          "name": "Nanjing City",
+          "logo": "https://media.api-sports.io/football/teams/16619.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5648,
+          "name": "Chengdu Better City",
+          "logo": "https://media.api-sports.io/football/teams/5648.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251018,
+        "referee": "Memetjan Ahmat",
+        "timezone": "UTC",
+        "date": "2024-08-22T11:35:00+00:00",
+        "timestamp": 1724326500,
+        "periods": {
+          "first": 1724326500,
+          "second": 1724330100
+        },
+        "venue": {
+          "id": 19701,
+          "name": "Shanghai Stadium",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 833,
+          "name": "Shanghai Shenhua",
+          "logo": "https://media.api-sports.io/football/teams/833.png",
+          "winner": true
+        },
+        "away": {
+          "id": 830,
+          "name": "Beijing Guoan",
+          "logo": "https://media.api-sports.io/football/teams/830.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251015,
+        "referee": "Dai Yige",
+        "timezone": "UTC",
+        "date": "2024-08-22T11:35:00+00:00",
+        "timestamp": 1724326500,
+        "periods": {
+          "first": 1724326500,
+          "second": 1724330100
+        },
+        "venue": {
+          "id": null,
+          "name": "SAIC Motor Pudong Arena",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 836,
+          "name": "SHANGHAI SIPG",
+          "logo": "https://media.api-sports.io/football/teams/836.png",
+          "winner": true
+        },
+        "away": {
+          "id": 837,
+          "name": "Tianjin Teda",
+          "logo": "https://media.api-sports.io/football/teams/837.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1294670,
+        "referee": "Li Haixin",
+        "timezone": "UTC",
+        "date": "2024-09-24T11:35:00+00:00",
+        "timestamp": 1727177700,
+        "periods": {
+          "first": 1727177700,
+          "second": 1727181300
+        },
+        "venue": {
+          "id": 359,
+          "name": "Jinan Olympic Sports Center Stadium",
+          "city": "Ji'nan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 844,
+          "name": "Shandong Luneng",
+          "logo": "https://media.api-sports.io/football/teams/844.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5648,
+          "name": "Chengdu Better City",
+          "logo": "https://media.api-sports.io/football/teams/5648.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1295069,
+        "referee": "Memetjan Ahmat",
+        "timezone": "UTC",
+        "date": "2024-09-25T11:35:00+00:00",
+        "timestamp": 1727264100,
+        "periods": {
+          "first": 1727264100,
+          "second": 1727267700
+        },
+        "venue": {
+          "id": null,
+          "name": "SAIC Motor Pudong Arena",
+          "city": "Shanghai"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 836,
+          "name": "SHANGHAI SIPG",
+          "logo": "https://media.api-sports.io/football/teams/836.png",
+          "winner": true
+        },
+        "away": {
+          "id": 833,
+          "name": "Shanghai Shenhua",
+          "logo": "https://media.api-sports.io/football/teams/833.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308805,
+        "referee": "Ma Ning",
+        "timezone": "UTC",
+        "date": "2024-11-23T10:30:00+00:00",
+        "timestamp": 1732357800,
+        "periods": {
+          "first": 1732357800,
+          "second": 1732361400
+        },
+        "venue": {
+          "id": 359,
+          "name": "Wenzhou Olympic Sports Center Stadium",
+          "city": "Wenzhou"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 171,
+        "name": "FA Cup",
+        "country": "China",
+        "logo": "https://media.api-sports.io/football/leagues/171.png",
+        "flag": "https://media.api-sports.io/flags/cn.svg",
+        "season": 2024,
+        "round": "Finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 844,
+          "name": "Shandong Luneng",
+          "logo": "https://media.api-sports.io/football/teams/844.png",
+          "winner": false
+        },
+        "away": {
+          "id": 836,
+          "name": "SHANGHAI SIPG",
+          "logo": "https://media.api-sports.io/football/teams/836.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
