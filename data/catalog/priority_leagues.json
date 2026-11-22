@@ -2266,6 +2266,28 @@
     }
   },
   {
+    "league_id": 587,
+    "league_name": "World Cup - U17",
+    "country": "World",
+    "league_type": "Cup",
+    "priority_score": 94,
+    "priority_tier": "A",
+    "latest_season": 2026,
+    "season_count": 4,
+    "coverage_details": {
+      "events": true,
+      "lineups": true,
+      "statistics_fixtures": true,
+      "standings": true,
+      "players": true,
+      "top_scorers": true,
+      "top_assists": true,
+      "top_cards": true,
+      "season_count": 4,
+      "season_bonus": 4
+    }
+  },
+  {
     "league_id": 36,
     "league_name": "Africa Cup of Nations - Qualification",
     "country": "World",
@@ -5038,50 +5060,6 @@
     }
   },
   {
-    "league_id": 628,
-    "league_name": "Goiano - 1",
-    "country": "Brazil",
-    "league_type": "League",
-    "priority_score": 72,
-    "priority_tier": "A",
-    "latest_season": 2026,
-    "season_count": 7,
-    "coverage_details": {
-      "events": true,
-      "lineups": true,
-      "statistics_fixtures": false,
-      "standings": true,
-      "players": true,
-      "top_scorers": true,
-      "top_assists": true,
-      "top_cards": true,
-      "season_count": 7,
-      "season_bonus": 7
-    }
-  },
-  {
-    "league_id": 629,
-    "league_name": "Mineiro - 1",
-    "country": "Brazil",
-    "league_type": "League",
-    "priority_score": 72,
-    "priority_tier": "A",
-    "latest_season": 2026,
-    "season_count": 7,
-    "coverage_details": {
-      "events": true,
-      "lineups": true,
-      "statistics_fixtures": false,
-      "standings": true,
-      "players": true,
-      "top_scorers": true,
-      "top_assists": true,
-      "top_cards": true,
-      "season_count": 7,
-      "season_bonus": 7
-    }
-  },
-  {
     "league_id": 630,
     "league_name": "Matogrossense",
     "country": "Brazil",
@@ -6619,28 +6597,6 @@
       "top_cards": true,
       "season_count": 10,
       "season_bonus": 10
-    }
-  },
-  {
-    "league_id": 507,
-    "league_name": "Cup",
-    "country": "South-Africa",
-    "league_type": "Cup",
-    "priority_score": 59,
-    "priority_tier": "B",
-    "latest_season": 2025,
-    "season_count": 9,
-    "coverage_details": {
-      "events": true,
-      "lineups": true,
-      "statistics_fixtures": false,
-      "standings": false,
-      "players": true,
-      "top_scorers": true,
-      "top_assists": true,
-      "top_cards": true,
-      "season_count": 9,
-      "season_bonus": 9
     }
   },
   {
@@ -8448,6 +8404,28 @@
     }
   },
   {
+    "league_id": 411,
+    "league_name": "Elite One",
+    "country": "Cameroon",
+    "league_type": "League",
+    "priority_score": 55,
+    "priority_tier": "B",
+    "latest_season": 2027,
+    "season_count": 12,
+    "coverage_details": {
+      "events": true,
+      "lineups": true,
+      "statistics_fixtures": false,
+      "standings": true,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 12,
+      "season_bonus": 10
+    }
+  },
+  {
     "league_id": 316,
     "league_name": "1st League - FBiH",
     "country": "Bosnia",
@@ -9768,6 +9746,28 @@
     }
   },
   {
+    "league_id": 1055,
+    "league_name": "Ettan - Relegation Round",
+    "country": "Sweden",
+    "league_type": "League",
+    "priority_score": 54,
+    "priority_tier": "B",
+    "latest_season": 2026,
+    "season_count": 4,
+    "coverage_details": {
+      "events": true,
+      "lineups": true,
+      "statistics_fixtures": false,
+      "standings": false,
+      "players": true,
+      "top_scorers": true,
+      "top_assists": true,
+      "top_cards": true,
+      "season_count": 4,
+      "season_bonus": 4
+    }
+  },
+  {
     "league_id": 972,
     "league_name": "Super Cup",
     "country": "China",
@@ -10981,28 +10981,6 @@
     "league_id": 1063,
     "league_name": "Copa Alagoas",
     "country": "Brazil",
-    "league_type": "Cup",
-    "priority_score": 53,
-    "priority_tier": "B",
-    "latest_season": 2026,
-    "season_count": 3,
-    "coverage_details": {
-      "events": true,
-      "lineups": true,
-      "statistics_fixtures": false,
-      "standings": false,
-      "players": true,
-      "top_scorers": true,
-      "top_assists": true,
-      "top_cards": true,
-      "season_count": 3,
-      "season_bonus": 3
-    }
-  },
-  {
-    "league_id": 1123,
-    "league_name": "UAE-Qatar - Super Cup",
-    "country": "World",
     "league_type": "Cup",
     "priority_score": 53,
     "priority_tier": "B",
@@ -13376,28 +13354,6 @@
     }
   },
   {
-    "league_id": 587,
-    "league_name": "World Cup - U17",
-    "country": "World",
-    "league_type": "Cup",
-    "priority_score": 49,
-    "priority_tier": "B",
-    "latest_season": 2026,
-    "season_count": 4,
-    "coverage_details": {
-      "events": true,
-      "lineups": true,
-      "statistics_fixtures": false,
-      "standings": true,
-      "players": false,
-      "top_scorers": false,
-      "top_assists": false,
-      "top_cards": false,
-      "season_count": 4,
-      "season_bonus": 4
-    }
-  },
-  {
     "league_id": 950,
     "league_name": "World Cup - U17 - Women",
     "country": "World",
@@ -15378,28 +15334,6 @@
     }
   },
   {
-    "league_id": 411,
-    "league_name": "Elite One",
-    "country": "Cameroon",
-    "league_type": "League",
-    "priority_score": 40,
-    "priority_tier": "C",
-    "latest_season": 2027,
-    "season_count": 12,
-    "coverage_details": {
-      "events": true,
-      "lineups": false,
-      "statistics_fixtures": false,
-      "standings": true,
-      "players": false,
-      "top_scorers": false,
-      "top_assists": false,
-      "top_cards": false,
-      "season_count": 12,
-      "season_bonus": 10
-    }
-  },
-  {
     "league_id": 519,
     "league_name": "Super Cup",
     "country": "Belgium",
@@ -16309,28 +16243,6 @@
     "priority_score": 39,
     "priority_tier": "C",
     "latest_season": 2025,
-    "season_count": 4,
-    "coverage_details": {
-      "events": true,
-      "lineups": false,
-      "statistics_fixtures": false,
-      "standings": false,
-      "players": true,
-      "top_scorers": true,
-      "top_assists": true,
-      "top_cards": true,
-      "season_count": 4,
-      "season_bonus": 4
-    }
-  },
-  {
-    "league_id": 1055,
-    "league_name": "Ettan - Relegation Round",
-    "country": "Sweden",
-    "league_type": "League",
-    "priority_score": 39,
-    "priority_tier": "C",
-    "latest_season": 2026,
     "season_count": 4,
     "coverage_details": {
       "events": true,
@@ -17833,6 +17745,28 @@
       "lineups": true,
       "statistics_fixtures": false,
       "standings": false,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 7,
+      "season_bonus": 7
+    }
+  },
+  {
+    "league_id": 820,
+    "league_name": "Crown Prince Cup",
+    "country": "Kuwait",
+    "league_type": "Cup",
+    "priority_score": 37,
+    "priority_tier": "C",
+    "latest_season": 2026,
+    "season_count": 7,
+    "coverage_details": {
+      "events": true,
+      "lineups": false,
+      "statistics_fixtures": false,
+      "standings": true,
       "players": false,
       "top_scorers": false,
       "top_assists": false,
@@ -21912,6 +21846,28 @@
     }
   },
   {
+    "league_id": 522,
+    "league_name": "Amazonense",
+    "country": "Brazil",
+    "league_type": "League",
+    "priority_score": 25,
+    "priority_tier": "C",
+    "latest_season": 2027,
+    "season_count": 12,
+    "coverage_details": {
+      "events": false,
+      "lineups": false,
+      "statistics_fixtures": false,
+      "standings": true,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 12,
+      "season_bonus": 10
+    }
+  },
+  {
     "league_id": 91,
     "league_name": "Eredivisie Women",
     "country": "Netherlands",
@@ -22618,6 +22574,50 @@
   {
     "league_id": 615,
     "league_name": "Rondoniense",
+    "country": "Brazil",
+    "league_type": "League",
+    "priority_score": 23,
+    "priority_tier": "C",
+    "latest_season": 2027,
+    "season_count": 8,
+    "coverage_details": {
+      "events": false,
+      "lineups": false,
+      "statistics_fixtures": false,
+      "standings": true,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 8,
+      "season_bonus": 8
+    }
+  },
+  {
+    "league_id": 628,
+    "league_name": "Goiano - 1",
+    "country": "Brazil",
+    "league_type": "League",
+    "priority_score": 23,
+    "priority_tier": "C",
+    "latest_season": 2027,
+    "season_count": 8,
+    "coverage_details": {
+      "events": false,
+      "lineups": false,
+      "statistics_fixtures": false,
+      "standings": true,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 8,
+      "season_bonus": 8
+    }
+  },
+  {
+    "league_id": 631,
+    "league_name": "Tocantinense",
     "country": "Brazil",
     "league_type": "League",
     "priority_score": 23,
@@ -26356,28 +26356,6 @@
     }
   },
   {
-    "league_id": 522,
-    "league_name": "Amazonense",
-    "country": "Brazil",
-    "league_type": "League",
-    "priority_score": 10,
-    "priority_tier": "C",
-    "latest_season": 2027,
-    "season_count": 12,
-    "coverage_details": {
-      "events": false,
-      "lineups": false,
-      "statistics_fixtures": false,
-      "standings": false,
-      "players": false,
-      "top_scorers": false,
-      "top_assists": false,
-      "top_cards": false,
-      "season_count": 12,
-      "season_bonus": 10
-    }
-  },
-  {
     "league_id": 488,
     "league_name": "U19 Bundesliga",
     "country": "Germany",
@@ -26426,6 +26404,28 @@
     "league_name": "Championnat National",
     "country": "Benin",
     "league_type": "League",
+    "priority_score": 10,
+    "priority_tier": "C",
+    "latest_season": 2026,
+    "season_count": 10,
+    "coverage_details": {
+      "events": false,
+      "lineups": false,
+      "statistics_fixtures": false,
+      "standings": false,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 10,
+      "season_bonus": 10
+    }
+  },
+  {
+    "league_id": 507,
+    "league_name": "Cup",
+    "country": "South-Africa",
+    "league_type": "Cup",
     "priority_score": 10,
     "priority_tier": "C",
     "latest_season": 2026,
@@ -26686,8 +26686,8 @@
     }
   },
   {
-    "league_id": 631,
-    "league_name": "Tocantinense",
+    "league_id": 629,
+    "league_name": "Mineiro - 1",
     "country": "Brazil",
     "league_type": "League",
     "priority_score": 8,
@@ -26705,28 +26705,6 @@
       "top_cards": false,
       "season_count": 8,
       "season_bonus": 8
-    }
-  },
-  {
-    "league_id": 820,
-    "league_name": "Crown Prince Cup",
-    "country": "Kuwait",
-    "league_type": "Cup",
-    "priority_score": 7,
-    "priority_tier": "C",
-    "latest_season": 2026,
-    "season_count": 7,
-    "coverage_details": {
-      "events": false,
-      "lineups": false,
-      "statistics_fixtures": false,
-      "standings": false,
-      "players": false,
-      "top_scorers": false,
-      "top_assists": false,
-      "top_cards": false,
-      "season_count": 7,
-      "season_bonus": 7
     }
   },
   {
@@ -27128,6 +27106,28 @@
   {
     "league_id": 1012,
     "league_name": "AFC U17 Asian Cup",
+    "country": "World",
+    "league_type": "Cup",
+    "priority_score": 4,
+    "priority_tier": "C",
+    "latest_season": 2027,
+    "season_count": 4,
+    "coverage_details": {
+      "events": false,
+      "lineups": false,
+      "statistics_fixtures": false,
+      "standings": false,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 4,
+      "season_bonus": 4
+    }
+  },
+  {
+    "league_id": 1123,
+    "league_name": "UAE-Qatar - Super Cup",
     "country": "World",
     "league_type": "Cup",
     "priority_score": 4,

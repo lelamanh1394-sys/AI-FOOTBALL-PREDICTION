@@ -179,13 +179,13 @@
     "Macau": 1
   },
   "coverage_counts": {
-    "events": 1027,
-    "lineups": 762,
-    "statistics_fixtures": 152,
-    "standings": 743,
-    "players": 527,
-    "top_scorers": 527,
-    "top_assists": 527,
-    "top_cards": 527
+    "events": 1024,
+    "lineups": 760,
+    "statistics_fixtures": 153,
+    "standings": 745,
+    "players": 524,
+    "top_scorers": 524,
+    "top_assists": 524,
+    "top_cards": 524
   }
 }

@@ -102,6 +102,7 @@
 8,World Cup - Women,World,Cup,94,A,2023,4
 480,Olympics Men,World,Cup,94,A,2024,4
 38,UEFA U21 Championship,World,Cup,94,A,2025,4
+587,World Cup - U17,World,Cup,94,A,2026,4
 36,Africa Cup of Nations - Qualification,World,Cup,94,A,2027,4
 31,World Cup - Qualification CONCACAF,World,Cup,93,A,2026,3
 32,World Cup - Qualification Europe,World,Cup,93,A,2024,3
@@ -228,8 +229,6 @@
 616,Potiguar,Brazil,League,72,A,2026,7
 626,Sergipano,Brazil,League,72,A,2026,7
 627,Paraense,Brazil,League,72,A,2026,7
-628,Goiano - 1,Brazil,League,72,A,2026,7
-629,Mineiro - 1,Brazil,League,72,A,2026,7
 630,Matogrossense,Brazil,League,72,A,2026,7
 19,African Nations Championship,World,Cup,71,A,2024,6
 468,National 3 - Group I,France,League,71,A,2024,6
@@ -300,7 +299,6 @@
 511,Cup,Tunisia,Cup,60,B,2025,10
 14,UEFA Youth League,World,League,60,B,2026,10
 498,Cup,Kazakhstan,Cup,60,B,2026,10
-507,Cup,South-Africa,Cup,59,B,2025,9
 285,Cupa României,Romania,Cup,59,B,2026,9
 514,Coupe Nationale,Algeria,Cup,58,B,2025,8
 108,Cup,Poland,Cup,58,B,2026,8
@@ -383,6 +381,7 @@
 183,League One,Scotland,League,55,B,2026,12
 184,League Two,Scotland,League,55,B,2026,12
 399,NPFL,Nigeria,League,55,B,2027,12
+411,Elite One,Cameroon,League,55,B,2027,12
 316,1st League - FBiH,Bosnia,League,55,B,2026,11
 162,Primera División,Costa-Rica,League,55,B,2026,11
 164,Úrvalsdeild,Iceland,League,55,B,2026,11
@@ -443,6 +442,7 @@
 958,Copa Costa Rica,Costa-Rica,Cup,54,B,2025,4
 959,Cup,Singapore,Cup,54,B,2025,4
 1052,Kakkonen - Play-offs,Finland,League,54,B,2026,4
+1055,Ettan - Relegation Round,Sweden,League,54,B,2026,4
 972,Super Cup,China,Cup,54,B,2026,4
 111,FAW Championship,Wales,League,53,B,2026,8
 638,Kvindeliga,Denmark,League,53,B,2026,8
@@ -499,7 +499,6 @@
 1003,Regionalliga - Relegation Round,Germany,League,53,B,2024,3
 952,AFC U23 Asian Cup - Qualification,World,Cup,53,B,2026,3
 1063,Copa Alagoas,Brazil,Cup,53,B,2026,3
-1123,UAE-Qatar - Super Cup,World,Cup,53,B,2026,3
 1156,National League Cup,England,Cup,53,B,2026,3
 426,Serie D - Girone A,Italy,League,52,B,2026,7
 427,Serie D - Girone B,Italy,League,52,B,2026,7
@@ -607,7 +606,6 @@
 1225,Copa Centro-Oeste,Brazil,Cup,51,B,2026,1
 915,1. Division Women,Norway,League,50,B,2026,5
 921,UEFA U17 Championship,World,Cup,50,B,2026,5
-587,World Cup - U17,World,Cup,49,B,2026,4
 950,World Cup - U17 - Women,World,Cup,49,B,2026,4
 1030,Goiano - 2,Brazil,League,49,B,2026,4
 1033,Ekstraliga Women,Poland,League,49,B,2026,4
@@ -698,7 +696,6 @@
 598,Première Division,Mali,League,40,C,2026,14
 298,FA Cup,Thailand,Cup,40,C,2026,14
 539,Super Cup,Egypt,Cup,40,C,2026,13
-411,Elite One,Cameroon,League,40,C,2027,12
 519,Super Cup,Belgium,Cup,40,C,2026,11
 27,OFC Champions League,World,Cup,40,C,2026,11
 317,1st League - RS,Bosnia,League,40,C,2026,11
@@ -741,7 +738,6 @@
 1000,Segunda División RFEF - Play-offs,Spain,League,39,C,2025,4
 1002,Regionalliga - Promotion Play-offs,Germany,League,39,C,2025,4
 1006,Primera División RFEF - Play Offs,Spain,League,39,C,2025,4
-1055,Ettan - Relegation Round,Sweden,League,39,C,2026,4
 493,UEFA U19 Championship,World,Cup,38,C,2026,8
 499,Malaysia Cup,Malaysia,Cup,38,C,2025,8
 391,Super League,Malawi,League,38,C,2026,8
@@ -810,6 +806,7 @@
 83,Regionalliga - Bayern,Germany,League,37,C,2026,7
 461,National 3 - Group A,France,League,37,C,2025,7
 809,Super Cup,Andorra,Cup,37,C,2026,7
+820,Crown Prince Cup,Kuwait,Cup,37,C,2026,7
 828,Ligue 2,Tunisia,League,37,C,2026,7
 640,Kansallinen Liiga,Finland,League,37,C,2026,7
 656,Super Cup,Bulgaria,Cup,37,C,2026,7
@@ -995,6 +992,7 @@
 400,Super League,Zambia,League,25,C,2026,15
 420,Cup,Azerbaijan,Cup,25,C,2026,14
 422,Premier League,Barbados,League,25,C,2026,13
+522,Amazonense,Brazil,League,25,C,2027,12
 91,Eredivisie Women,Netherlands,League,25,C,2026,11
 314,Cup,Bosnia,Cup,25,C,2026,11
 386,Ligue 1,Ivory-Coast,League,25,C,2026,11
@@ -1028,6 +1026,8 @@
 602,Baiano - 1,Brazil,League,23,C,2027,8
 609,Cearense - 1,Brazil,League,23,C,2027,8
 615,Rondoniense,Brazil,League,23,C,2027,8
+628,Goiano - 1,Brazil,League,23,C,2027,8
+631,Tocantinense,Brazil,League,23,C,2027,8
 978,2nd Division - Play-offs,Albania,League,23,C,2024,3
 979,Provincial - Play-offs VV,Belgium,League,23,C,2024,3
 980,Provincial - Play-offs ACFF,Belgium,League,23,C,2024,3
@@ -1197,10 +1197,10 @@
 421,Division di Honor,Aruba,League,10,C,2026,14
 378,Ligue 1,Guinea,League,10,C,2025,12
 547,Super Cup,Italy,Cup,10,C,2026,12
-522,Amazonense,Brazil,League,10,C,2027,12
 488,U19 Bundesliga,Germany,League,10,C,2026,11
 402,Sudani Premier League,Sudan,League,10,C,2026,10
 415,Championnat National,Benin,League,10,C,2026,10
+507,Cup,South-Africa,Cup,10,C,2026,10
 584,Premier League,Libya,League,9,C,2026,9
 544,FA Cup,Hong-Kong,Cup,9,C,2027,9
 150,Second Amateur Division - VFV B,Belgium,League,9,C,2026,9
@@ -1212,8 +1212,7 @@
 611,Capixaba,Brazil,League,8,C,2027,8
 621,Piauiense,Brazil,League,8,C,2027,8
 623,Sul-Matogrossense,Brazil,League,8,C,2027,8
-631,Tocantinense,Brazil,League,8,C,2027,8
-820,Crown Prince Cup,Kuwait,Cup,7,C,2026,7
+629,Mineiro - 1,Brazil,League,8,C,2027,8
 708,Super Cup,Albania,Cup,7,C,2026,7
 761,Cup,Liechtenstein,Cup,7,C,2026,7
 814,Reykjavik Cup,Iceland,Cup,7,C,2027,7
@@ -1233,6 +1232,7 @@
 1044,Erste Liga Cup,Switzerland,Cup,4,C,2026,4
 1058,Supercopa Femenina,Spain,Cup,4,C,2026,4
 1012,AFC U17 Asian Cup,World,Cup,4,C,2027,4
+1123,UAE-Qatar - Super Cup,World,Cup,4,C,2027,4
 1040,UEFA Nations League - Women,World,Cup,3,C,2027,3
 1073,Baiano U20,Brazil,League,3,C,2026,3
 1154,Catarinense - 3,Brazil,League,3,C,2026,3

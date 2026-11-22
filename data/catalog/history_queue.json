@@ -1680,13 +1680,13 @@
     "queue_order": 140
   },
   {
-    "league_id": 507,
-    "league_name": "Cup",
+    "league_id": 509,
+    "league_name": "8 Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 59,
-    "priority_tier": "B",
+    "priority_score": 38,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 1,
     "queue_order": 141
@@ -2369,8 +2369,8 @@
     "country": "Cameroon",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 40,
-    "priority_tier": "C",
+    "priority_score": 55,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 2,
     "queue_order": 198
@@ -5544,12 +5544,12 @@
     "queue_order": 462
   },
   {
-    "league_id": 509,
-    "league_name": "8 Cup",
+    "league_id": 508,
+    "league_name": "League Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 38,
+    "priority_score": 37,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 3,
@@ -6053,8 +6053,8 @@
     "country": "Cameroon",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 40,
-    "priority_tier": "C",
+    "priority_score": 55,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 4,
     "queue_order": 505
@@ -7745,7 +7745,7 @@
     "country": "Kuwait",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 7,
+    "priority_score": 37,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 5,
@@ -8124,12 +8124,12 @@
     "queue_order": 677
   },
   {
-    "league_id": 508,
-    "league_name": "League Cup",
+    "league_id": 507,
+    "league_name": "Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 37,
+    "priority_score": 10,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 5,
@@ -8525,8 +8525,8 @@
     "country": "Cameroon",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 40,
-    "priority_tier": "C",
+    "priority_score": 55,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 6,
     "queue_order": 711
@@ -12672,13 +12672,13 @@
     "queue_order": 1056
   },
   {
-    "league_id": 507,
-    "league_name": "Cup",
+    "league_id": 509,
+    "league_name": "8 Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2023,
-    "priority_score": 59,
-    "priority_tier": "B",
+    "priority_score": 38,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 9,
     "queue_order": 1057
@@ -14237,7 +14237,7 @@
     "country": "Kuwait",
     "league_type": "Cup",
     "season": 2023,
-    "priority_score": 7,
+    "priority_score": 37,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 11,
@@ -14460,12 +14460,12 @@
     "queue_order": 1205
   },
   {
-    "league_id": 509,
-    "league_name": "8 Cup",
+    "league_id": 508,
+    "league_name": "League Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2023,
-    "priority_score": 38,
+    "priority_score": 37,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 11,
@@ -15996,12 +15996,12 @@
     "queue_order": 1333
   },
   {
-    "league_id": 508,
-    "league_name": "League Cup",
+    "league_id": 507,
+    "league_name": "Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2023,
-    "priority_score": 37,
+    "priority_score": 10,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 13,
@@ -17129,7 +17129,7 @@
     "country": "Kuwait",
     "league_type": "Cup",
     "season": 2022,
-    "priority_score": 7,
+    "priority_score": 37,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 15,
@@ -17292,13 +17292,13 @@
     "queue_order": 1441
   },
   {
-    "league_id": 507,
-    "league_name": "Cup",
+    "league_id": 509,
+    "league_name": "8 Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2022,
-    "priority_score": 59,
-    "priority_tier": "B",
+    "priority_score": 38,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 15,
     "queue_order": 1442
@@ -18300,12 +18300,12 @@
     "queue_order": 1525
   },
   {
-    "league_id": 509,
-    "league_name": "8 Cup",
+    "league_id": 507,
+    "league_name": "Cup",
     "country": "South-Africa",
     "league_type": "Cup",
     "season": 2022,
-    "priority_score": 38,
+    "priority_score": 10,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 17,
@@ -18804,12 +18804,12 @@
     "queue_order": 1567
   },
   {
-    "league_id": 736,
-    "league_name": "Elitettan",
+    "league_id": 1055,
+    "league_name": "Ettan - Relegation Round",
     "country": "Sweden",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 51,
+    "priority_score": 54,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 18,
@@ -19224,13 +19224,13 @@
     "queue_order": 1602
   },
   {
-    "league_id": 1055,
-    "league_name": "Ettan - Relegation Round",
+    "league_id": 736,
+    "league_name": "Elitettan",
     "country": "Sweden",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 39,
-    "priority_tier": "C",
+    "priority_score": 51,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 19,
     "queue_order": 1603
@@ -19680,8 +19680,8 @@
     "queue_order": 1640
   },
   {
-    "league_id": 38,
-    "league_name": "UEFA U21 Championship",
+    "league_id": 587,
+    "league_name": "World Cup - U17",
     "country": "World",
     "league_type": "Cup",
     "season": 2023,
@@ -20088,11 +20088,11 @@
     "queue_order": 1674
   },
   {
-    "league_id": 480,
-    "league_name": "Olympics Men",
+    "league_id": 38,
+    "league_name": "UEFA U21 Championship",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2023,
     "priority_score": 94,
     "priority_tier": "A",
     "status": "pending",
@@ -20472,11 +20472,11 @@
     "queue_order": 1706
   },
   {
-    "league_id": 36,
-    "league_name": "Africa Cup of Nations - Qualification",
+    "league_id": 480,
+    "league_name": "Olympics Men",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
+    "season": 2024,
     "priority_score": 94,
     "priority_tier": "A",
     "status": "pending",
@@ -20832,12 +20832,12 @@
     "queue_order": 1736
   },
   {
-    "league_id": 34,
-    "league_name": "World Cup - Qualification South America",
+    "league_id": 36,
+    "league_name": "Africa Cup of Nations - Qualification",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
-    "priority_score": 93,
+    "season": 2023,
+    "priority_score": 94,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 23,
@@ -21192,11 +21192,11 @@
     "queue_order": 1766
   },
   {
-    "league_id": 32,
-    "league_name": "World Cup - Qualification Europe",
+    "league_id": 34,
+    "league_name": "World Cup - Qualification South America",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 93,
     "priority_tier": "A",
     "status": "pending",
@@ -21516,11 +21516,11 @@
     "queue_order": 1793
   },
   {
-    "league_id": 31,
-    "league_name": "World Cup - Qualification CONCACAF",
+    "league_id": 32,
+    "league_name": "World Cup - Qualification Europe",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2024,
     "priority_score": 93,
     "priority_tier": "A",
     "status": "pending",
@@ -21828,8 +21828,8 @@
     "queue_order": 1819
   },
   {
-    "league_id": 30,
-    "league_name": "World Cup - Qualification Asia",
+    "league_id": 31,
+    "league_name": "World Cup - Qualification CONCACAF",
     "country": "World",
     "league_type": "Cup",
     "season": 2022,
@@ -22140,11 +22140,11 @@
     "queue_order": 1845
   },
   {
-    "league_id": 29,
-    "league_name": "World Cup - Qualification Africa",
+    "league_id": 30,
+    "league_name": "World Cup - Qualification Asia",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
+    "season": 2022,
     "priority_score": 93,
     "priority_tier": "A",
     "status": "pending",
@@ -22200,8 +22200,8 @@
     "queue_order": 1850
   },
   {
-    "league_id": 629,
-    "league_name": "Mineiro - 1",
+    "league_id": 630,
+    "league_name": "Matogrossense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -22452,12 +22452,12 @@
     "queue_order": 1871
   },
   {
-    "league_id": 880,
-    "league_name": "World Cup - Women - Qualification Europe",
+    "league_id": 29,
+    "league_name": "World Cup - Qualification Africa",
     "country": "World",
     "league_type": "Cup",
     "season": 2023,
-    "priority_score": 92,
+    "priority_score": 93,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 28,
@@ -22752,12 +22752,12 @@
     "queue_order": 1896
   },
   {
-    "league_id": 960,
-    "league_name": "Euro Championship - Qualification",
+    "league_id": 880,
+    "league_name": "World Cup - Women - Qualification Europe",
     "country": "World",
     "league_type": "Cup",
     "season": 2023,
-    "priority_score": 91,
+    "priority_score": 92,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 29,
@@ -22812,8 +22812,8 @@
     "queue_order": 1901
   },
   {
-    "league_id": 630,
-    "league_name": "Matogrossense",
+    "league_id": 477,
+    "league_name": "Gaúcho - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -23040,12 +23040,12 @@
     "queue_order": 1920
   },
   {
-    "league_id": 531,
-    "league_name": "UEFA Super Cup",
+    "league_id": 960,
+    "league_name": "Euro Championship - Qualification",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
-    "priority_score": 85,
+    "season": 2023,
+    "priority_score": 91,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 30,
@@ -23316,8 +23316,8 @@
     "queue_order": 1943
   },
   {
-    "league_id": 10,
-    "league_name": "Friendlies",
+    "league_id": 531,
+    "league_name": "UEFA Super Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -23376,8 +23376,8 @@
     "queue_order": 1948
   },
   {
-    "league_id": 628,
-    "league_name": "Goiano - 1",
+    "league_id": 604,
+    "league_name": "Catarinense - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -23556,12 +23556,12 @@
     "queue_order": 1963
   },
   {
-    "league_id": 736,
-    "league_name": "Elitettan",
+    "league_id": 1055,
+    "league_name": "Ettan - Relegation Round",
     "country": "Sweden",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 51,
+    "priority_score": 54,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 32,
@@ -23592,8 +23592,8 @@
     "queue_order": 1966
   },
   {
-    "league_id": 16,
-    "league_name": "CONCACAF Champions League",
+    "league_id": 10,
+    "league_name": "Friendlies",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -23808,13 +23808,13 @@
     "queue_order": 1984
   },
   {
-    "league_id": 1055,
-    "league_name": "Ettan - Relegation Round",
+    "league_id": 736,
+    "league_name": "Elitettan",
     "country": "Sweden",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 39,
-    "priority_tier": "C",
+    "priority_score": 51,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 33,
     "queue_order": 1985
@@ -23844,12 +23844,12 @@
     "queue_order": 1987
   },
   {
-    "league_id": 772,
-    "league_name": "Leagues Cup",
+    "league_id": 16,
+    "league_name": "CONCACAF Champions League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 82,
+    "priority_score": 85,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 33,
@@ -23892,12 +23892,12 @@
     "queue_order": 1991
   },
   {
-    "league_id": 477,
-    "league_name": "Gaúcho - 1",
+    "league_id": 936,
+    "league_name": "Catarinense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 72,
+    "priority_score": 70,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 34,
@@ -24084,12 +24084,12 @@
     "queue_order": 2007
   },
   {
-    "league_id": 536,
-    "league_name": "CONCACAF Nations League",
+    "league_id": 772,
+    "league_name": "Leagues Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 80,
+    "priority_score": 82,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 34,
@@ -24312,12 +24312,12 @@
     "queue_order": 2026
   },
   {
-    "league_id": 490,
-    "league_name": "World Cup - U20",
+    "league_id": 536,
+    "league_name": "CONCACAF Nations League",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 79,
+    "season": 2024,
+    "priority_score": 80,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 35,
@@ -24360,12 +24360,12 @@
     "queue_order": 2030
   },
   {
-    "league_id": 604,
-    "league_name": "Catarinense - 1",
+    "league_id": 1134,
+    "league_name": "Amazonense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 72,
+    "priority_score": 68,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 36,
@@ -24540,11 +24540,11 @@
     "queue_order": 2045
   },
   {
-    "league_id": 37,
-    "league_name": "World Cup - Qualification Intercontinental Play-offs",
+    "league_id": 490,
+    "league_name": "World Cup - U20",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2023,
     "priority_score": 79,
     "priority_tier": "A",
     "status": "pending",
@@ -24744,12 +24744,12 @@
     "queue_order": 2062
   },
   {
-    "league_id": 525,
-    "league_name": "UEFA Champions League Women",
+    "league_id": 37,
+    "league_name": "World Cup - Qualification Intercontinental Play-offs",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
-    "priority_score": 78,
+    "season": 2022,
+    "priority_score": 79,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 37,
@@ -24792,13 +24792,13 @@
     "queue_order": 2066
   },
   {
-    "league_id": 936,
-    "league_name": "Catarinense - 2",
+    "league_id": 478,
+    "league_name": "Gaúcho - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 70,
-    "priority_tier": "A",
+    "priority_score": 56,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 38,
     "queue_order": 2067
@@ -24948,8 +24948,8 @@
     "queue_order": 2079
   },
   {
-    "league_id": 1168,
-    "league_name": "FIFA Intercontinental Cup",
+    "league_id": 525,
+    "league_name": "UEFA Champions League Women",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -25152,12 +25152,12 @@
     "queue_order": 2096
   },
   {
-    "league_id": 916,
-    "league_name": "Kirin Cup",
+    "league_id": 1168,
+    "league_name": "FIFA Intercontinental Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
-    "priority_score": 77,
+    "season": 2024,
+    "priority_score": 78,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 39,
@@ -25200,13 +25200,13 @@
     "queue_order": 2100
   },
   {
-    "league_id": 1134,
-    "league_name": "Amazonense - 2",
+    "league_id": 851,
+    "league_name": "Carioca A2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 68,
-    "priority_tier": "A",
+    "priority_score": 56,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 40,
     "queue_order": 2101
@@ -25356,11 +25356,11 @@
     "queue_order": 2113
   },
   {
-    "league_id": 768,
-    "league_name": "Arab Club Champions Cup",
+    "league_id": 916,
+    "league_name": "Kirin Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
+    "season": 2022,
     "priority_score": 77,
     "priority_tier": "A",
     "status": "pending",
@@ -25548,12 +25548,12 @@
     "queue_order": 2129
   },
   {
-    "league_id": 19,
-    "league_name": "African Nations Championship",
+    "league_id": 768,
+    "league_name": "Arab Club Champions Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
-    "priority_score": 71,
+    "season": 2023,
+    "priority_score": 77,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 41,
@@ -25596,12 +25596,12 @@
     "queue_order": 2133
   },
   {
-    "league_id": 478,
-    "league_name": "Gaúcho - 2",
+    "league_id": 74,
+    "league_name": "Brasileiro Women",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 56,
+    "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 42,
@@ -25740,12 +25740,12 @@
     "queue_order": 2145
   },
   {
-    "league_id": 25,
-    "league_name": "Gulf Cup of Nations",
+    "league_id": 19,
+    "league_name": "African Nations Championship",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 70,
+    "priority_score": 71,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 42,
@@ -25920,12 +25920,12 @@
     "queue_order": 2160
   },
   {
-    "league_id": 850,
-    "league_name": "UEFA U21 Championship - Qualification",
+    "league_id": 25,
+    "league_name": "Gulf Cup of Nations",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 68,
+    "season": 2024,
+    "priority_score": 70,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 43,
@@ -25968,12 +25968,12 @@
     "queue_order": 2164
   },
   {
-    "league_id": 851,
-    "league_name": "Carioca A2",
+    "league_id": 521,
+    "league_name": "Amapaense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 56,
+    "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 44,
@@ -26100,11 +26100,11 @@
     "queue_order": 2175
   },
   {
-    "league_id": 524,
-    "league_name": "Olympics Women",
+    "league_id": 850,
+    "league_name": "UEFA U21 Championship - Qualification",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2023,
     "priority_score": 68,
     "priority_tier": "A",
     "status": "pending",
@@ -26256,8 +26256,8 @@
     "queue_order": 2188
   },
   {
-    "league_id": 35,
-    "league_name": "Asian Cup - Qualification",
+    "league_id": 524,
+    "league_name": "Olympics Women",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -26304,8 +26304,8 @@
     "queue_order": 2192
   },
   {
-    "league_id": 74,
-    "league_name": "Brasileiro Women",
+    "league_id": 520,
+    "league_name": "Acreano",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -26400,8 +26400,8 @@
     "queue_order": 2200
   },
   {
-    "league_id": 922,
-    "league_name": "Africa Cup of Nations - Women",
+    "league_id": 35,
+    "league_name": "Asian Cup - Qualification",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -26532,12 +26532,12 @@
     "queue_order": 2211
   },
   {
-    "league_id": 20,
-    "league_name": "CAF Confederation Cup",
+    "league_id": 922,
+    "league_name": "Africa Cup of Nations - Women",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 65,
+    "priority_score": 68,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 47,
@@ -26580,12 +26580,12 @@
     "queue_order": 2215
   },
   {
-    "league_id": 521,
-    "league_name": "Amapaense",
+    "league_id": 622,
+    "league_name": "Pernambucano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 55,
+    "priority_score": 53,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 48,
@@ -26664,13 +26664,13 @@
     "queue_order": 2222
   },
   {
-    "league_id": 12,
-    "league_name": "CAF Champions League",
+    "league_id": 20,
+    "league_name": "CAF Confederation Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 63,
-    "priority_tier": "B",
+    "priority_score": 65,
+    "priority_tier": "A",
     "status": "pending",
     "country_round": 48,
     "queue_order": 2223
@@ -26784,12 +26784,12 @@
     "queue_order": 2232
   },
   {
-    "league_id": 666,
-    "league_name": "Friendlies Women",
+    "league_id": 12,
+    "league_name": "CAF Champions League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 57,
+    "priority_score": 63,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 49,
@@ -26832,12 +26832,12 @@
     "queue_order": 2236
   },
   {
-    "league_id": 520,
-    "league_name": "Acreano",
+    "league_id": 620,
+    "league_name": "Cearense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 55,
+    "priority_score": 53,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 50,
@@ -26904,8 +26904,8 @@
     "queue_order": 2242
   },
   {
-    "league_id": 541,
-    "league_name": "CONMEBOL Recopa",
+    "league_id": 666,
+    "league_name": "Friendlies Women",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -27012,12 +27012,12 @@
     "queue_order": 2251
   },
   {
-    "league_id": 540,
-    "league_name": "CONMEBOL Libertadores U20",
+    "league_id": 541,
+    "league_name": "CONMEBOL Recopa",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 56,
+    "priority_score": 57,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 51,
@@ -27048,8 +27048,8 @@
     "queue_order": 2254
   },
   {
-    "league_id": 622,
-    "league_name": "Pernambucano - 1",
+    "league_id": 625,
+    "league_name": "Carioca - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -27120,12 +27120,12 @@
     "queue_order": 2260
   },
   {
-    "league_id": 914,
-    "league_name": "Tournoi Maurice Revello",
+    "league_id": 540,
+    "league_name": "CONMEBOL Libertadores U20",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 55,
+    "priority_score": 56,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 52,
@@ -27228,8 +27228,8 @@
     "queue_order": 2269
   },
   {
-    "league_id": 859,
-    "league_name": "COSAFA Cup",
+    "league_id": 914,
+    "league_name": "Tournoi Maurice Revello",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -27264,8 +27264,8 @@
     "queue_order": 2272
   },
   {
-    "league_id": 620,
-    "league_name": "Cearense - 2",
+    "league_id": 613,
+    "league_name": "Baiano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -27336,12 +27336,12 @@
     "queue_order": 2278
   },
   {
-    "league_id": 33,
-    "league_name": "World Cup - Qualification Oceania",
+    "league_id": 859,
+    "league_name": "COSAFA Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
-    "priority_score": 53,
+    "season": 2024,
+    "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 54,
@@ -27444,11 +27444,11 @@
     "queue_order": 2287
   },
   {
-    "league_id": 1123,
-    "league_name": "UAE-Qatar - Super Cup",
+    "league_id": 33,
+    "league_name": "World Cup - Qualification Oceania",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 53,
     "priority_tier": "B",
     "status": "pending",
@@ -27480,12 +27480,12 @@
     "queue_order": 2290
   },
   {
-    "league_id": 625,
-    "league_name": "Carioca - 2",
+    "league_id": 607,
+    "league_name": "Roraimense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 53,
+    "priority_score": 52,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 56,
@@ -27672,12 +27672,12 @@
     "queue_order": 2306
   },
   {
-    "league_id": 613,
-    "league_name": "Baiano - 2",
+    "league_id": 614,
+    "league_name": "Paranaense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 53,
+    "priority_score": 52,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 58,
@@ -27864,8 +27864,8 @@
     "queue_order": 2322
   },
   {
-    "league_id": 607,
-    "league_name": "Roraimense",
+    "league_id": 619,
+    "league_name": "Mineiro - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -28056,8 +28056,8 @@
     "queue_order": 2338
   },
   {
-    "league_id": 614,
-    "league_name": "Paranaense - 2",
+    "league_id": 608,
+    "league_name": "Maranhense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -28236,8 +28236,8 @@
     "queue_order": 2353
   },
   {
-    "league_id": 619,
-    "league_name": "Mineiro - 2",
+    "league_id": 1110,
+    "league_name": "Alagoano U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -28404,12 +28404,12 @@
     "queue_order": 2367
   },
   {
-    "league_id": 608,
-    "league_name": "Maranhense",
+    "league_id": 1030,
+    "league_name": "Goiano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 52,
+    "priority_score": 49,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 66,
@@ -28572,12 +28572,12 @@
     "queue_order": 2381
   },
   {
-    "league_id": 1110,
-    "league_name": "Alagoano U20",
+    "league_id": 1098,
+    "league_name": "Paulista Série B",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 52,
+    "priority_score": 48,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 68,
@@ -28740,12 +28740,12 @@
     "queue_order": 2395
   },
   {
-    "league_id": 1030,
-    "league_name": "Goiano - 2",
+    "league_id": 1086,
+    "league_name": "Paulista - U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 49,
+    "priority_score": 48,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 70,
@@ -28908,8 +28908,8 @@
     "queue_order": 2409
   },
   {
-    "league_id": 1098,
-    "league_name": "Paulista Série B",
+    "league_id": 1062,
+    "league_name": "Paulista - A4",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -29076,8 +29076,8 @@
     "queue_order": 2423
   },
   {
-    "league_id": 1086,
-    "league_name": "Paulista - U20",
+    "league_id": 1142,
+    "league_name": "Mineiro - 3",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -29244,8 +29244,8 @@
     "queue_order": 2437
   },
   {
-    "league_id": 1062,
-    "league_name": "Paulista - A4",
+    "league_id": 1150,
+    "league_name": "Gaúcho - 3",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -29412,8 +29412,8 @@
     "queue_order": 2451
   },
   {
-    "league_id": 1142,
-    "league_name": "Mineiro - 3",
+    "league_id": 1143,
+    "league_name": "Estadual Junior U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -29580,8 +29580,8 @@
     "queue_order": 2465
   },
   {
-    "league_id": 1150,
-    "league_name": "Gaúcho - 3",
+    "league_id": 1106,
+    "league_name": "Carioca C",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -29664,8 +29664,8 @@
     "queue_order": 2472
   },
   {
-    "league_id": 1143,
-    "league_name": "Estadual Junior U20",
+    "league_id": 1155,
+    "league_name": "Carioca B2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -29748,12 +29748,12 @@
     "queue_order": 2479
   },
   {
-    "league_id": 1106,
-    "league_name": "Carioca C",
+    "league_id": 1125,
+    "league_name": "Pernambucano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 48,
+    "priority_score": 47,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 82,
@@ -29832,13 +29832,13 @@
     "queue_order": 2486
   },
   {
-    "league_id": 1155,
-    "league_name": "Carioca B2",
+    "league_id": 1149,
+    "league_name": "Potiguar - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 48,
-    "priority_tier": "B",
+    "priority_score": 37,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 83,
     "queue_order": 2487
@@ -29892,12 +29892,12 @@
     "queue_order": 2491
   },
   {
-    "league_id": 587,
-    "league_name": "World Cup - U17",
+    "league_id": 920,
+    "league_name": "World Cup - U20 - Women",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 49,
+    "season": 2024,
+    "priority_score": 48,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 83,
@@ -29916,13 +29916,13 @@
     "queue_order": 2493
   },
   {
-    "league_id": 1125,
-    "league_name": "Pernambucano - 2",
+    "league_id": 1107,
+    "league_name": "Mineiro U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 47,
-    "priority_tier": "B",
+    "priority_score": 33,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 84,
     "queue_order": 2494
@@ -29976,11 +29976,11 @@
     "queue_order": 2498
   },
   {
-    "league_id": 920,
-    "league_name": "World Cup - U20 - Women",
+    "league_id": 970,
+    "league_name": "CONMEBOL - U17",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2023,
     "priority_score": 48,
     "priority_tier": "B",
     "status": "pending",
@@ -29988,12 +29988,12 @@
     "queue_order": 2499
   },
   {
-    "league_id": 1149,
-    "league_name": "Potiguar - 2",
+    "league_id": 1112,
+    "league_name": "Cearense U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 37,
+    "priority_score": 33,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 85,
@@ -30048,8 +30048,8 @@
     "queue_order": 2504
   },
   {
-    "league_id": 970,
-    "league_name": "CONMEBOL - U17",
+    "league_id": 973,
+    "league_name": "CAF Cup of Nations - U17",
     "country": "World",
     "league_type": "Cup",
     "season": 2023,
@@ -30060,8 +30060,8 @@
     "queue_order": 2505
   },
   {
-    "league_id": 1107,
-    "league_name": "Mineiro U20",
+    "league_id": 1124,
+    "league_name": "Cearense - 3",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30120,20 +30120,20 @@
     "queue_order": 2510
   },
   {
-    "league_id": 973,
-    "league_name": "CAF Cup of Nations - U17",
+    "league_id": 1016,
+    "league_name": "CAC Games",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 48,
+    "season": 2022,
+    "priority_score": 47,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 86,
     "queue_order": 2511
   },
   {
-    "league_id": 1112,
-    "league_name": "Cearense U20",
+    "league_id": 1076,
+    "league_name": "Catarinense U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30192,11 +30192,11 @@
     "queue_order": 2516
   },
   {
-    "league_id": 1016,
-    "league_name": "CAC Games",
+    "league_id": 1101,
+    "league_name": "AFC U17 Asian Cup - Women",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2024,
     "priority_score": 47,
     "priority_tier": "B",
     "status": "pending",
@@ -30204,8 +30204,8 @@
     "queue_order": 2517
   },
   {
-    "league_id": 1124,
-    "league_name": "Cearense - 3",
+    "league_id": 1114,
+    "league_name": "Carioca U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30264,24 +30264,24 @@
     "queue_order": 2522
   },
   {
-    "league_id": 1101,
-    "league_name": "AFC U17 Asian Cup - Women",
+    "league_id": 27,
+    "league_name": "OFC Champions League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 47,
-    "priority_tier": "B",
+    "priority_score": 40,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 88,
     "queue_order": 2523
   },
   {
-    "league_id": 1076,
-    "league_name": "Catarinense U20",
+    "league_id": 522,
+    "league_name": "Amazonense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 33,
+    "priority_score": 25,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 89,
@@ -30324,11 +30324,11 @@
     "queue_order": 2527
   },
   {
-    "league_id": 27,
-    "league_name": "OFC Champions League",
+    "league_id": 7,
+    "league_name": "Asian Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2023,
     "priority_score": 40,
     "priority_tier": "C",
     "status": "pending",
@@ -30336,12 +30336,12 @@
     "queue_order": 2528
   },
   {
-    "league_id": 1114,
-    "league_name": "Carioca U20",
+    "league_id": 631,
+    "league_name": "Tocantinense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 33,
+    "priority_score": 23,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 90,
@@ -30384,12 +30384,12 @@
     "queue_order": 2532
   },
   {
-    "league_id": 7,
-    "league_name": "Asian Cup",
+    "league_id": 493,
+    "league_name": "UEFA U19 Championship",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 40,
+    "season": 2024,
+    "priority_score": 38,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 90,
@@ -30444,8 +30444,8 @@
     "queue_order": 2537
   },
   {
-    "league_id": 493,
-    "league_name": "UEFA U19 Championship",
+    "league_id": 534,
+    "league_name": "CONCACAF Caribbean Club Shield",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -30456,8 +30456,8 @@
     "queue_order": 2538
   },
   {
-    "league_id": 609,
-    "league_name": "Cearense - 1",
+    "league_id": 628,
+    "league_name": "Goiano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30504,8 +30504,8 @@
     "queue_order": 2542
   },
   {
-    "league_id": 534,
-    "league_name": "CONCACAF Caribbean Club Shield",
+    "league_id": 533,
+    "league_name": "CAF Super Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -30516,8 +30516,8 @@
     "queue_order": 2543
   },
   {
-    "league_id": 602,
-    "league_name": "Baiano - 1",
+    "league_id": 609,
+    "league_name": "Cearense - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30564,24 +30564,24 @@
     "queue_order": 2547
   },
   {
-    "league_id": 533,
-    "league_name": "CAF Super Cup",
+    "league_id": 667,
+    "league_name": "Friendlies Clubs",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 38,
+    "priority_score": 37,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 93,
     "queue_order": 2548
   },
   {
-    "league_id": 1135,
-    "league_name": "Sergipano - 2",
+    "league_id": 602,
+    "league_name": "Baiano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 18,
+    "priority_score": 23,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 94,
@@ -30624,8 +30624,8 @@
     "queue_order": 2552
   },
   {
-    "league_id": 667,
-    "league_name": "Friendlies Clubs",
+    "league_id": 24,
+    "league_name": "ASEAN Championship",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -30636,8 +30636,8 @@
     "queue_order": 2553
   },
   {
-    "league_id": 1088,
-    "league_name": "Pernambucano - U20",
+    "league_id": 1135,
+    "league_name": "Sergipano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30684,20 +30684,20 @@
     "queue_order": 2557
   },
   {
-    "league_id": 24,
-    "league_name": "ASEAN Championship",
+    "league_id": 890,
+    "league_name": "U20 Elite League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 37,
+    "priority_score": 36,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 95,
     "queue_order": 2558
   },
   {
-    "league_id": 1071,
-    "league_name": "Paranaense U20",
+    "league_id": 1088,
+    "league_name": "Pernambucano - U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30744,8 +30744,8 @@
     "queue_order": 2562
   },
   {
-    "league_id": 890,
-    "league_name": "U20 Elite League",
+    "league_id": 885,
+    "league_name": "Campeones Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -30756,8 +30756,8 @@
     "queue_order": 2563
   },
   {
-    "league_id": 1138,
-    "league_name": "Paranaense - 3",
+    "league_id": 1071,
+    "league_name": "Paranaense U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30804,8 +30804,8 @@
     "queue_order": 2567
   },
   {
-    "league_id": 885,
-    "league_name": "Campeones Cup",
+    "league_id": 856,
+    "league_name": "CONCACAF Caribbean Club Championship",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -30816,8 +30816,8 @@
     "queue_order": 2568
   },
   {
-    "league_id": 1120,
-    "league_name": "Paraibano U20",
+    "league_id": 1138,
+    "league_name": "Paranaense - 3",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30864,11 +30864,11 @@
     "queue_order": 2572
   },
   {
-    "league_id": 856,
-    "league_name": "CONCACAF Caribbean Club Championship",
+    "league_id": 934,
+    "league_name": "Arab Championship - U20",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 36,
     "priority_tier": "C",
     "status": "pending",
@@ -30876,8 +30876,8 @@
     "queue_order": 2573
   },
   {
-    "league_id": 1157,
-    "league_name": "Paraense U20",
+    "league_id": 1120,
+    "league_name": "Paraibano U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30924,11 +30924,11 @@
     "queue_order": 2577
   },
   {
-    "league_id": 934,
-    "league_name": "Arab Championship - U20",
+    "league_id": 1163,
+    "league_name": "African Nations Championship - Qualification",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2024,
     "priority_score": 36,
     "priority_tier": "C",
     "status": "pending",
@@ -30936,8 +30936,8 @@
     "queue_order": 2578
   },
   {
-    "league_id": 1115,
-    "league_name": "Paraense A3",
+    "league_id": 1157,
+    "league_name": "Paraense U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -30972,11 +30972,11 @@
     "queue_order": 2581
   },
   {
-    "league_id": 1163,
-    "league_name": "African Nations Championship - Qualification",
+    "league_id": 953,
+    "league_name": "Africa U23 Cup of Nations - Qualification",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 36,
     "priority_tier": "C",
     "status": "pending",
@@ -30984,8 +30984,8 @@
     "queue_order": 2582
   },
   {
-    "league_id": 1096,
-    "league_name": "Matogrossense 2",
+    "league_id": 1115,
+    "league_name": "Paraense A3",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31020,20 +31020,20 @@
     "queue_order": 2585
   },
   {
-    "league_id": 953,
-    "league_name": "Africa U23 Cup of Nations - Qualification",
+    "league_id": 918,
+    "league_name": "UEFA U19 Championship - Women",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
-    "priority_score": 36,
+    "season": 2024,
+    "priority_score": 35,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 101,
     "queue_order": 2586
   },
   {
-    "league_id": 1148,
-    "league_name": "Maranhense - 2",
+    "league_id": 1096,
+    "league_name": "Matogrossense 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31068,8 +31068,8 @@
     "queue_order": 2589
   },
   {
-    "league_id": 918,
-    "league_name": "UEFA U19 Championship - Women",
+    "league_id": 903,
+    "league_name": "The Atlantic Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31080,8 +31080,8 @@
     "queue_order": 2590
   },
   {
-    "league_id": 1069,
-    "league_name": "Goiano U20",
+    "league_id": 1148,
+    "league_name": "Maranhense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31116,8 +31116,8 @@
     "queue_order": 2593
   },
   {
-    "league_id": 903,
-    "league_name": "The Atlantic Cup",
+    "league_id": 937,
+    "league_name": "Emirates Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31128,8 +31128,8 @@
     "queue_order": 2594
   },
   {
-    "league_id": 1133,
-    "league_name": "Goiano - 3",
+    "league_id": 1069,
+    "league_name": "Goiano U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31164,8 +31164,8 @@
     "queue_order": 2597
   },
   {
-    "league_id": 937,
-    "league_name": "Emirates Cup",
+    "league_id": 771,
+    "league_name": "COSAFA U20 Championship",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31176,8 +31176,8 @@
     "queue_order": 2598
   },
   {
-    "league_id": 1100,
-    "league_name": "Brasiliense U20",
+    "league_id": 1133,
+    "league_name": "Goiano - 3",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31200,8 +31200,8 @@
     "queue_order": 2600
   },
   {
-    "league_id": 771,
-    "league_name": "COSAFA U20 Championship",
+    "league_id": 949,
+    "league_name": "CONMEBOL Libertadores Femenina",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31212,8 +31212,8 @@
     "queue_order": 2601
   },
   {
-    "league_id": 1141,
-    "league_name": "Brasiliense B",
+    "league_id": 1100,
+    "league_name": "Brasiliense U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31236,11 +31236,11 @@
     "queue_order": 2603
   },
   {
-    "league_id": 949,
-    "league_name": "CONMEBOL Libertadores Femenina",
+    "league_id": 537,
+    "league_name": "CONCACAF U20",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2023,
     "priority_score": 35,
     "priority_tier": "C",
     "status": "pending",
@@ -31248,8 +31248,8 @@
     "queue_order": 2604
   },
   {
-    "league_id": 1128,
-    "league_name": "Brasileiro U17",
+    "league_id": 1141,
+    "league_name": "Brasiliense B",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31272,8 +31272,8 @@
     "queue_order": 2606
   },
   {
-    "league_id": 537,
-    "league_name": "CONCACAF U20",
+    "league_id": 538,
+    "league_name": "Africa Cup of Nations U20",
     "country": "World",
     "league_type": "Cup",
     "season": 2023,
@@ -31284,12 +31284,12 @@
     "queue_order": 2607
   },
   {
-    "league_id": 1139,
-    "league_name": "Potiguar - U20",
+    "league_id": 1128,
+    "league_name": "Brasileiro U17",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 17,
+    "priority_score": 18,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 108,
@@ -31308,20 +31308,20 @@
     "queue_order": 2609
   },
   {
-    "league_id": 538,
-    "league_name": "Africa Cup of Nations U20",
+    "league_id": 1028,
+    "league_name": "CONCACAF Central American Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 35,
+    "season": 2024,
+    "priority_score": 34,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 108,
     "queue_order": 2610
   },
   {
-    "league_id": 1145,
-    "league_name": "Paraense B1",
+    "league_id": 1139,
+    "league_name": "Potiguar - U20",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31344,8 +31344,8 @@
     "queue_order": 2612
   },
   {
-    "league_id": 1028,
-    "league_name": "CONCACAF Central American Cup",
+    "league_id": 849,
+    "league_name": "Baltic Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31356,12 +31356,12 @@
     "queue_order": 2613
   },
   {
-    "league_id": 522,
-    "league_name": "Amazonense",
+    "league_id": 1145,
+    "league_name": "Paraense B1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 10,
+    "priority_score": 17,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 110,
@@ -31380,8 +31380,8 @@
     "queue_order": 2615
   },
   {
-    "league_id": 849,
-    "league_name": "Baltic Cup",
+    "league_id": 1013,
+    "league_name": "All-Island Cup - Women",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31392,8 +31392,8 @@
     "queue_order": 2616
   },
   {
-    "league_id": 631,
-    "league_name": "Tocantinense",
+    "league_id": 623,
+    "league_name": "Sul-Matogrossense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31416,8 +31416,8 @@
     "queue_order": 2618
   },
   {
-    "league_id": 1013,
-    "league_name": "All-Island Cup - Women",
+    "league_id": 532,
+    "league_name": "AFC U23 Asian Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31428,8 +31428,8 @@
     "queue_order": 2619
   },
   {
-    "league_id": 623,
-    "league_name": "Sul-Matogrossense",
+    "league_id": 621,
+    "league_name": "Piauiense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31452,20 +31452,20 @@
     "queue_order": 2621
   },
   {
-    "league_id": 532,
-    "league_name": "AFC U23 Asian Cup",
+    "league_id": 1102,
+    "league_name": "UEFA U17 Championship - Women",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 34,
+    "priority_score": 33,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 112,
     "queue_order": 2622
   },
   {
-    "league_id": 621,
-    "league_name": "Piauiense",
+    "league_id": 629,
+    "league_name": "Mineiro - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2024,
@@ -31488,8 +31488,8 @@
     "queue_order": 2624
   },
   {
-    "league_id": 1102,
-    "league_name": "UEFA U17 Championship - Women",
+    "league_id": 1164,
+    "league_name": "CAF Women's Champions League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31524,8 +31524,8 @@
     "queue_order": 2627
   },
   {
-    "league_id": 1164,
-    "league_name": "CAF Women's Champions League",
+    "league_id": 1129,
+    "league_name": "ASEAN Club Championship",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31560,8 +31560,8 @@
     "queue_order": 2630
   },
   {
-    "league_id": 1129,
-    "league_name": "ASEAN Club Championship",
+    "league_id": 928,
+    "league_name": "ASEAN Championship U19",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31596,8 +31596,8 @@
     "queue_order": 2633
   },
   {
-    "league_id": 928,
-    "league_name": "ASEAN Championship U19",
+    "league_id": 1162,
+    "league_name": "AGCFF Gulf Champions League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31632,8 +31632,8 @@
     "queue_order": 2636
   },
   {
-    "league_id": 1162,
-    "league_name": "AGCFF Gulf Champions League",
+    "league_id": 1140,
+    "league_name": "AFC Women's Champions League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31668,8 +31668,8 @@
     "queue_order": 2639
   },
   {
-    "league_id": 1140,
-    "league_name": "AFC Women's Champions League",
+    "league_id": 1132,
+    "league_name": "AFC Challenge League",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31704,12 +31704,12 @@
     "queue_order": 2642
   },
   {
-    "league_id": 1132,
-    "league_name": "AFC Challenge League",
+    "league_id": 1047,
+    "league_name": "Olympics Women - Qualification CAF",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 33,
+    "priority_score": 32,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 119,
@@ -31740,11 +31740,11 @@
     "queue_order": 2645
   },
   {
-    "league_id": 1047,
-    "league_name": "Olympics Women - Qualification CAF",
+    "league_id": 919,
+    "league_name": "Mediterranean Games",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 32,
     "priority_tier": "C",
     "status": "pending",
@@ -31776,11 +31776,11 @@
     "queue_order": 2648
   },
   {
-    "league_id": 919,
-    "league_name": "Mediterranean Games",
+    "league_id": 1085,
+    "league_name": "CONMEBOL U20 Femenino",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2024,
     "priority_score": 32,
     "priority_tier": "C",
     "status": "pending",
@@ -31812,8 +31812,8 @@
     "queue_order": 2651
   },
   {
-    "league_id": 1085,
-    "league_name": "CONMEBOL U20 Femenino",
+    "league_id": 1081,
+    "league_name": "CONMEBOL - U17 Femenino",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31848,8 +31848,8 @@
     "queue_order": 2654
   },
   {
-    "league_id": 1081,
-    "league_name": "CONMEBOL - U17 Femenino",
+    "league_id": 1066,
+    "league_name": "CONCACAF U20 - Qualification",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31884,8 +31884,8 @@
     "queue_order": 2657
   },
   {
-    "league_id": 1066,
-    "league_name": "CONCACAF U20 - Qualification",
+    "league_id": 1159,
+    "league_name": "CECAFA U20 Championship",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -31920,11 +31920,11 @@
     "queue_order": 2660
   },
   {
-    "league_id": 1159,
-    "league_name": "CECAFA U20 Championship",
+    "league_id": 897,
+    "league_name": "Asian Cup Women",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 32,
     "priority_tier": "C",
     "status": "pending",
@@ -31956,11 +31956,11 @@
     "queue_order": 2663
   },
   {
-    "league_id": 897,
-    "league_name": "Asian Cup Women",
+    "league_id": 1070,
+    "league_name": "AFC U20 Asian Cup - Women",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2024,
     "priority_score": 32,
     "priority_tier": "C",
     "status": "pending",
@@ -31992,12 +31992,12 @@
     "queue_order": 2666
   },
   {
-    "league_id": 1070,
-    "league_name": "AFC U20 Asian Cup - Women",
+    "league_id": 1153,
+    "league_name": "AFC U20 Asian Cup - Qualification",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 32,
+    "priority_score": 31,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 127,
@@ -32028,12 +32028,12 @@
     "queue_order": 2669
   },
   {
-    "league_id": 1153,
-    "league_name": "AFC U20 Asian Cup - Qualification",
+    "league_id": 904,
+    "league_name": "SheBelieves Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 31,
+    "priority_score": 20,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 128,
@@ -32052,8 +32052,8 @@
     "queue_order": 2671
   },
   {
-    "league_id": 904,
-    "league_name": "SheBelieves Cup",
+    "league_id": 940,
+    "league_name": "COTIF Tournament",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -32076,12 +32076,12 @@
     "queue_order": 2673
   },
   {
-    "league_id": 940,
-    "league_name": "COTIF Tournament",
+    "league_id": 1039,
+    "league_name": "Premier League International Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
-    "priority_score": 20,
+    "priority_score": 19,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 130,
@@ -32100,8 +32100,8 @@
     "queue_order": 2675
   },
   {
-    "league_id": 1039,
-    "league_name": "Premier League International Cup",
+    "league_id": 1038,
+    "league_name": "King's Cup",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -32124,8 +32124,8 @@
     "queue_order": 2677
   },
   {
-    "league_id": 1038,
-    "league_name": "King's Cup",
+    "league_id": 912,
+    "league_name": "CONCACAF Women U17",
     "country": "World",
     "league_type": "Cup",
     "season": 2024,
@@ -32148,30 +32148,6 @@
     "queue_order": 2679
   },
   {
-    "league_id": 912,
-    "league_name": "CONCACAF Women U17",
-    "country": "World",
-    "league_type": "Cup",
-    "season": 2024,
-    "priority_score": 19,
-    "priority_tier": "C",
-    "status": "pending",
-    "country_round": 133,
-    "queue_order": 2680
-  },
-  {
-    "league_id": 629,
-    "league_name": "Mineiro - 1",
-    "country": "Brazil",
-    "league_type": "League",
-    "season": 2023,
-    "priority_score": 72,
-    "priority_tier": "A",
-    "status": "pending",
-    "country_round": 134,
-    "queue_order": 2681
-  },
-  {
     "league_id": 900,
     "league_name": "Tipsport Malta Cup",
     "country": "World",
@@ -32180,8 +32156,8 @@
     "priority_score": 18,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 134,
-    "queue_order": 2682
+    "country_round": 133,
+    "queue_order": 2680
   },
   {
     "league_id": 630,
@@ -32192,8 +32168,8 @@
     "priority_score": 72,
     "priority_tier": "A",
     "status": "pending",
-    "country_round": 135,
-    "queue_order": 2683
+    "country_round": 134,
+    "queue_order": 2681
   },
   {
     "league_id": 911,
@@ -32204,32 +32180,8 @@
     "priority_score": 18,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 135,
-    "queue_order": 2684
-  },
-  {
-    "league_id": 628,
-    "league_name": "Goiano - 1",
-    "country": "Brazil",
-    "league_type": "League",
-    "season": 2023,
-    "priority_score": 72,
-    "priority_tier": "A",
-    "status": "pending",
-    "country_round": 136,
-    "queue_order": 2685
-  },
-  {
-    "league_id": 965,
-    "league_name": "AFC U20 Asian Cup",
-    "country": "World",
-    "league_type": "Cup",
-    "season": 2023,
-    "priority_score": 18,
-    "priority_tier": "C",
-    "status": "pending",
-    "country_round": 136,
-    "queue_order": 2686
+    "country_round": 134,
+    "queue_order": 2682
   },
   {
     "league_id": 477,
@@ -32240,20 +32192,20 @@
     "priority_score": 72,
     "priority_tier": "A",
     "status": "pending",
-    "country_round": 137,
-    "queue_order": 2687
+    "country_round": 135,
+    "queue_order": 2683
   },
   {
-    "league_id": 927,
-    "league_name": "World Cup - Women - Qualification Concacaf",
+    "league_id": 965,
+    "league_name": "AFC U20 Asian Cup",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
-    "priority_score": 17,
+    "season": 2023,
+    "priority_score": 18,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 137,
-    "queue_order": 2688
+    "country_round": 135,
+    "queue_order": 2684
   },
   {
     "league_id": 604,
@@ -32264,20 +32216,20 @@
     "priority_score": 72,
     "priority_tier": "A",
     "status": "pending",
-    "country_round": 138,
-    "queue_order": 2689
+    "country_round": 136,
+    "queue_order": 2685
   },
   {
-    "league_id": 1077,
-    "league_name": "WAFF Championship U23",
+    "league_id": 927,
+    "league_name": "World Cup - Women - Qualification Concacaf",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2022,
     "priority_score": 17,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 138,
-    "queue_order": 2690
+    "country_round": 136,
+    "queue_order": 2686
   },
   {
     "league_id": 936,
@@ -32288,20 +32240,20 @@
     "priority_score": 70,
     "priority_tier": "A",
     "status": "pending",
-    "country_round": 139,
-    "queue_order": 2691
+    "country_round": 137,
+    "queue_order": 2687
   },
   {
-    "league_id": 951,
-    "league_name": "South American Youth Games",
+    "league_id": 1077,
+    "league_name": "WAFF Championship U23",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2024,
     "priority_score": 17,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 139,
-    "queue_order": 2692
+    "country_round": 137,
+    "queue_order": 2688
   },
   {
     "league_id": 478,
@@ -32312,20 +32264,20 @@
     "priority_score": 56,
     "priority_tier": "B",
     "status": "pending",
-    "country_round": 140,
-    "queue_order": 2693
+    "country_round": 138,
+    "queue_order": 2689
   },
   {
-    "league_id": 770,
-    "league_name": "Pacific Games",
+    "league_id": 951,
+    "league_name": "South American Youth Games",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
+    "season": 2022,
     "priority_score": 17,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 140,
-    "queue_order": 2694
+    "country_round": 138,
+    "queue_order": 2690
   },
   {
     "league_id": 851,
@@ -32336,20 +32288,20 @@
     "priority_score": 56,
     "priority_tier": "B",
     "status": "pending",
-    "country_round": 141,
-    "queue_order": 2695
+    "country_round": 139,
+    "queue_order": 2691
   },
   {
-    "league_id": 894,
-    "league_name": "Asian Cup Women - Qualification",
+    "league_id": 770,
+    "league_name": "Pacific Games",
     "country": "World",
     "league_type": "Cup",
-    "season": 2022,
+    "season": 2023,
     "priority_score": 17,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 141,
-    "queue_order": 2696
+    "country_round": 139,
+    "queue_order": 2692
   },
   {
     "league_id": 74,
@@ -32360,20 +32312,20 @@
     "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
-    "country_round": 142,
-    "queue_order": 2697
+    "country_round": 140,
+    "queue_order": 2693
   },
   {
-    "league_id": 941,
-    "league_name": "Islamic Solidarity Games",
+    "league_id": 894,
+    "league_name": "Asian Cup Women - Qualification",
     "country": "World",
     "league_type": "Cup",
     "season": 2022,
-    "priority_score": 16,
+    "priority_score": 17,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 142,
-    "queue_order": 2698
+    "country_round": 140,
+    "queue_order": 2694
   },
   {
     "league_id": 521,
@@ -32384,20 +32336,20 @@
     "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
-    "country_round": 143,
-    "queue_order": 2699
+    "country_round": 141,
+    "queue_order": 2695
   },
   {
-    "league_id": 1072,
-    "league_name": "All Africa Games",
+    "league_id": 941,
+    "league_name": "Islamic Solidarity Games",
     "country": "World",
     "league_type": "Cup",
-    "season": 2023,
+    "season": 2022,
     "priority_score": 16,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 143,
-    "queue_order": 2700
+    "country_round": 141,
+    "queue_order": 2696
   },
   {
     "league_id": 520,
@@ -32408,20 +32360,20 @@
     "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
-    "country_round": 144,
-    "queue_order": 2701
+    "country_round": 142,
+    "queue_order": 2697
   },
   {
-    "league_id": 1161,
-    "league_name": "AFC U17 Asian Cup - Qualification",
+    "league_id": 1072,
+    "league_name": "All Africa Games",
     "country": "World",
     "league_type": "Cup",
-    "season": 2024,
+    "season": 2023,
     "priority_score": 16,
     "priority_tier": "C",
     "status": "pending",
-    "country_round": 144,
-    "queue_order": 2702
+    "country_round": 142,
+    "queue_order": 2698
   },
   {
     "league_id": 622,
@@ -32432,8 +32384,32 @@
     "priority_score": 53,
     "priority_tier": "B",
     "status": "pending",
-    "country_round": 145,
-    "queue_order": 2703
+    "country_round": 143,
+    "queue_order": 2699
+  },
+  {
+    "league_id": 1161,
+    "league_name": "AFC U17 Asian Cup - Qualification",
+    "country": "World",
+    "league_type": "Cup",
+    "season": 2024,
+    "priority_score": 16,
+    "priority_tier": "C",
+    "status": "pending",
+    "country_round": 143,
+    "queue_order": 2700
+  },
+  {
+    "league_id": 620,
+    "league_name": "Cearense - 2",
+    "country": "Brazil",
+    "league_type": "League",
+    "season": 2023,
+    "priority_score": 53,
+    "priority_tier": "B",
+    "status": "pending",
+    "country_round": 144,
+    "queue_order": 2701
   },
   {
     "league_id": 910,
@@ -32444,12 +32420,36 @@
     "priority_score": 5,
     "priority_tier": "C",
     "status": "pending",
+    "country_round": 144,
+    "queue_order": 2702
+  },
+  {
+    "league_id": 625,
+    "league_name": "Carioca - 2",
+    "country": "Brazil",
+    "league_type": "League",
+    "season": 2023,
+    "priority_score": 53,
+    "priority_tier": "B",
+    "status": "pending",
+    "country_round": 145,
+    "queue_order": 2703
+  },
+  {
+    "league_id": 1123,
+    "league_name": "UAE-Qatar - Super Cup",
+    "country": "World",
+    "league_type": "Cup",
+    "season": 2024,
+    "priority_score": 4,
+    "priority_tier": "C",
+    "status": "pending",
     "country_round": 145,
     "queue_order": 2704
   },
   {
-    "league_id": 620,
-    "league_name": "Cearense - 2",
+    "league_id": 613,
+    "league_name": "Baiano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32472,12 +32472,12 @@
     "queue_order": 2706
   },
   {
-    "league_id": 625,
-    "league_name": "Carioca - 2",
+    "league_id": 607,
+    "league_name": "Roraimense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 53,
+    "priority_score": 52,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 147,
@@ -32496,12 +32496,12 @@
     "queue_order": 2708
   },
   {
-    "league_id": 613,
-    "league_name": "Baiano - 2",
+    "league_id": 614,
+    "league_name": "Paranaense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 53,
+    "priority_score": 52,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 148,
@@ -32520,8 +32520,8 @@
     "queue_order": 2710
   },
   {
-    "league_id": 607,
-    "league_name": "Roraimense",
+    "league_id": 619,
+    "league_name": "Mineiro - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32544,8 +32544,8 @@
     "queue_order": 2712
   },
   {
-    "league_id": 614,
-    "league_name": "Paranaense - 2",
+    "league_id": 608,
+    "league_name": "Maranhense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32568,12 +32568,12 @@
     "queue_order": 2714
   },
   {
-    "league_id": 619,
-    "league_name": "Mineiro - 2",
+    "league_id": 1030,
+    "league_name": "Goiano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 52,
+    "priority_score": 49,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 151,
@@ -32592,13 +32592,13 @@
     "queue_order": 2716
   },
   {
-    "league_id": 608,
-    "league_name": "Maranhense",
+    "league_id": 522,
+    "league_name": "Amazonense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 52,
-    "priority_tier": "B",
+    "priority_score": 25,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 152,
     "queue_order": 2717
@@ -32616,13 +32616,13 @@
     "queue_order": 2718
   },
   {
-    "league_id": 1030,
-    "league_name": "Goiano - 2",
+    "league_id": 631,
+    "league_name": "Tocantinense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 49,
-    "priority_tier": "B",
+    "priority_score": 23,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 153,
     "queue_order": 2719
@@ -32664,8 +32664,8 @@
     "queue_order": 2722
   },
   {
-    "league_id": 609,
-    "league_name": "Cearense - 1",
+    "league_id": 628,
+    "league_name": "Goiano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32688,8 +32688,8 @@
     "queue_order": 2724
   },
   {
-    "league_id": 602,
-    "league_name": "Baiano - 1",
+    "league_id": 609,
+    "league_name": "Cearense - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32712,12 +32712,12 @@
     "queue_order": 2726
   },
   {
-    "league_id": 522,
-    "league_name": "Amazonense",
+    "league_id": 602,
+    "league_name": "Baiano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 10,
+    "priority_score": 23,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 157,
@@ -32736,8 +32736,8 @@
     "queue_order": 2728
   },
   {
-    "league_id": 631,
-    "league_name": "Tocantinense",
+    "league_id": 623,
+    "league_name": "Sul-Matogrossense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32760,8 +32760,8 @@
     "queue_order": 2730
   },
   {
-    "league_id": 623,
-    "league_name": "Sul-Matogrossense",
+    "league_id": 621,
+    "league_name": "Piauiense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -32784,8 +32784,8 @@
     "queue_order": 2732
   },
   {
-    "league_id": 621,
-    "league_name": "Piauiense",
+    "league_id": 629,
+    "league_name": "Mineiro - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2023,
@@ -33192,8 +33192,8 @@
     "queue_order": 2766
   },
   {
-    "league_id": 629,
-    "league_name": "Mineiro - 1",
+    "league_id": 630,
+    "league_name": "Matogrossense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33216,8 +33216,8 @@
     "queue_order": 2768
   },
   {
-    "league_id": 630,
-    "league_name": "Matogrossense",
+    "league_id": 477,
+    "league_name": "Gaúcho - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33240,8 +33240,8 @@
     "queue_order": 2770
   },
   {
-    "league_id": 628,
-    "league_name": "Goiano - 1",
+    "league_id": 604,
+    "league_name": "Catarinense - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33264,12 +33264,12 @@
     "queue_order": 2772
   },
   {
-    "league_id": 477,
-    "league_name": "Gaúcho - 1",
+    "league_id": 936,
+    "league_name": "Catarinense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 72,
+    "priority_score": 70,
     "priority_tier": "A",
     "status": "pending",
     "country_round": 180,
@@ -33288,13 +33288,13 @@
     "queue_order": 2774
   },
   {
-    "league_id": 604,
-    "league_name": "Catarinense - 1",
+    "league_id": 478,
+    "league_name": "Gaúcho - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 72,
-    "priority_tier": "A",
+    "priority_score": 56,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 181,
     "queue_order": 2775
@@ -33312,13 +33312,13 @@
     "queue_order": 2776
   },
   {
-    "league_id": 936,
-    "league_name": "Catarinense - 2",
+    "league_id": 851,
+    "league_name": "Carioca A2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 70,
-    "priority_tier": "A",
+    "priority_score": 56,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 182,
     "queue_order": 2777
@@ -33336,12 +33336,12 @@
     "queue_order": 2778
   },
   {
-    "league_id": 478,
-    "league_name": "Gaúcho - 2",
+    "league_id": 74,
+    "league_name": "Brasileiro Women",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 56,
+    "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 183,
@@ -33360,12 +33360,12 @@
     "queue_order": 2780
   },
   {
-    "league_id": 851,
-    "league_name": "Carioca A2",
+    "league_id": 521,
+    "league_name": "Amapaense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 56,
+    "priority_score": 55,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 184,
@@ -33384,8 +33384,8 @@
     "queue_order": 2782
   },
   {
-    "league_id": 74,
-    "league_name": "Brasileiro Women",
+    "league_id": 520,
+    "league_name": "Acreano",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33408,12 +33408,12 @@
     "queue_order": 2784
   },
   {
-    "league_id": 521,
-    "league_name": "Amapaense",
+    "league_id": 622,
+    "league_name": "Pernambucano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 55,
+    "priority_score": 53,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 186,
@@ -33432,12 +33432,12 @@
     "queue_order": 2786
   },
   {
-    "league_id": 520,
-    "league_name": "Acreano",
+    "league_id": 620,
+    "league_name": "Cearense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 55,
+    "priority_score": 53,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 187,
@@ -33456,8 +33456,8 @@
     "queue_order": 2788
   },
   {
-    "league_id": 622,
-    "league_name": "Pernambucano - 1",
+    "league_id": 625,
+    "league_name": "Carioca - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33480,8 +33480,8 @@
     "queue_order": 2790
   },
   {
-    "league_id": 620,
-    "league_name": "Cearense - 2",
+    "league_id": 613,
+    "league_name": "Baiano - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33504,12 +33504,12 @@
     "queue_order": 2792
   },
   {
-    "league_id": 625,
-    "league_name": "Carioca - 2",
+    "league_id": 607,
+    "league_name": "Roraimense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 53,
+    "priority_score": 52,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 190,
@@ -33528,12 +33528,12 @@
     "queue_order": 2794
   },
   {
-    "league_id": 613,
-    "league_name": "Baiano - 2",
+    "league_id": 614,
+    "league_name": "Paranaense - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 53,
+    "priority_score": 52,
     "priority_tier": "B",
     "status": "pending",
     "country_round": 191,
@@ -33552,8 +33552,8 @@
     "queue_order": 2796
   },
   {
-    "league_id": 607,
-    "league_name": "Roraimense",
+    "league_id": 619,
+    "league_name": "Mineiro - 2",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33576,8 +33576,8 @@
     "queue_order": 2798
   },
   {
-    "league_id": 614,
-    "league_name": "Paranaense - 2",
+    "league_id": 608,
+    "league_name": "Maranhense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33600,13 +33600,13 @@
     "queue_order": 2800
   },
   {
-    "league_id": 619,
-    "league_name": "Mineiro - 2",
+    "league_id": 522,
+    "league_name": "Amazonense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 52,
-    "priority_tier": "B",
+    "priority_score": 25,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 194,
     "queue_order": 2801
@@ -33624,13 +33624,13 @@
     "queue_order": 2802
   },
   {
-    "league_id": 608,
-    "league_name": "Maranhense",
+    "league_id": 631,
+    "league_name": "Tocantinense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 52,
-    "priority_tier": "B",
+    "priority_score": 23,
+    "priority_tier": "C",
     "status": "pending",
     "country_round": 195,
     "queue_order": 2803
@@ -33672,8 +33672,8 @@
     "queue_order": 2806
   },
   {
-    "league_id": 609,
-    "league_name": "Cearense - 1",
+    "league_id": 628,
+    "league_name": "Goiano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33696,8 +33696,8 @@
     "queue_order": 2808
   },
   {
-    "league_id": 602,
-    "league_name": "Baiano - 1",
+    "league_id": 609,
+    "league_name": "Cearense - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33720,12 +33720,12 @@
     "queue_order": 2810
   },
   {
-    "league_id": 522,
-    "league_name": "Amazonense",
+    "league_id": 602,
+    "league_name": "Baiano - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 10,
+    "priority_score": 23,
     "priority_tier": "C",
     "status": "pending",
     "country_round": 199,
@@ -33744,8 +33744,8 @@
     "queue_order": 2812
   },
   {
-    "league_id": 631,
-    "league_name": "Tocantinense",
+    "league_id": 623,
+    "league_name": "Sul-Matogrossense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33768,8 +33768,8 @@
     "queue_order": 2814
   },
   {
-    "league_id": 623,
-    "league_name": "Sul-Matogrossense",
+    "league_id": 621,
+    "league_name": "Piauiense",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
@@ -33792,8 +33792,8 @@
     "queue_order": 2816
   },
   {
-    "league_id": 621,
-    "league_name": "Piauiense",
+    "league_id": 629,
+    "league_name": "Mineiro - 1",
     "country": "Brazil",
     "league_type": "League",
     "season": 2022,
