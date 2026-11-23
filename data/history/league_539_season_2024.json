@@ -1,0 +1,295 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "539",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 4,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1144383,
+        "referee": "Amin Omar",
+        "timezone": "UTC",
+        "date": "2023-12-25T13:00:00+00:00",
+        "timestamp": 1703509200,
+        "periods": {
+          "first": 1703509200,
+          "second": 1703512800
+        },
+        "venue": {
+          "id": null,
+          "name": "Mohammed Bin Zayed Stadium",
+          "city": "Abu Dhabi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 539,
+        "name": "Super Cup",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/539.png",
+        "flag": "https://media.api-sports.io/flags/eg.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 16431,
+          "name": "Coca-Cola",
+          "logo": "https://media.api-sports.io/football/teams/16431.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1036,
+          "name": "Pyramids FC",
+          "logo": "https://media.api-sports.io/football/teams/1036.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 14,
+          "away": 13
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1144384,
+        "referee": "Mohamed Maarouf",
+        "timezone": "UTC",
+        "date": "2023-12-25T17:00:00+00:00",
+        "timestamp": 1703523600,
+        "periods": {
+          "first": 1703523600,
+          "second": 1703527200
+        },
+        "venue": {
+          "id": null,
+          "name": "Mohammed Bin Zayed Stadium",
+          "city": "Abu Dhabi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 539,
+        "name": "Super Cup",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/539.png",
+        "flag": "https://media.api-sports.io/flags/eg.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1577,
+          "name": "Al Ahly",
+          "logo": "https://media.api-sports.io/football/teams/1577.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14651,
+          "name": "Ceramica Cleopatra",
+          "logo": "https://media.api-sports.io/football/teams/14651.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153679,
+        "referee": "Mahmoud El Banna",
+        "timezone": "UTC",
+        "date": "2023-12-28T13:00:00+00:00",
+        "timestamp": 1703768400,
+        "periods": {
+          "first": 1703768400,
+          "second": 1703772000
+        },
+        "venue": {
+          "id": null,
+          "name": "Mohammed Bin Zayed Stadium",
+          "city": "Abu Dhabi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 539,
+        "name": "Super Cup",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/539.png",
+        "flag": "https://media.api-sports.io/flags/eg.svg",
+        "season": 2024,
+        "round": "3rd Place Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1036,
+          "name": "Pyramids FC",
+          "logo": "https://media.api-sports.io/football/teams/1036.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14651,
+          "name": "Ceramica Cleopatra",
+          "logo": "https://media.api-sports.io/football/teams/14651.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153678,
+        "referee": "Mohamed Adel",
+        "timezone": "UTC",
+        "date": "2023-12-28T17:00:00+00:00",
+        "timestamp": 1703782800,
+        "periods": {
+          "first": 1703782800,
+          "second": 1703786400
+        },
+        "venue": {
+          "id": null,
+          "name": "Mohammed Bin Zayed Stadium",
+          "city": "Abu Dhabi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 539,
+        "name": "Super Cup",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/539.png",
+        "flag": "https://media.api-sports.io/flags/eg.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1577,
+          "name": "Al Ahly",
+          "logo": "https://media.api-sports.io/football/teams/1577.png",
+          "winner": true
+        },
+        "away": {
+          "id": 16431,
+          "name": "Future FC",
+          "logo": "https://media.api-sports.io/football/teams/16431.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 2,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

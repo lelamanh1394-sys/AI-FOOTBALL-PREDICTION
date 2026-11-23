@@ -1,0 +1,6315 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "376",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 90,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1169568,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-17T23:00:00+00:00",
+        "timestamp": 1708210800,
+        "periods": {
+          "first": 1708210800,
+          "second": 1708214400
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169567,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-18T03:00:00+00:00",
+        "timestamp": 1708225200,
+        "periods": {
+          "first": 1708225200,
+          "second": 1708228800
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169566,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-18T03:00:00+00:00",
+        "timestamp": 1708225200,
+        "periods": {
+          "first": 1708225200,
+          "second": 1708228800
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169570,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-18T03:00:00+00:00",
+        "timestamp": 1708225200,
+        "periods": {
+          "first": 1708225200,
+          "second": 1708228800
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169620,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-25T01:00:00+00:00",
+        "timestamp": 1708822800,
+        "periods": {
+          "first": 1708822800,
+          "second": 1708826400
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169573,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-25T03:00:00+00:00",
+        "timestamp": 1708830000,
+        "periods": {
+          "first": 1708830000,
+          "second": 1708833600
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": null
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169575,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-25T03:00:00+00:00",
+        "timestamp": 1708830000,
+        "periods": {
+          "first": 1708830000,
+          "second": 1708833600
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": null
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169572,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-25T03:00:00+00:00",
+        "timestamp": 1708830000,
+        "periods": {
+          "first": 1708830000,
+          "second": 1708833600
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169574,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-25T03:00:00+00:00",
+        "timestamp": 1708830000,
+        "periods": {
+          "first": 1708830000,
+          "second": 1708833600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169576,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-03T01:00:00+00:00",
+        "timestamp": 1709427600,
+        "periods": {
+          "first": 1709427600,
+          "second": 1709431200
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169579,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-03T01:00:00+00:00",
+        "timestamp": 1709427600,
+        "periods": {
+          "first": 1709427600,
+          "second": 1709431200
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169577,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-03T03:00:00+00:00",
+        "timestamp": 1709434800,
+        "periods": {
+          "first": 1709434800,
+          "second": 1709438400
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169580,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-03T03:00:00+00:00",
+        "timestamp": 1709434800,
+        "periods": {
+          "first": 1709434800,
+          "second": 1709438400
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169578,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-03T03:00:00+00:00",
+        "timestamp": 1709434800,
+        "periods": {
+          "first": 1709434800,
+          "second": 1709438400
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169581,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-09T01:30:00+00:00",
+        "timestamp": 1709947800,
+        "periods": {
+          "first": 1709947800,
+          "second": 1709951400
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169582,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-10T01:00:00+00:00",
+        "timestamp": 1710032400,
+        "periods": {
+          "first": 1710032400,
+          "second": 1710036000
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169583,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-10T03:00:00+00:00",
+        "timestamp": 1710039600,
+        "periods": {
+          "first": 1710039600,
+          "second": 1710043200
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": false
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169585,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-10T03:00:00+00:00",
+        "timestamp": 1710039600,
+        "periods": {
+          "first": 1710039600,
+          "second": 1710043200
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169584,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-10T03:00:00+00:00",
+        "timestamp": 1710039600,
+        "periods": {
+          "first": 1710039600,
+          "second": 1710043200
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169569,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-24T02:00:00+00:00",
+        "timestamp": 1711245600,
+        "periods": {
+          "first": 1711245600,
+          "second": 1711249200
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169590,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-07T01:00:00+00:00",
+        "timestamp": 1712451600,
+        "periods": {
+          "first": 1712451600,
+          "second": 1712455200
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169589,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-07T02:00:00+00:00",
+        "timestamp": 1712455200,
+        "periods": {
+          "first": 1712455200,
+          "second": 1712458800
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169586,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-07T02:00:00+00:00",
+        "timestamp": 1712455200,
+        "periods": {
+          "first": 1712455200,
+          "second": 1712458800
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169587,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-07T02:00:00+00:00",
+        "timestamp": 1712455200,
+        "periods": {
+          "first": 1712455200,
+          "second": 1712458800
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169588,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-07T03:00:00+00:00",
+        "timestamp": 1712458800,
+        "periods": {
+          "first": 1712458800,
+          "second": 1712462400
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169591,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-13T03:30:00+00:00",
+        "timestamp": 1712979000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169595,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-14T01:00:00+00:00",
+        "timestamp": 1713056400,
+        "periods": {
+          "first": 1713056400,
+          "second": 1713060000
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169593,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-14T01:00:00+00:00",
+        "timestamp": 1713056400,
+        "periods": {
+          "first": 1713056400,
+          "second": 1713060000
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169594,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-14T03:00:00+00:00",
+        "timestamp": 1713063600,
+        "periods": {
+          "first": 1713063600,
+          "second": 1713067200
+        },
+        "venue": {
+          "id": 19498,
+          "name": "HFC Bank Stadium",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169592,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-14T03:00:00+00:00",
+        "timestamp": 1713063600,
+        "periods": {
+          "first": 1713063600,
+          "second": 1713067200
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169597,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-20T07:00:00+00:00",
+        "timestamp": 1713596400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169600,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-21T01:00:00+00:00",
+        "timestamp": 1713661200,
+        "periods": {
+          "first": 1713661200,
+          "second": 1713664800
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169598,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-21T01:30:00+00:00",
+        "timestamp": 1713663000,
+        "periods": {
+          "first": 1713663000,
+          "second": 1713666600
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169599,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-21T03:00:00+00:00",
+        "timestamp": 1713668400,
+        "periods": {
+          "first": 1713668400,
+          "second": 1713672000
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169596,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-21T03:00:00+00:00",
+        "timestamp": 1713668400,
+        "periods": {
+          "first": 1713668400,
+          "second": 1713672000
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169601,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-27T01:00:00+00:00",
+        "timestamp": 1714179600,
+        "periods": {
+          "first": 1714179600,
+          "second": 1714183200
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169605,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-27T07:00:00+00:00",
+        "timestamp": 1714201200,
+        "periods": {
+          "first": 1714201200,
+          "second": 1714204800
+        },
+        "venue": {
+          "id": 19498,
+          "name": "HFC Bank Stadium",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169604,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-28T01:00:00+00:00",
+        "timestamp": 1714266000,
+        "periods": {
+          "first": 1714266000,
+          "second": 1714269600
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169603,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-28T01:00:00+00:00",
+        "timestamp": 1714266000,
+        "periods": {
+          "first": 1714266000,
+          "second": 1714269600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169602,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-28T03:00:00+00:00",
+        "timestamp": 1714273200,
+        "periods": {
+          "first": 1714273200,
+          "second": 1714276800
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": true
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169606,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-05T02:00:00+00:00",
+        "timestamp": 1714874400,
+        "periods": {
+          "first": 1714874400,
+          "second": 1714878000
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169608,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-05T02:00:00+00:00",
+        "timestamp": 1714874400,
+        "periods": {
+          "first": 1714874400,
+          "second": 1714878000
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169607,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-05T02:00:00+00:00",
+        "timestamp": 1714874400,
+        "periods": {
+          "first": 1714874400,
+          "second": 1714878000
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169610,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-05T03:00:00+00:00",
+        "timestamp": 1714878000,
+        "periods": {
+          "first": 1714878000,
+          "second": 1714881600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169609,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-05T03:00:00+00:00",
+        "timestamp": 1714878000,
+        "periods": {
+          "first": 1714878000,
+          "second": 1714881600
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169611,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-15T01:30:00+00:00",
+        "timestamp": 1718415000,
+        "periods": {
+          "first": 1718415000,
+          "second": 1718418600
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169614,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-16T00:00:00+00:00",
+        "timestamp": 1718496000,
+        "periods": {
+          "first": 1718496000,
+          "second": 1718499600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169612,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-16T01:00:00+00:00",
+        "timestamp": 1718499600,
+        "periods": {
+          "first": 1718499600,
+          "second": 1718503200
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169615,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-16T01:00:00+00:00",
+        "timestamp": 1718499600,
+        "periods": {
+          "first": 1718499600,
+          "second": 1718503200
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": true
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169613,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-16T02:00:00+00:00",
+        "timestamp": 1718503200,
+        "periods": {
+          "first": 1718503200,
+          "second": 1718506800
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169571,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-06T01:30:00+00:00",
+        "timestamp": 1720229400,
+        "periods": {
+          "first": 1720229400,
+          "second": 1720233000
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169616,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-07T01:00:00+00:00",
+        "timestamp": 1720314000,
+        "periods": {
+          "first": 1720314000,
+          "second": 1720317600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169619,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-07T03:00:00+00:00",
+        "timestamp": 1720321200,
+        "periods": {
+          "first": 1720321200,
+          "second": 1720324800
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Fiji FA Academy Ground Vatuwaqa",
+          "city": "Suva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169617,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-07T03:00:00+00:00",
+        "timestamp": 1720321200,
+        "periods": {
+          "first": 1720321200,
+          "second": 1720324800
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169618,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-07T03:00:00+00:00",
+        "timestamp": 1720321200,
+        "periods": {
+          "first": 1720321200,
+          "second": 1720324800
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169621,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T01:30:00+00:00",
+        "timestamp": 1720834200,
+        "periods": {
+          "first": 1720834200,
+          "second": 1720837800
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169624,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-14T03:00:00+00:00",
+        "timestamp": 1720926000,
+        "periods": {
+          "first": 1720926000,
+          "second": 1720929600
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169622,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-14T03:00:00+00:00",
+        "timestamp": 1720926000,
+        "periods": {
+          "first": 1720926000,
+          "second": 1720929600
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169623,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-14T03:00:00+00:00",
+        "timestamp": 1720926000,
+        "periods": {
+          "first": 1720926000,
+          "second": 1720929600
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": null
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169625,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-14T03:00:00+00:00",
+        "timestamp": 1720926000,
+        "periods": {
+          "first": 1720926000,
+          "second": 1720929600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169628,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-11T01:00:00+00:00",
+        "timestamp": 1723338000,
+        "periods": {
+          "first": 1723338000,
+          "second": 1723341600
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169629,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-11T01:00:00+00:00",
+        "timestamp": 1723338000,
+        "periods": {
+          "first": 1723338000,
+          "second": 1723341600
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169627,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-11T03:00:00+00:00",
+        "timestamp": 1723345200,
+        "periods": {
+          "first": 1723345200,
+          "second": 1723348800
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169626,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-11T03:00:00+00:00",
+        "timestamp": 1723345200,
+        "periods": {
+          "first": 1723345200,
+          "second": 1723348800
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169630,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-11T03:00:00+00:00",
+        "timestamp": 1723345200,
+        "periods": {
+          "first": 1723345200,
+          "second": 1723348800
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169631,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-17T01:30:00+00:00",
+        "timestamp": 1723858200,
+        "periods": {
+          "first": 1723858200,
+          "second": 1723861800
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": null
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169633,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-17T03:00:00+00:00",
+        "timestamp": 1723863600,
+        "periods": {
+          "first": 1723863600,
+          "second": 1723867200
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169632,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-17T07:00:00+00:00",
+        "timestamp": 1723878000,
+        "periods": {
+          "first": 1723878000,
+          "second": 1723881600
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169635,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-18T03:00:00+00:00",
+        "timestamp": 1723950000,
+        "periods": {
+          "first": 1723950000,
+          "second": 1723953600
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169634,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-18T03:00:00+00:00",
+        "timestamp": 1723950000,
+        "periods": {
+          "first": 1723950000,
+          "second": 1723953600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": null
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169636,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-25T01:00:00+00:00",
+        "timestamp": 1724547600,
+        "periods": {
+          "first": 1724547600,
+          "second": 1724551200
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169637,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-25T03:00:00+00:00",
+        "timestamp": 1724554800,
+        "periods": {
+          "first": 1724554800,
+          "second": 1724558400
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169640,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-25T03:00:00+00:00",
+        "timestamp": 1724554800,
+        "periods": {
+          "first": 1724554800,
+          "second": 1724558400
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169638,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-11T07:00:00+00:00",
+        "timestamp": 1726038000,
+        "periods": {
+          "first": 1726038000,
+          "second": 1726041600
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169639,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-12T06:00:00+00:00",
+        "timestamp": 1726120800,
+        "periods": {
+          "first": 1726120800,
+          "second": 1726124400
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169641,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-14T01:30:00+00:00",
+        "timestamp": 1726277400,
+        "periods": {
+          "first": 1726277400,
+          "second": 1726281000
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169642,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-14T23:00:00+00:00",
+        "timestamp": 1726354800,
+        "periods": {
+          "first": 1726354800,
+          "second": 1726358400
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169644,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-15T01:00:00+00:00",
+        "timestamp": 1726362000,
+        "periods": {
+          "first": 1726362000,
+          "second": 1726365600
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169643,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-15T03:00:00+00:00",
+        "timestamp": 1726369200,
+        "periods": {
+          "first": 1726369200,
+          "second": 1726372800
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169645,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-15T03:00:00+00:00",
+        "timestamp": 1726369200,
+        "periods": {
+          "first": 1726369200,
+          "second": 1726372800
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169650,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-22T03:00:00+00:00",
+        "timestamp": 1726974000,
+        "periods": {
+          "first": 1726974000,
+          "second": 1726977600
+        },
+        "venue": {
+          "id": null,
+          "name": "Fiji FA Academy Grounds Field 1",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169648,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-22T03:00:00+00:00",
+        "timestamp": 1726974000,
+        "periods": {
+          "first": 1726974000,
+          "second": 1726977600
+        },
+        "venue": {
+          "id": 3355,
+          "name": "Churchill Park",
+          "city": "Lautoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169646,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-22T03:00:00+00:00",
+        "timestamp": 1726974000,
+        "periods": {
+          "first": 1726974000,
+          "second": 1726977600
+        },
+        "venue": {
+          "id": 3356,
+          "name": "Prince Charles Park",
+          "city": "Nadi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169649,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-22T03:00:00+00:00",
+        "timestamp": 1726974000,
+        "periods": {
+          "first": 1726974000,
+          "second": 1726977600
+        },
+        "venue": {
+          "id": 3361,
+          "name": "Lawaqa Park",
+          "city": "Sigatoka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169647,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-22T03:00:00+00:00",
+        "timestamp": 1726974000,
+        "periods": {
+          "first": 1726974000,
+          "second": 1726977600
+        },
+        "venue": {
+          "id": null,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169651,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-28T01:30:00+00:00",
+        "timestamp": 1727487000,
+        "periods": {
+          "first": 1727487000,
+          "second": 1727490600
+        },
+        "venue": {
+          "id": 3354,
+          "name": "Subrail Park",
+          "city": "Labasa, Vanua Levu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4383,
+          "name": "Labasa",
+          "logo": "https://media.api-sports.io/football/teams/4383.png",
+          "winner": false
+        },
+        "away": {
+          "id": 10078,
+          "name": "Navua",
+          "logo": "https://media.api-sports.io/football/teams/10078.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169654,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-29T01:00:00+00:00",
+        "timestamp": 1727571600,
+        "periods": {
+          "first": 1727571600,
+          "second": 1727575200
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4388,
+          "name": "Suva",
+          "logo": "https://media.api-sports.io/football/teams/4388.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4385,
+          "name": "Nadi",
+          "logo": "https://media.api-sports.io/football/teams/4385.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169655,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-29T03:00:00+00:00",
+        "timestamp": 1727578800,
+        "periods": {
+          "first": 1727578800,
+          "second": 1727582400
+        },
+        "venue": {
+          "id": 3353,
+          "name": "Fiji FA Academy Grounds Field 2",
+          "city": "Ba"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4382,
+          "name": "Ba",
+          "logo": "https://media.api-sports.io/football/teams/4382.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4387,
+          "name": "Rewa",
+          "logo": "https://media.api-sports.io/football/teams/4387.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169652,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-29T03:00:00+00:00",
+        "timestamp": 1727578800,
+        "periods": {
+          "first": 1727578800,
+          "second": 1727582400
+        },
+        "venue": {
+          "id": 19498,
+          "name": "Uprising Sports Center",
+          "city": "Pacific Harbour"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4386,
+          "name": "Nasinu",
+          "logo": "https://media.api-sports.io/football/teams/4386.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4392,
+          "name": "Nadroga",
+          "logo": "https://media.api-sports.io/football/teams/4392.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169653,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-29T03:00:00+00:00",
+        "timestamp": 1727578800,
+        "periods": {
+          "first": 1727578800,
+          "second": 1727582400
+        },
+        "venue": {
+          "id": 3358,
+          "name": "Vodafone Ratu Cakobau Park",
+          "city": "Nausori"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 376,
+        "name": "National Football League",
+        "country": "Fiji",
+        "logo": "https://media.api-sports.io/football/leagues/376.png",
+        "flag": "https://media.api-sports.io/flags/fj.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13469,
+          "name": "Tailevu Naitasiri",
+          "logo": "https://media.api-sports.io/football/teams/13469.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4384,
+          "name": "Lautoka",
+          "logo": "https://media.api-sports.io/football/teams/4384.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
