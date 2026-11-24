@@ -1,0 +1,85 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "1144",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1299566,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-31T18:00:00+00:00",
+        "timestamp": 1725127200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20198,
+          "name": "TNA Park",
+          "city": "Tarkwa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1144,
+        "name": "Super Cup",
+        "country": "Ghana",
+        "logo": "https://media.api-sports.io/football/leagues/1144.png",
+        "flag": "https://media.api-sports.io/flags/gh.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 20022,
+          "name": "Samartex",
+          "logo": "https://media.api-sports.io/football/teams/20022.png",
+          "winner": true
+        },
+        "away": {
+          "id": 20021,
+          "name": "Nsoatreman",
+          "logo": "https://media.api-sports.io/football/teams/20021.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

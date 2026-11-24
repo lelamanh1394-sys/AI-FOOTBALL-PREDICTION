@@ -11286,6 +11286,28 @@
     }
   },
   {
+    "league_id": 828,
+    "league_name": "Ligue 2",
+    "country": "Tunisia",
+    "league_type": "League",
+    "priority_score": 52,
+    "priority_tier": "B",
+    "latest_season": 2026,
+    "season_count": 7,
+    "coverage_details": {
+      "events": true,
+      "lineups": true,
+      "statistics_fixtures": false,
+      "standings": true,
+      "players": false,
+      "top_scorers": false,
+      "top_assists": false,
+      "top_cards": false,
+      "season_count": 7,
+      "season_bonus": 7
+    }
+  },
+  {
     "league_id": 647,
     "league_name": "Lao League",
     "country": "Laos",
@@ -17758,28 +17780,6 @@
     "league_name": "Crown Prince Cup",
     "country": "Kuwait",
     "league_type": "Cup",
-    "priority_score": 37,
-    "priority_tier": "C",
-    "latest_season": 2026,
-    "season_count": 7,
-    "coverage_details": {
-      "events": true,
-      "lineups": false,
-      "statistics_fixtures": false,
-      "standings": true,
-      "players": false,
-      "top_scorers": false,
-      "top_assists": false,
-      "top_cards": false,
-      "season_count": 7,
-      "season_bonus": 7
-    }
-  },
-  {
-    "league_id": 828,
-    "league_name": "Ligue 2",
-    "country": "Tunisia",
-    "league_type": "League",
     "priority_score": 37,
     "priority_tier": "C",
     "latest_season": 2026,

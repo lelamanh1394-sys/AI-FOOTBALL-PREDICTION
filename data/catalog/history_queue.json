@@ -6977,8 +6977,8 @@
     "country": "Tunisia",
     "league_type": "League",
     "season": 2024,
-    "priority_score": 37,
-    "priority_tier": "C",
+    "priority_score": 52,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 4,
     "queue_order": 582
@@ -10577,8 +10577,8 @@
     "country": "Tunisia",
     "league_type": "League",
     "season": 2023,
-    "priority_score": 37,
-    "priority_tier": "C",
+    "priority_score": 52,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 7,
     "queue_order": 882
@@ -12749,8 +12749,8 @@
     "country": "Tunisia",
     "league_type": "League",
     "season": 2022,
-    "priority_score": 37,
-    "priority_tier": "C",
+    "priority_score": 52,
+    "priority_tier": "B",
     "status": "pending",
     "country_round": 9,
     "queue_order": 1063
