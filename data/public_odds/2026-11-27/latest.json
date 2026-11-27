@@ -1,0 +1,33 @@
+{
+  "engine": "AI FOOTBALL PREDICTION V3.4.4.3",
+  "source": "API-FOOTBALL",
+  "query_method": "FIXTURES_AND_ODDS_BY_DATE_FIXTURE_ID",
+  "date": "2026-11-27",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "started_at": "2026-11-27T09:48:24.193248+07:00",
+  "finished_at": "2026-11-27T09:48:24.411549+07:00",
+  "configuration": {
+    "target_date": "2026-11-27",
+    "max_odds_pages": 3,
+    "max_total_requests": 4,
+    "minimum_remaining_quota": 15
+  },
+  "summary": {
+    "fixtures_received": 0,
+    "raw_odds_records": 0,
+    "linked_upcoming_matches": 0,
+    "bookmaker_records": 0,
+    "api_requests_used": 1,
+    "api_remaining": 99,
+    "api_limit": 100,
+    "missing_fixture_id": 0,
+    "fixture_not_found": 0,
+    "missing_team_names": 0,
+    "api_errors": 1
+  },
+  "api_error_details": [
+    "Fixtures: API errors: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"
+  ],
+  "raw_odds_audit": [],
+  "odds": []
+}
