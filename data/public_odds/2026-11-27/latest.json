@@ -4,8 +4,8 @@
   "query_method": "FIXTURES_AND_ODDS_BY_DATE_FIXTURE_ID",
   "date": "2026-11-27",
   "timezone": "Asia/Ho_Chi_Minh",
-  "started_at": "2026-11-27T09:48:24.193248+07:00",
-  "finished_at": "2026-11-27T09:48:24.411549+07:00",
+  "started_at": "2026-11-27T21:44:30.560352+07:00",
+  "finished_at": "2026-11-27T21:44:30.738064+07:00",
   "configuration": {
     "target_date": "2026-11-27",
     "max_odds_pages": 3,
